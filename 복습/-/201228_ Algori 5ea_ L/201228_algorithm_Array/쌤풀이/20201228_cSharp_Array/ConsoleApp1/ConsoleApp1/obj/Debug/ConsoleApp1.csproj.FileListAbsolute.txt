@@ -1,0 +1,14 @@
+D:\Study_DJ\20201126_all\djdoc\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Study_DJ\20201126_all\djdoc\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Study_DJ\20201126_all\djdoc\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Study_DJ\20201126_all\djdoc\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\djdoc\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djdoc\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Study_DJ\20201126_all\djdoc\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

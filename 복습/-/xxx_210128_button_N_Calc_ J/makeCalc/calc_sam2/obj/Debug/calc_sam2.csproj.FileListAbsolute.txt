@@ -1,0 +1,10 @@
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\obj\Debug\makeCalc.Form2.resources
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\obj\Debug\calc_sam2.Properties.Resources.resources
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\obj\Debug\calc_sam2.csproj.GenerateResource.cache
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\obj\Debug\calc_sam2.csproj.CoreCompileInputs.cache
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\bin\Debug\calc_sam2.exe.config
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\bin\Debug\calc_sam2.exe
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\bin\Debug\calc_sam2.pdb
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\obj\Debug\calc_sam2.exe
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\obj\Debug\calc_sam2.pdb
+D:\임시\vsStudio\210128\makeCalc\calc_sam2\obj\Debug\calc_sam2.csprojAssemblyReference.cache

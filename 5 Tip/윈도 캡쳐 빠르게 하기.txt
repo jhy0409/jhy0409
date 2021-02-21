@@ -1,0 +1,22 @@
+http://blog.naver.com/PostView.nhn?blogId=chsmanager&logNo=221588443746&parentCategoryNo=&categoryNo=33&viewDate=&isShowPopularPosts=true&from=search
+
+윈도키랑 prt scr (프린트스크린키) 같이 누르면 캡쳐 빨리 되네요.
+
+윈도 shift s 눌러도 빨리 되구요.
+
+칼무리라는 소프트웨어를 업로드하려다가 윈10의 기본기능으로도 이젠 빨리 캡쳐가 가능해져서 굳이 그럴 필욘 없겠네요.
+
+DarkNamer는 잘 쓰겠습니다.
+
+예전에 잠깐 썼었는데, 다시 보니 반갑네요.
+
+
+추신 - .gitignore 파일을 어느정도까지 수정해보셨나요?
+완전 삭제? 혹은 안에 있는 내용 전부 다 지우기?
+그래도 .class 파일이 안 올라가던가요?
+근데 .class 파일은 필요가 없는 파일일거에요.
+.java 파일이 필요한 파일이구요.
+
+다만 이 파일 외에 프로젝트 import시 필요한 파일들이 업로드가 안 된다면...
+그건 할 말 없네요.
+

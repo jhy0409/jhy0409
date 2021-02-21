@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2020-12-21T05:14:57.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Dd7_HIaVv0GTc3T1cCJ4" version="14.1.1" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="q9PTFNlyR06PEegLroMu-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-0" target="q9PTFNlyR06PEegLroMu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-0" value="시작" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="131" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-1" target="q9PTFNlyR06PEegLroMu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-1" value="sum = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="131" y="295" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-3" target="q9PTFNlyR06PEegLroMu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-3" value="i = 0;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=15;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="131" y="385" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-5" target="q9PTFNlyR06PEegLroMu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-5" target="q9PTFNlyR06PEegLroMu-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="525" />
+              <mxPoint x="60" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-5" value="i%3==0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=15;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="485" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-7" target="q9PTFNlyR06PEegLroMu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-7" value="sum = sum + i" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=15;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="131" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-9" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="570" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-11" target="q9PTFNlyR06PEegLroMu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-11" value="i++" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=15;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="131" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-15" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;부터&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;100&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;까지의 합을 구하되&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;, &lt;br&gt;3&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;의 배수에 해당하는 것만 구해주세요&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="75" y="85" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-16" value="문제&lt;br&gt;1번" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="45" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-17" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="86" y="495" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-19" target="q9PTFNlyR06PEegLroMu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-19" value="i&amp;gt;=100" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=15;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="133" y="845" width="116" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-23" value="" style="endArrow=classic;html=1;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-19" target="q9PTFNlyR06PEegLroMu-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="755" as="sourcePoint" />
+            <mxPoint x="650" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="885" />
+              <mxPoint x="315" y="525" />
+              <mxPoint x="300" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q9PTFNlyR06PEegLroMu-24" target="q9PTFNlyR06PEegLroMu-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-24" value="합 출력" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=15;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="131" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-26" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="193" y="925" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q9PTFNlyR06PEegLroMu-27" value="끝" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=15;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="131" y="1065" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

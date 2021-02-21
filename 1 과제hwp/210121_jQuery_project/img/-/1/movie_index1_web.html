@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바 영화예제</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+            background: linear-gradient(#dec8f0, #90b7bd);
+        }
+
+        .boxOffice {
+            width: 500px;
+            margin: 20px auto;
+            padding: 5px;
+            border: 3px dotted #fff;
+            border-radius: 6px;
+        }
+
+        ul {
+            width: 100%;
+            padding: 6px;
+            list-style-position: inside;
+            text-align: left;
+            list-style-type: none;
+        }
+
+        ul li {
+            width: 92%;
+            margin: 5px 0;
+            background: rgb(189, 235, 212);
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        ul li:hover {
+            background: rgb(240, 232, 128);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- https://blog.naver.com/cosmosjs/221710082323 -->
+    <h1>영화 박스오피스 TOP10</h1>
+    <p>최신영화 박스오피스 순위</p>
+
+    <div class="boxOffice">
+        <h2 class="boxOfficeType"></h2>
+        <p class="showRange"></p>
+
+        <ul class="boxOfficeList"></ul>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            const key = "1bc05fd81199dac06733222112ada68f";
+            //어제 날짜 구하기
+            let y = (d => new Date(d.setDate(d.getDate() - 1)))(new Date);
+            y = y.getFullYear() + "" + (y.getMonth() + 1) + "" + y.getDate();
+            const date = 20210121; //어제날짜 넣어줌
+            // const apiUrl = 'http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${1bc05fd81199dac06733222112ada68f}&targetDt=${20120101}';
+            // http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchWeeklyBoxOfficeList.json?key=1bc05fd81199dac06733222112ada68f&targetDt=20120101
+            const apiUrl =
+                `http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=1bc05fd81199dac06733222112ada68f&targetDt=20210101`;
+
+            const boxOfficeType = document.querySelector('.boxOfficeType');
+            const showRange = document.querySelector('.showRange');
+            const myUl = document.querySelector('.boxOfficeList');
+
+            const xhr = new XMLHttpRequest(); //리퀘스트 객체를 만든다
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    const jsonObj = JSON.parse(xhr.response);
+                    //console.log(jsonObj);
+
+                    const boxOfficeResult = jsonObj['boxOfficeResult'];
+                    boxOfficeType.textContent = boxOfficeResult['boxofficeType'];
+                    showRange.textContent = boxOfficeResult['showRange'];
+
+                    const movieList = boxOfficeResult['dailyBoxOfficeList'];
+                    movieList.forEach(element => {
+                        //화면 디자인에 따라 필요한 DOM 요소들을 생성해 준다.
+                        const myLi = document.createElement('li');
+
+                        const output = `
+                        <div>
+                            <h2>${element['movieNm']}</h2>
+                            <p>개봉일: ${element['openDt']}</p>
+                            <p>누적 관객수: ${element['audiAcc']}</p>
+                            <p>순위 변동: ${element['rankInten']}</p>
+                        </div>`;
+                        myLi.innerHTML = output;
+                        myUl.appendChild(myLi);
+                    });
+
+                }
+            }
+            xhr.open('GET', apiUrl, true);
+            xhr.send();
+        });
+    </script>
+</body>
+
+</html>
