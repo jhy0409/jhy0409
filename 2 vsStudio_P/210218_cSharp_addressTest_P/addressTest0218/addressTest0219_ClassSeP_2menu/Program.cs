@@ -13,6 +13,7 @@ namespace addressTest0218
         static void Main(string[] args)
         {
             AdressMenu sh = new AdressMenu();
+            
         }
     }
 }

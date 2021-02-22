@@ -8,6 +8,8 @@ namespace addressTest0218.control
 {
     class StudentHandler
     {
-        AdressMenu add = new AdressMenu();
+        AdressMenu adr;
+
+
     }
 }
