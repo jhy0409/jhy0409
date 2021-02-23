@@ -10,7 +10,7 @@ public class Menu {
 	public static final String ADMIN_MODE = "admin_mode";
 	public static final String GUEST_MODE = "guest_mode";
 	public static final String OTHER_MODE = "other_mode";
-	public static Scanner s;
+	private Scanner s;
 
 	public Menu(Scanner s) {
 		this.s = s;
@@ -53,7 +53,7 @@ public class Menu {
 		return s.nextInt();
 	}
 
-	public static int guestMenu() {
+	public int guestMenu() {
 		System.out.println("------------------");
 		System.out.println("스마트홈 제어 사용자");
 		System.out.println("------------------");
@@ -68,11 +68,12 @@ public class Menu {
 		return s.nextInt();
 	}
 
-	public static Scanner getS() {
+	public Scanner getS() {
 		return s;
 	}
 
-	public static void setS(Scanner s) {
-		Menu.s = s;
+	public void setS(Scanner s) {
+		this.s = s;
 	}
+
 }

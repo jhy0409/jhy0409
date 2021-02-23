@@ -92,7 +92,7 @@ public class SerialCtrl {
 	}
 
 	public boolean guestWork(SerialPort serial, Menu menu) {
-		switch (Menu.guestMenu()) {
+		switch (menu.guestMenu()) {
 		case MENU_TV_ON:
 			System.out.println("TV 켜기");
 			try {
