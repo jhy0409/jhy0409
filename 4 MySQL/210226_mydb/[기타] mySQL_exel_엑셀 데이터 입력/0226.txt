@@ -8,3 +8,5 @@ MySQL 오류 ERROR 3948 (42000): Loading local data is disabled
 https://calen.tistory.com/49
 
 https://www.delftstack.com/ko/howto/mysql/mysql-import-csv/
+오류해결
+https://stackoverflow.com/questions/45707378/your-file-was-import-but-the-server-returned-2-warning-and-or-notes-see-the-log

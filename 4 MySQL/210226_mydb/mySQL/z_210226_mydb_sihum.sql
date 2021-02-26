@@ -13,11 +13,11 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- mydb0226 데이터베이스 구조 내보내기
-CREATE DATABASE IF NOT EXISTS `mydb0226` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `mydb0226`;
+-- z_210226_mydb_sihum 데이터베이스 구조 내보내기
+CREATE DATABASE IF NOT EXISTS `z_210226_mydb_sihum` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `z_210226_mydb_sihum`;
 
--- 테이블 mydb0226.namecard 구조 내보내기
+-- 테이블 z_210226_mydb_sihum.namecard 구조 내보내기
 CREATE TABLE IF NOT EXISTS `namecard` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(20) NOT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `namecard` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- 테이블 데이터 mydb0226.namecard:~6 rows (대략적) 내보내기
+-- 테이블 데이터 z_210226_mydb_sihum.namecard:~10 rows (대략적) 내보내기
 DELETE FROM `namecard`;
 /*!40000 ALTER TABLE `namecard` DISABLE KEYS */;
 INSERT INTO `namecard` (`id`, `name`, `phone`, `address`) VALUES
@@ -42,7 +42,7 @@ INSERT INTO `namecard` (`id`, `name`, `phone`, `address`) VALUES
 	(10, '사김바', '010-1118-1111', '서울 평리4동');
 /*!40000 ALTER TABLE `namecard` ENABLE KEYS */;
 
--- 테이블 mydb0226.userinfo 구조 내보내기
+-- 테이블 z_210226_mydb_sihum.userinfo 구조 내보내기
 CREATE TABLE IF NOT EXISTS `userinfo` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(20) NOT NULL DEFAULT '',
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `userinfo` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- 테이블 데이터 mydb0226.userinfo:~0 rows (대략적) 내보내기
+-- 테이블 데이터 z_210226_mydb_sihum.userinfo:~10 rows (대략적) 내보내기
 DELETE FROM `userinfo`;
 /*!40000 ALTER TABLE `userinfo` DISABLE KEYS */;
 INSERT INTO `userinfo` (`id`, `name`, `job`, `hobby`) VALUES
