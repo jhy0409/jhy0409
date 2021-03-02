@@ -188,7 +188,9 @@ namespace addrWin0302
             this.addrExit.BackColor = System.Drawing.Color.Transparent;
             this.addrExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addrExit.FillColor = System.Drawing.Color.Gray;
+            this.addrExit.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(178)))), ((int)(((byte)(181)))));
             this.addrExit.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(103)))));
+            this.addrExit.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(103)))));
             this.addrExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.addrExit.IsCircle = true;
             this.addrExit.Location = new System.Drawing.Point(480, 43);
@@ -236,7 +238,6 @@ namespace addrWin0302
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
