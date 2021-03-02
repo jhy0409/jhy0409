@@ -1,7 +1,7 @@
 ﻿
 namespace addrWin0302
 {
-    partial class mainForm
+    partial class MainForm
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -29,7 +29,7 @@ namespace addrWin0302
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.addrAdd = new CxFlatUI.CxFlatRoundButton();
             this.addrView = new CxFlatUI.CxFlatRoundButton();
             this.addrAddRand = new CxFlatUI.CxFlatRoundButton();
@@ -57,6 +57,7 @@ namespace addrWin0302
             this.addrAdd.TabIndex = 4;
             this.addrAdd.Text = "주소록 추가";
             this.addrAdd.TextColor = System.Drawing.Color.White;
+            this.addrAdd.Click += new System.EventHandler(this.addrAdd_Click);
             // 
             // addrView
             // 
@@ -70,6 +71,7 @@ namespace addrWin0302
             this.addrView.TabIndex = 5;
             this.addrView.Text = "주소록 보기";
             this.addrView.TextColor = System.Drawing.Color.White;
+            this.addrView.Click += new System.EventHandler(this.addrView_Click);
             // 
             // addrAddRand
             // 
@@ -83,6 +85,7 @@ namespace addrWin0302
             this.addrAddRand.TabIndex = 6;
             this.addrAddRand.Text = "랜덤 데이터 추가";
             this.addrAddRand.TextColor = System.Drawing.Color.White;
+            this.addrAddRand.Click += new System.EventHandler(this.addrAddRand_Click);
             // 
             // addrUpdate
             // 
@@ -96,6 +99,7 @@ namespace addrWin0302
             this.addrUpdate.TabIndex = 9;
             this.addrUpdate.Text = "주소록 수정";
             this.addrUpdate.TextColor = System.Drawing.Color.White;
+            this.addrUpdate.Click += new System.EventHandler(this.addrUpdate_Click);
             // 
             // addrDelAll
             // 
@@ -109,6 +113,7 @@ namespace addrWin0302
             this.addrDelAll.TabIndex = 8;
             this.addrDelAll.Text = "주소록 전체 삭제";
             this.addrDelAll.TextColor = System.Drawing.Color.White;
+            this.addrDelAll.Click += new System.EventHandler(this.addrDelAll_Click);
             // 
             // addrDel
             // 
@@ -122,6 +127,7 @@ namespace addrWin0302
             this.addrDel.TabIndex = 7;
             this.addrDel.Text = "주소록 삭제";
             this.addrDel.TextColor = System.Drawing.Color.White;
+            this.addrDel.Click += new System.EventHandler(this.addrDel_Click);
             // 
             // uiSymbolLabel1
             // 
@@ -175,23 +181,29 @@ namespace addrWin0302
             this.addrHelp.Symbol = 61736;
             this.addrHelp.SymbolSize = 26;
             this.addrHelp.TabIndex = 12;
+            this.addrHelp.Click += new System.EventHandler(this.addrHelp_Click);
             // 
             // addrExit
             // 
             this.addrExit.BackColor = System.Drawing.Color.Transparent;
             this.addrExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addrExit.FillColor = System.Drawing.Color.Gray;
+            this.addrExit.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(103)))));
             this.addrExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.addrExit.IsCircle = true;
             this.addrExit.Location = new System.Drawing.Point(480, 43);
             this.addrExit.MinimumSize = new System.Drawing.Size(1, 1);
             this.addrExit.Name = "addrExit";
             this.addrExit.RectColor = System.Drawing.Color.Gray;
+            this.addrExit.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(178)))), ((int)(((byte)(181)))));
+            this.addrExit.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(103)))));
+            this.addrExit.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(103)))));
             this.addrExit.Size = new System.Drawing.Size(50, 50);
             this.addrExit.Style = Sunny.UI.UIStyle.Custom;
             this.addrExit.Symbol = 61457;
             this.addrExit.SymbolSize = 26;
             this.addrExit.TabIndex = 13;
+            this.addrExit.Click += new System.EventHandler(this.addrExit_Click);
             // 
             // pictureBox1
             // 
@@ -202,7 +214,7 @@ namespace addrWin0302
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // mainForm
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -222,7 +234,7 @@ namespace addrWin0302
             this.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "mainForm";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).EndInit();

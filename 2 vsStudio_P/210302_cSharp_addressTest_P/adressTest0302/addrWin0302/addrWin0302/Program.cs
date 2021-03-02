@@ -16,7 +16,7 @@ namespace addrWin0302
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainForm()); //객체생성
+            Application.Run(new MainForm()); //객체생성
         }
     }
 }
