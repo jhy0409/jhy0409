@@ -54,10 +54,6 @@ namespace addrWin0302.UI
             }
         }
 
-        private void addrExit_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
 
         private void ViewForm_Load(object sender, EventArgs e) // 폼로드시 동작, 안정적 (생성자가 더 빠름)
         {
@@ -75,10 +71,18 @@ namespace addrWin0302.UI
                     }
                 );
             }
-
+            int count = gridView.Rows.Count - 1;
+            gridView.FirstDisplayedScrollingRowIndex = count;
+            gridView.CurrentCell = gridView.Rows[count - 1].Cells[0];
 
             /*string[] data = { "1", "홍길동", "010-1234-1234", "조선 옛날옛적 동네", "hong@naver.com" };
             gridView.Rows.Add(data);*/
+        }
+
+        private void viewExit_Click(object sender, EventArgs e)
+        {
+            Close();
+
         }
     }
 }

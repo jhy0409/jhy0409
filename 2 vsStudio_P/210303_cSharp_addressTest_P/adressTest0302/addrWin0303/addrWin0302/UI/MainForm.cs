@@ -48,7 +48,9 @@ namespace addrWin0302
 
         private void addrAddRand_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().randData();
+            string cnt = myInputBox("랜덤 데이터 생성", "랜덤하게 데이터를 생성할 갯수를 입력", "0");
+            if (cnt == "") return; // void시 함수 탈출
+            StudentHandler.getInst().randData(Convert.ToInt32(cnt));
         }
 
         private void addrDel_Click(object sender, EventArgs e)
@@ -64,6 +66,12 @@ namespace addrWin0302
         private void addrUpdate_Click(object sender, EventArgs e)
         {
             StudentHandler.getInst().updateItem();
+        }
+
+        private string myInputBox(string title, string body, string prompt)
+        {
+            string input = Microsoft.VisualBasic.Interaction.InputBox(title, body, prompt, -1, -1);
+            return input;
         }
     }
 }
