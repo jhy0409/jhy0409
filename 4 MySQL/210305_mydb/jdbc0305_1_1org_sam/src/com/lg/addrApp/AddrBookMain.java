@@ -25,15 +25,17 @@ public class AddrBookMain {
 				break;
 			case Menu.INSERT_DATA:
 				// AddrBook addr = me.addMenu(s);
-				//db.insertDB(me.addMenu(s));
-				db.insertDB();
+				db.insertDB(me.addMenu(s));
+				// db.insertDB();
 				break;
 			case Menu.INSERT_RAND_DATA:
 				RandData data = new RandData();
-				db.insertDB(data.getABook());
-				/*
-				 * for (int i = 0; i < 1000; i++) { db.insertDB(data.getABook()); }
-				 */
+				// db.insertDB(data.getABook());
+
+				for (int i = 0; i < 15; i++) {
+					db.insertDB(data.getABook());
+				}
+
 				break;
 			case Menu.VIEW_DATA:
 				break;
