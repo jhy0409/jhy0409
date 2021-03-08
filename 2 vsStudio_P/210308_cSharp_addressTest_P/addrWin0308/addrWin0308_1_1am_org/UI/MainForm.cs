@@ -45,7 +45,7 @@ namespace addrWin0302
             if (StudentHandler.getInst().getList().Count!=0)
             {
                 StudentHandler.getInst().viewItem();
-                new ViewForm().ShowDialog();
+                new ViewForm(sc).ShowDialog();
             }
             else
             {
@@ -63,17 +63,17 @@ namespace addrWin0302
 
         private void addrDel_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().delItem();
+            sc.delItem();
         }
 
         private void addrDelAll_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().delItemAll();
+            sc.delItemAll();
         }
 
         private void addrUpdate_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().updateItem();
+            sc.updateItem();
         }
 
         private string myInputBox(string title, string body, string prompt)
