@@ -98,7 +98,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\materialForm.cs" />
     <Compile Include="UI\ViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
