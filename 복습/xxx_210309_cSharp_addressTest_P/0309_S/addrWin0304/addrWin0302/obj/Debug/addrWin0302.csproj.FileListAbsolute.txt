@@ -1,0 +1,17 @@
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\addrWin0302.exe.config
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\addrWin0302.exe
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\addrWin0302.pdb
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.mainForm.resources
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.Properties.Resources.resources
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.GenerateResource.cache
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.CoreCompileInputs.cache
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.exe
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.pdb
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\CxFlatUI.dll
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\MaterialSkin.dll
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\SunnyUI.Common.dll
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\SunnyUI.dll
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.CopyComplete
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.AddForm.resources
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csprojAssemblyReference.cache
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.ViewForm.resources
