@@ -83,7 +83,7 @@ namespace addrWin0302.UI
         {
             
 
-            if (listView.Items.Count - 1 <= 0) // 지울 개수가 없을 때 
+            if (listView.Items.Count <= 0) // 지울 개수가 없을 때 
             {
                 MessageBox.Show("항목이 없습니다.");
                 return;

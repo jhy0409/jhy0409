@@ -63,7 +63,6 @@ namespace addrWin0302
 
         private void addrDel_Click(object sender, EventArgs e)
         {
-
             if (StudentHandler.getInst().getList().Count != 0)
             {
                 // StudentHandler.getInst().delItem(); // CLI
@@ -72,7 +71,7 @@ namespace addrWin0302
             else
             {
                 MessageBox.Show("주소록 정보가 없습니다. \n추가하거나 랜덤데이터를 생성하세요");
-                return;
+                //return;
             }
         }
 

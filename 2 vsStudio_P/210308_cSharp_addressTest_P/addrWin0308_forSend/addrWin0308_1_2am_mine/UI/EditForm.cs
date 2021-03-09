@@ -73,24 +73,23 @@ namespace addrWin0302.UI
 
         private void addOk_Click(object sender, EventArgs e)
         {
-            if (EditName.Text.Trim().Length == 0 && EditName.Text.Trim().Length == 0
-                && EditTel.Text.Trim().Length == 0 && EditAddr.Text.Trim().Length == 0 && EditEmail.Text.Trim().Length == 0)
+            if (EditName.Text.Trim().Length == 0 && EditTel.Text.Trim().Length == 0 
+                && EditAddr.Text.Trim().Length == 0 && EditEmail.Text.Trim().Length == 0)
             {
                 MessageBox.Show("입력한 데이터가 없습니다.");
                 return;
             }
-            int index = listView.FocusedItem.Index;
-            string id = list[index].Id;
+            int index = listView.FocusedItem.Index; // 리스트뷰에서 선택된 인덱스 *
+            string id = list[index].Id; // *의 아이디
 
             if (EditName.Text.Trim().Length != 0) // 이름
             {
-                listView.SelectedItems[0].SubItems[2].Text = EditName.Text;
-                // 텍스트박스 선택된 항목으로 정의
+                listView.SelectedItems[0].SubItems[2].Text = EditName.Text; // 리스트 뷰에서 수정
                 for (int i = 0; i < list.Count; i++)
                 {
-                    if (id.Equals(list[i].Id))
+                    if (id.Equals(list[i].Id)) // (조건) 리스트아이디와 선택된 아이디가 같을때
                     {
-                        list[i].Name = EditName.Text;
+                        list[i].Name = EditName.Text; // 리스트 이름 수정
                     }
                 }
             }
@@ -142,9 +141,5 @@ namespace addrWin0302.UI
             initListView();
         }
 
-        private void addName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
