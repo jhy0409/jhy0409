@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Drawing.Text;
+using adressTest0218;
 
 namespace addrWin0302
 {
@@ -77,7 +78,8 @@ namespace addrWin0302
         {
             //sc.updateItem();
 
-            new UpdateForm(sc).ShowDialog();
+            //new UpdateForm(sc).ShowDialog();
+            new UpdateForm(sc,this).ShowDialog();
         }
 
         private string myInputBox(string title, string body, string prompt)
@@ -90,6 +92,44 @@ namespace addrWin0302
         private void MainForm_Load(object sender, EventArgs e)
         {
             initFont();
+        }
+
+        public void commShowList(ListView list)
+        {
+            int cnt = sc.getList().Count;
+            for (int i = 0; i < cnt; i++)
+            {
+                List<Student> addrList = sc.getList();
+                list.Items.Add(new ListViewItem(
+                    new string[] {
+                        (i+1).ToString(),
+                        addrList[i].Name,
+                        addrList[i].Tel,
+                        addrList[i].Address,
+                        addrList[i].Email
+                    }
+                ));
+            }
+            setRowColor(list, Color.White, Color.LightGray);
+            int index = list.Items.Count - 1;
+            list.Items[index].Focused = true;
+            list.EnsureVisible(index);
+        }
+
+        private void setRowColor(ListView list,
+            Color color1, Color color2)
+        {
+            foreach (ListViewItem item in list.Items)
+            {
+                if ((item.Index % 2) == 0)
+                {
+                    item.BackColor = color1;
+                }
+                else
+                {
+                    item.BackColor = color2;
+                }
+            }
         }
 
         private void initFont()

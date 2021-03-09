@@ -63,7 +63,17 @@ namespace addrWin0302
 
         private void addrDel_Click(object sender, EventArgs e)
         {
-            sc.delItem();
+            //sc.delItem();
+            if (sc.getList().Count != 0)
+            {
+                //new UpdateForm(sc).ShowDialog();
+                new DelForm(sc).ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("주소록 정보가 없습니다. \n추가하거나 랜덤데이터를 생성하세요");
+                return;
+            }
         }
 
         private void addrDelAll_Click(object sender, EventArgs e)

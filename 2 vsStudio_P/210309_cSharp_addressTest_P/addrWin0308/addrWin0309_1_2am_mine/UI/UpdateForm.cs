@@ -107,22 +107,22 @@ namespace addrWin0302.UI
             {
                 int n = upList.SelectedItems[0].Index;
                 string id = list[n].Id;
-                if (upName.Text.Trim().Length != 0) // 공백 제거후에 문자값이 있음
+
+                if (upName.Text.Any(x => char.IsWhiteSpace(x) == true)) // 공백있을 시 텍스트박스, 선택된 항목 값 초기화
                 {
-                    if (upName.Text.Any(x => char.IsWhiteSpace(x) == true)) // 공백있을 시 텍스트박스, 선택된 항목 값 초기화
-                    {
-                        MessageBox.Show("공백을 포함할 수 없음");
-                        upName.Text = string.Empty;
-                        upTel.Text = string.Empty;
-                        upAddr.Text = string.Empty;
-                        upEmail.Text = string.Empty;
+                    MessageBox.Show("공백을 포함할 수 없음");
+                    upName.Text = string.Empty;
+                    upTel.Text = string.Empty;
+                    upAddr.Text = string.Empty;
+                    upEmail.Text = string.Empty;
 
-                        upList.Items[n].Selected = false;
-                        upList.Items[n].Focused = false;
+                    upList.Items[n].Selected = false;
+                    upList.Items[n].Focused = false;
 
-                        return;
-                    }
-
+                    return;
+                }
+                else // 이름에 공백값이 없음
+                {
                     for (int i = 0; i < list.Count; i++) // 사람 수 만큼 일치 id조회
                     {
                         if (id.Equals(list[i].Id)) // 1. 선택항목의 아이디, list의 아이디가 같고
@@ -152,11 +152,8 @@ namespace addrWin0302.UI
                             }
                         }
                     }
-
-
                 }
             }
-
         }
     }
 }

@@ -72,6 +72,12 @@
     <Compile Include="UI\AddForm.Designer.cs">
       <DependentUpon>AddForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\DelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DelForm.Designer.cs">
+      <DependentUpon>DelForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\UpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     <Compile Include="util\RandData.cs" />
     <EmbeddedResource Include="UI\AddForm.resx">
       <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DelForm.resx">
+      <DependentUpon>DelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>

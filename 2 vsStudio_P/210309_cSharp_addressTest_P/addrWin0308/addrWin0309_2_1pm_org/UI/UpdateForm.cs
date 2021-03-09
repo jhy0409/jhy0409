@@ -16,6 +16,8 @@ namespace addrWin0302.UI
      partial class UpdateForm : MaterialForm
     {
         StudentHandler sc;
+        MainForm form;
+
         public UpdateForm()
         {
             InitializeComponent();
@@ -26,6 +28,19 @@ namespace addrWin0302.UI
             this.sc = sc;
         }
 
+        public UpdateForm(StudentHandler sc, MainForm form)
+        {
+            InitializeComponent();
+            this.sc = sc;
+            this.form = form;
+        }
+
+        private void showList()
+        {
+            form.commShowList(upList);
+        }
+
+        /*
         private void showList()
         {
             int cnt = sc.getList().Count;
@@ -63,6 +78,7 @@ namespace addrWin0302.UI
                 }
             }
         }
+        */
 
         private void UpdateForm_Load(object sender, EventArgs e)
         {
