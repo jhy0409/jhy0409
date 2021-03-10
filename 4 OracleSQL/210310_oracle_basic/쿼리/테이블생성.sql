@@ -1,0 +1,6 @@
+CREATE TABLE mytable (
+    ID NUMBER NOT NULL, 
+    NAME VARCHAR2(20) NOT NULL,
+    age NUMBER NOT NULL, 
+    addr VARCHAR2(80) NOT NULL,
+    CONSTRAINT pk_mytable_id PRIMARY KEY(ID));
