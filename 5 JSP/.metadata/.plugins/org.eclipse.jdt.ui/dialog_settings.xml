@@ -47,7 +47,7 @@
 		<item key="height" value="400"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="0"/>
+		<item key="index" value="7"/>
 	</section>
 	<section name="SearchInDialog">
 		<item key="SearchInSources" value="true"/>
