@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\임시\Git\jhy0409\4 MySQL\210311_mydb\jdbc0311_1_2org_sam"/>
+			<item value="D:\임시\Git\jhy0409\4 MySQL\210311_mydb\jdbc0311_1_1org_sam"/>
+			<item value="D:\임시\Git\jhy0409\4 MySQL\210305_mydb"/>
+			<item value="D:\임시\Git\jhy0409\4 MySQL\210304_mydb\jdbc0304_2"/>
+			<item value="D:\임시\Git\jhy0409\4 MySQL\210304_mydb"/>
+			<item value="D:\임시\Git\jhy0409\4 MySQL\210226_mydb"/>
+			<item value="D:\임시\Java\210226"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210223_txt_ard_N_java\serial0223_ard_N_java_1org"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210223_txt_ard_N_java\serial0223_SIHUM_ard_N_java_2mine"/>
+			<item value="D:\임시\Java\serial0223_SIHUM_ard_N_java_2mine"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210223_txt_ard_N_java"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210218_"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210217_SerialMain_ard_N_java"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210217_\1_mun1_jav_who"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210216_serial_ard_N_java\serial0216_0java_AM_yeje_Sam"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210216_serial_ard_N_java\serial0216_2java_mun1_2_Sam"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210216_serial_ard_N_java"/>
+			<item value="D:\임시\Java\serial0216_1_mun1"/>
+			<item value="D:\임시\Git\jhy0409\4 Arduino\210216_date0210_Re\2_2serial3"/>
+			<item value="D:\임시\Java"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

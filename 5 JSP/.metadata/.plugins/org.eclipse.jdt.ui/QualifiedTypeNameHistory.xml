@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.remote.amd64.RemoteAMD64Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="serial0216_1_mun1.ReadThread"/>
+    <fullyQualifiedTypeName name="serial0216_1_mun1.WritehThread"/>
+    <fullyQualifiedTypeName name="jssc.SerialPortList"/>
+    <fullyQualifiedTypeName name="com.yjh.serialApp.SerialMain"/>
+    <fullyQualifiedTypeName name="jssc.SerialPort"/>
+    <fullyQualifiedTypeName name="com.yjh.serialApp.network.MySerial"/>
+    <fullyQualifiedTypeName name="com.yjh.serialApp.util.Menu"/>
+    <fullyQualifiedTypeName name="com.yjh.serialApp.handler.SerialCtrl"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.NodeView.Default"/>
+    <fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
+    <fullyQualifiedTypeName name="java.awt.Menu"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.lg.addrApp.dao.MySQLHandler"/>
+    <fullyQualifiedTypeName name="com.lg.addrApp.util.Menu"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.lg.addrApp.model.AddrBook"/>
+    <fullyQualifiedTypeName name="com.lg.addrApp.util.RandData"/>
+    <fullyQualifiedTypeName name="com.boxup.addrApp.dao.MsqlH"/>
+    <fullyQualifiedTypeName name="com.boxup.addrApp.util.Mwenwe"/>
+    <fullyQualifiedTypeName name="com.boxup.addrApp.util.RandD"/>
+    <fullyQualifiedTypeName name="com.boxup.addrApp.model.AddrB"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.boxup.addrApp.model.AddrBook"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>
