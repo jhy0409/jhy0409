@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 import com.boxup.addrApp.model.AddrBook;
 
-public class MySQLHandler {
+public class MySQLHandler_1org {
 	Connection con;
 	Statement state;
 	final String USER_ID = "root";
@@ -18,7 +18,7 @@ public class MySQLHandler {
 	String jdbcDriver = "com.mysql.cj.jdbc.Driver";
 	String dbUrl = "jdbc:mysql://localhost/" + DBNAME + "?validationQuery=select 1" + "&serverTimezone=UTC"; // 127.0.0.1
 
-	public MySQLHandler() {
+	public MySQLHandler_1org() {
 		connectDB();
 	}
 

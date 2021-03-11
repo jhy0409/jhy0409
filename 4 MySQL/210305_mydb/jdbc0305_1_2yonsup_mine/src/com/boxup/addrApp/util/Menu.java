@@ -61,16 +61,51 @@ public class Menu {
 	}
 
 	public String[] sujung(Scanner s) {
-		String sujungName[] = new String[2];
+		String sujung[] = new String[6];
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("----------------------");
-		System.out.println("     수정 메뉴");
+		System.out.println("     수정 메뉴 (미변경 시 +)");
 		System.out.println("----------------------");
-		System.out.print("변경할 이름 :");
-		sujungName[0] = s.next();
-		System.out.print("수정할 이름 :");
-		sujungName[1] = s.next();
+		System.out.print("아이디 :");
+		sujung[0] = s.next();
+		System.out.print(" 이름 : ");
+		sujung[1] = null;
+		try {
+			sujung[1] = br.readLine();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.print(" 나이 : ");
+		sujung[2] = null;
+		try {
+			sujung[2] = br.readLine();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.print(" 전화 : ");
+		sujung[3] = null;
+		try {
+			sujung[3] = br.readLine();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-		return sujungName;
+		System.out.print(" 주소 : ");
+		sujung[4] = null;
+		try {
+			sujung[4] = br.readLine();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.print(" 메일 : ");
+		sujung[5] = null;
+		try {
+			sujung[5] = br.readLine();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return sujung;
 	}
 
 	public int[] delData(Scanner s) {
@@ -81,12 +116,20 @@ public class Menu {
 		System.out.println(" 2. 범위");
 		System.out.println("----------------------");
 		System.out.print("메뉴선택 : ");
-
-		int menu = s.nextInt();
-		if (menu < 0 && menu > 2) {
+		int[] selNum = new int[4];
+		selNum[0] = s.nextInt();
+		if (selNum[0] == 1) {
+			System.out.print("아이디 입력 : ");
+			selNum[1] = s.nextInt();
 		}
-		int[] index1 = new int[menu];
-		return index1;
+
+		else if (selNum[0] == 2) {
+			System.out.print("범위 입력1 : ");
+			selNum[2] = s.nextInt();
+			System.out.print("범위 입력2 : ");
+			selNum[3] = s.nextInt();
+		}
+		return selNum;
 	}
 
 }
