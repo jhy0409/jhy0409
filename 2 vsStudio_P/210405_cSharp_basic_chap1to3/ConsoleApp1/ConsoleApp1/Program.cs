@@ -20,6 +20,8 @@ namespace Chapter01
             Console.WriteLine("\"Write\"");
 
             //"\"Write\""를 보이게?
+            // backslash, 역슬러시 \\
+            Console.WriteLine("\\");
             Console.WriteLine("\n\n------------------");
             Console.WriteLine("\"\\\"Write\\\"\"");
         }

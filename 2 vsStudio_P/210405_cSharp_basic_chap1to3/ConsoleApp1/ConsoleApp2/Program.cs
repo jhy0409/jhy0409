@@ -39,7 +39,7 @@ namespace Chapter02
             */
 
             Console.WriteLine(Convert.ToString((int)"안녕하세요"[0], 16)); // 안
-            Console.WriteLine('가' + '힣');
+            Console.WriteLine('가' + '힣'); // 문자는 연산가능
             Console.WriteLine();
 
             Console.WriteLine(1 == 1);

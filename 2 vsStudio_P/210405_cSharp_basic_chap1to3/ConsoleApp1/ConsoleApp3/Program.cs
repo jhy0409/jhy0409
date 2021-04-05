@@ -17,7 +17,7 @@ namespace ConsoleApp3
             Console.WriteLine(inch * 2.54 + "cm");
             Console.WriteLine(string.Format("{0}cm", inch * 2.54));
             string example = string.Format($"나이 : {0}, 키 : {1}, 이름 : {2}", 10, 190, "이름");
-            Console.WriteLine($"{inch * 2.54}cm\n");
+            Console.WriteLine($"{inch * 2.54}cm\n"); //문자열 보간
 
             // 킬로그램 단위 입력받아 파운드 단위를 구하는 코드 작성
             Console.WriteLine("2. kg -> pound");

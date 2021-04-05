@@ -5,3 +5,10 @@ D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp3\obj\Deb
 D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp3\obj\Debug\answer.csproj.CoreCompileInputs.cache
 D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.exe
 D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210405_cSharp_basic_chap1to3\ConsoleApp1\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210405_cSharp_basic_chap1to3\ConsoleApp1\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210405_cSharp_basic_chap1to3\ConsoleApp1\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210405_cSharp_basic_chap1to3\ConsoleApp1\ConsoleApp3\obj\Debug\answer.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210405_cSharp_basic_chap1to3\ConsoleApp1\ConsoleApp3\obj\Debug\answer.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210405_cSharp_basic_chap1to3\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210405_cSharp_basic_chap1to3\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
