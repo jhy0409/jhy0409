@@ -1,0 +1,16 @@
+E:\kb_c#_work\CarManager0323\CarManager0323\bin\Debug\CarManager0323.exe.config
+E:\kb_c#_work\CarManager0323\CarManager0323\bin\Debug\CarManager0323.exe
+E:\kb_c#_work\CarManager0323\CarManager0323\bin\Debug\CarManager0323.pdb
+E:\kb_c#_work\CarManager0323\CarManager0323\bin\Debug\CxFlatUI.dll
+E:\kb_c#_work\CarManager0323\CarManager0323\bin\Debug\MaterialSkin.dll
+E:\kb_c#_work\CarManager0323\CarManager0323\bin\Debug\SunnyUI.Common.dll
+E:\kb_c#_work\CarManager0323\CarManager0323\bin\Debug\SunnyUI.dll
+E:\kb_c#_work\CarManager0323\CarManager0323\obj\Debug\CarManager0323.csprojAssemblyReference.cache
+E:\kb_c#_work\CarManager0323\CarManager0323\obj\Debug\CarManager0323.MainForm.resources
+E:\kb_c#_work\CarManager0323\CarManager0323\obj\Debug\CarManager0323.Properties.Resources.resources
+E:\kb_c#_work\CarManager0323\CarManager0323\obj\Debug\CarManager0323.csproj.GenerateResource.cache
+E:\kb_c#_work\CarManager0323\CarManager0323\obj\Debug\CarManager0323.csproj.CoreCompileInputs.cache
+E:\kb_c#_work\CarManager0323\CarManager0323\obj\Debug\CarManager0323.csproj.CopyComplete
+E:\kb_c#_work\CarManager0323\CarManager0323\obj\Debug\CarManager0323.exe
+E:\kb_c#_work\CarManager0323\CarManager0323\obj\Debug\CarManager0323.pdb
+E:\kb_c#_work\CarManager0323\CarManager0323\bin\Debug\Oracle.ManagedDataAccess.dll

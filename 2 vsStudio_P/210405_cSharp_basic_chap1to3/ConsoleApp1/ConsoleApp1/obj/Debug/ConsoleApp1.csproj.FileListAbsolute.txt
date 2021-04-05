@@ -1,0 +1,7 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210405_cSharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

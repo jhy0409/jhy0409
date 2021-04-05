@@ -1,0 +1,12 @@
+엑셀 CSV 파일 만드는 방법
+https://mansoostat.tistory.com/63
+
+HeidiSQL을 이용한 Import
+https://osskdb.wordpress.com/2016/09/01/heidisql%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-import/
+
+MySQL 오류 ERROR 3948 (42000): Loading local data is disabled
+https://calen.tistory.com/49
+
+https://www.delftstack.com/ko/howto/mysql/mysql-import-csv/
+오류해결
+https://stackoverflow.com/questions/45707378/your-file-was-import-but-the-server-returned-2-warning-and-or-notes-see-the-log

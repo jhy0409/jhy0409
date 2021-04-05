@@ -1,0 +1,7 @@
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\answer\bin\Debug\answer.exe.config
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\answer\bin\Debug\answer.exe
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\answer\bin\Debug\answer.pdb
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\answer\obj\Debug\answer.csprojAssemblyReference.cache
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\answer\obj\Debug\answer.csproj.CoreCompileInputs.cache
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\answer\obj\Debug\answer.exe
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\쌤풀이\20201228_cSharp_Array\ConsoleApp1\answer\obj\Debug\answer.pdb

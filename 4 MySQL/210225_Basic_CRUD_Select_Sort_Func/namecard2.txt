@@ -1,0 +1,6 @@
+create table namecard2 (
+    -> id INT(5) NOT NULL AUTO_INCREMENT,
+    -> name VARCHAR(20),
+    -> phone VARCHAR(20),
+    -> PRIMARY KEY(id)
+    -> );

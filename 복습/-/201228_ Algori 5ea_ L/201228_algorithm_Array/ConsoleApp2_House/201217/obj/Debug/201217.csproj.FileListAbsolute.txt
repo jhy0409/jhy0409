@@ -1,0 +1,14 @@
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\ConsoleApp2_House\201217\bin\Debug\201217.exe.config
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\ConsoleApp2_House\201217\bin\Debug\201217.exe
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\ConsoleApp2_House\201217\bin\Debug\201217.pdb
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\ConsoleApp2_House\201217\obj\Debug\201217.csproj.CoreCompileInputs.cache
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\ConsoleApp2_House\201217\obj\Debug\201217.exe
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\ConsoleApp2_House\201217\obj\Debug\201217.pdb
+D:\9 임시\201217 오늘할거\201228_algorithm_Array\ConsoleApp2_House\201217\obj\Debug\201217.csprojAssemblyReference.cache
+D:\YJH\Git\jhy0409\복습\201228\201228_algorithm_Array\ConsoleApp2_House\201217\bin\Debug\201217.exe.config
+D:\YJH\Git\jhy0409\복습\201228\201228_algorithm_Array\ConsoleApp2_House\201217\bin\Debug\201217.exe
+D:\YJH\Git\jhy0409\복습\201228\201228_algorithm_Array\ConsoleApp2_House\201217\bin\Debug\201217.pdb
+D:\YJH\Git\jhy0409\복습\201228\201228_algorithm_Array\ConsoleApp2_House\201217\obj\Debug\201217.csprojAssemblyReference.cache
+D:\YJH\Git\jhy0409\복습\201228\201228_algorithm_Array\ConsoleApp2_House\201217\obj\Debug\201217.csproj.CoreCompileInputs.cache
+D:\YJH\Git\jhy0409\복습\201228\201228_algorithm_Array\ConsoleApp2_House\201217\obj\Debug\201217.exe
+D:\YJH\Git\jhy0409\복습\201228\201228_algorithm_Array\ConsoleApp2_House\201217\obj\Debug\201217.pdb

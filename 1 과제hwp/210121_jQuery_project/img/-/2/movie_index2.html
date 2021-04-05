@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바 영화예제</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            margin: 20px auto;
+        }
+
+        button {
+            padding: 5px 5px;
+            margin: 5px 5px;
+        }
+
+        input {
+            padding: 8px;
+        }
+
+        ul {
+            width: 600px;
+            margin: 10px auto;
+            text-align: left;
+        }
+
+        ul li {
+            padding: 8px;
+            list-style-type: none;
+            border-bottom: 1px solid grey;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        ul li:hover {
+            background: rgb(231, 193, 193);
+        }
+
+        ul li div img {
+            float: left;
+            margin: 0px 5px;
+            border-radius: 10px;
+        }
+
+        .video-player {
+            min-width: 640px;
+            position: relative;
+            margin: 20px auto;
+        }
+
+        .embed-reponsive-16by9 {
+            height: 0;
+            padding-top: 2%;
+            padding-bottom: 20%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- https://blog.naver.com/cosmosjs/221710082323 -->
+    <h1>유튜브 영화 예고편 검색</h1>
+    <p>영화제목으로 예고편을 감상하세요</p>
+
+    <!-- 유튭 재생영역 -->
+    <div class="youtube-container home-youtube-container embed-responsive embed-responsive-item videoPlayer">
+        <div class="homeVideoThumbnail video-player">
+            <img src="img/youtube.png" alt="Youtube video">
+        </div>
+    </div>
+
+    <label for="search">영화검색</label>
+    <input type="search" id="search" name="search" placeholder="영화제목 입력" size="40px" onekeyup="inputkeyup(event)">
+    <button type="button" onclick="ajaxRequest()">Search</button>
+
+    <ul class="list"></ul>
+
+    <script>
+        const v = document.querySelector('.videoPlayer');
+        //iframe 추가하고 비디오 재생
+
+        /* ★여기부터---------------- */ 
+        function updateVideo(id) {
+            v.classList.add("embed-responsive-16by9");
+            v.innerHTML = '<iframe src="//www.youtube.com/embed/'
+            + id + '?autoplay=1" width="560" height="315" frameborder="0" allowfullscreen></iframe>';
+
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+
+        //엔터키 이벤트
+        function inputkeyup(e){
+            if(e.keyCode == 13){
+                ajaxRequest();
+            }
+        }
+
+        //Vanilla JS를 사용하여 비동기로 호출한다.
+        function ajaxRequest(){
+            const search = document.getElementById("search");
+            const ul = document.querySelector(".list");
+
+            if(search.value.length == 0){
+                alert("검색어 입력하세요");
+                search.focus();
+                return false;
+            }else{
+                query = "공식 예고편" + search.value;
+                search.value = "";
+                search.focus();
+            }
+
+            const key = "1bc05fd81199dac06733222112ada68f";
+            const url = `https://www.googleapis.com/youtube/v3/search?key=${key}&q=${query}&part=snippet&type=video`;
+        }
+
+
+    </script>
+
+    <div class="boxOffice">
+        <h2 class="boxOfficeType"></h2>
+        <p class="showRange"></p>
+
+        <ul class="boxOfficeList"></ul>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            const key = "1bc05fd81199dac06733222112ada68f";
+            //어제 날짜 구하기
+            let y = (d => new Date(d.setDate(d.getDate() - 1)))(new Date);
+            y = y.getFullYear() + "" + (y.getMonth() + 1) + "" + y.getDate();
+            const date = 20210121; //어제날짜 넣어줌
+            // const apiUrl = 'http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${1bc05fd81199dac06733222112ada68f}&targetDt=${20120101}';
+            // http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchWeeklyBoxOfficeList.json?key=1bc05fd81199dac06733222112ada68f&targetDt=20120101
+            const apiUrl =
+                `http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=1bc05fd81199dac06733222112ada68f&targetDt=20210101`;
+
+            const boxOfficeType = document.querySelector('.boxOfficeType');
+            const showRange = document.querySelector('.showRange');
+            const myUl = document.querySelector('.boxOfficeList');
+
+            const xhr = new XMLHttpRequest(); //리퀘스트 객체를 만든다
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    const jsonObj = JSON.parse(xhr.response);
+                    //console.log(jsonObj);
+
+                    const boxOfficeResult = jsonObj['boxOfficeResult'];
+                    boxOfficeType.textContent = boxOfficeResult['boxofficeType'];
+                    showRange.textContent = boxOfficeResult['showRange'];
+
+                    const movieList = boxOfficeResult['dailyBoxOfficeList'];
+                    movieList.forEach(element => {
+                        //화면 디자인에 따라 필요한 DOM 요소들을 생성해 준다.
+                        const myLi = document.createElement('li');
+
+                        const output = `
+                        <div>
+                            <h2>${element['movieNm']}</h2>
+                            <p>개봉일: ${element['openDt']}</p>
+                            <p>누적 관객수: ${element['audiAcc']}</p>
+                            <p>순위 변동: ${element['rankInten']}</p>
+                        </div>`;
+                        myLi.innerHTML = output;
+                        myUl.appendChild(myLi);
+                    });
+
+                }
+            }
+            xhr.open('GET', apiUrl, true);
+            xhr.send();
+        });
+    </script>
+</body>
+
+</html>

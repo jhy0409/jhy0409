@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SerialMain3_Sam.java&apos; to &apos;serial_0223_txt_ard_N_java/src&apos;&#x0D;&#x0A;- Original project: &apos;serial0217_1mun1_jav&apos;&#x0D;&#x0A;- Destination element: &apos;serial_0223_txt_ard_N_java/src&apos;&#x0D;&#x0A;- Original element: &apos;unused.SerialMain3_Sam.java&apos;" description="Copy compilation unit" destination="=serial_0223_txt_ard_N_java/src" element1="/src&lt;unused{SerialMain3_Sam.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1614040364237" units="1" version="1.0"/>
+</session>

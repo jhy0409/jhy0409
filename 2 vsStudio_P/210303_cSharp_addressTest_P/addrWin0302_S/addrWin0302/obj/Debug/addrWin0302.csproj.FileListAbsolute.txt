@@ -1,0 +1,32 @@
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\addrWin0302.exe.config
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\addrWin0302.exe
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\addrWin0302.pdb
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.mainForm.resources
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.Properties.Resources.resources
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.GenerateResource.cache
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.CoreCompileInputs.cache
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.exe
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.pdb
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\CxFlatUI.dll
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\MaterialSkin.dll
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\SunnyUI.Common.dll
+E:\kb_c#_work\addrWin0302\addrWin0302\bin\Debug\SunnyUI.dll
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.CopyComplete
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.AddForm.resources
+E:\kb_c#_work\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\bin\Debug\addrWin0302.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\bin\Debug\addrWin0302.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\bin\Debug\addrWin0302.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\bin\Debug\CxFlatUI.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\bin\Debug\MaterialSkin.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\bin\Debug\SunnyUI.Common.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\bin\Debug\SunnyUI.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.UI.AddForm.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.MainForm.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.csproj.CopyComplete
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210303_cSharp_addressTest_P\addrWin0302_S\addrWin0302\obj\Debug\addrWin0302.pdb
