@@ -4,3 +4,10 @@ D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\
 D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\obj\Debug\Chapter03.csproj.CoreCompileInputs.cache
 D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\obj\Debug\Chapter03.exe
 D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\obj\Debug\Chapter03.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\bin\Debug\Chapter03.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\bin\Debug\Chapter03.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\bin\Debug\Chapter03.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\obj\Debug\Chapter03.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\obj\Debug\Chapter03.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\obj\Debug\Chapter03.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\Chapter03\obj\Debug\Chapter03.pdb
