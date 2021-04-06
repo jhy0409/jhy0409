@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T15:30:32.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="e2VYHlHOGPDTFLllwTdv" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T15:32:44.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="7HuRhYsj_6p3wk1LkTjP" version="14.5.7" type="github">
   <diagram id="6oNQw6u3wephya74xHIN" name="Page-1">
     <mxGraphModel dx="1743" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
             <mxPoint x="-7.58" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PbMkuu-omXCv-JuwHTHP-27" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-22" target="PbMkuu-omXCv-JuwHTHP-17">
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-27" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-43" target="PbMkuu-omXCv-JuwHTHP-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="370" as="sourcePoint" />
             <mxPoint x="440" y="320" as="targetPoint" />
@@ -69,11 +69,8 @@
         <mxCell id="PbMkuu-omXCv-JuwHTHP-19" value="직원" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="85" y="330" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PbMkuu-omXCv-JuwHTHP-21" value="주문자&lt;br&gt;(약국)" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82b366;fontColor=#000000;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="330" y="420" width="70" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-22" value="수령인&lt;br&gt;(약국)" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82b366;fontColor=#000000;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="330" y="514.5" width="70" height="70" as="geometry" />
+          <mxGeometry x="330" y="600" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-24" value="" style="endArrow=none;html=1;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-16" target="PbMkuu-omXCv-JuwHTHP-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -128,6 +125,18 @@
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-42" value="동작 : 버튼클릭 시 랜덤&lt;br&gt;전체수량 - 판매수량" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#ffffff;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-155" y="454.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-43" value="제약사&lt;br&gt;ID" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;labelBackgroundColor=none;fontColor=#99004D;fillColor=#FFF4C3;" vertex="1" parent="1">
+          <mxGeometry x="330" y="420" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-44" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-22" target="PbMkuu-omXCv-JuwHTHP-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="610" as="sourcePoint" />
+            <mxPoint x="365" y="400.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-21" value="주문자&lt;br&gt;(약국)" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82b366;fontColor=#000000;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
