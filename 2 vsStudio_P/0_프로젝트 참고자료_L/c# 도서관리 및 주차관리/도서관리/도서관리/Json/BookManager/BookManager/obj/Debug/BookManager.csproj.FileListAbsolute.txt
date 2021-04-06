@@ -1,0 +1,15 @@
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.xml
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form2.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form3.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.CopyComplete
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\0_프로젝트 참고자료_L\c# 도서관리 및 주차관리\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.pdb
