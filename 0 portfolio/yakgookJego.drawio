@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T15:38:32.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="CFEf28ODantY3a-QKmL8" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T15:41:26.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="8S2lAcOHPVK2Ip2vWiDe" version="14.5.7" type="github">
   <diagram id="6oNQw6u3wephya74xHIN" name="Page-1">
-    <mxGraphModel dx="1743" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1646" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PbMkuu-omXCv-JuwHTHP-36" value="" style="endArrow=none;html=1;fontSize=14;fontColor=#99004D;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-34" target="PbMkuu-omXCv-JuwHTHP-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-170" y="310" as="sourcePoint" />
-            <mxPoint x="-120" y="260" as="targetPoint" />
+            <mxPoint x="-210" y="490" as="sourcePoint" />
+            <mxPoint x="-160" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-39" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="PbMkuu-omXCv-JuwHTHP-36">
@@ -17,12 +17,12 @@
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-27" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-43" target="PbMkuu-omXCv-JuwHTHP-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="370" as="sourcePoint" />
-            <mxPoint x="440" y="320" as="targetPoint" />
+            <mxPoint x="350" y="550" as="sourcePoint" />
+            <mxPoint x="400" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;약국&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-3" target="PbMkuu-omXCv-JuwHTHP-4">
           <mxGeometry relative="1" as="geometry" />
@@ -31,19 +31,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-3" value="&lt;span style=&quot;font-size: 14px&quot;&gt;제약사&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="460" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-4" value="제약사&lt;br&gt;ID" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;labelBackgroundColor=none;fontColor=#99004D;fillColor=#FFF4C3;" vertex="1" parent="1">
-          <mxGeometry x="440" y="330" width="70" height="70" as="geometry" />
+          <mxGeometry x="400" y="510" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-31" target="PbMkuu-omXCv-JuwHTHP-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-5" value="담당직원" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
-          <mxGeometry x="440" y="420" width="70" height="70" as="geometry" />
+          <mxGeometry x="400" y="600" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-7" value="전화번호" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
-          <mxGeometry x="530" y="330" width="70" height="70" as="geometry" />
+          <mxGeometry x="490" y="510" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=14;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-13" target="PbMkuu-omXCv-JuwHTHP-2">
           <mxGeometry relative="1" as="geometry" />
@@ -52,91 +52,108 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-13" value="거래" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="230" width="140" height="80" as="geometry" />
+          <mxGeometry x="210" y="410" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-16" value="거래일자" style="ellipse;whiteSpace=wrap;html=1;fontColor=#99004D;fillColor=#FFF4C3;" vertex="1" parent="1">
-          <mxGeometry x="240" y="330" width="70" height="70" as="geometry" />
+          <mxGeometry x="200" y="510" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-17" value="약&amp;nbsp;이름" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="330" y="330" width="70" height="70" as="geometry" />
+          <mxGeometry x="290" y="510" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-18" value="발주수량" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="420" width="70" height="70" as="geometry" />
+          <mxGeometry x="200" y="600" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=14;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-19" target="PbMkuu-omXCv-JuwHTHP-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-19" value="직원" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="85" y="330" width="70" height="70" as="geometry" />
+          <mxGeometry x="45" y="510" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-24" value="" style="endArrow=none;html=1;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-16" target="PbMkuu-omXCv-JuwHTHP-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="450" as="sourcePoint" />
-            <mxPoint x="350" y="400" as="targetPoint" />
+            <mxPoint x="260" y="630" as="sourcePoint" />
+            <mxPoint x="310" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-25" value="" style="endArrow=none;html=1;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-17" target="PbMkuu-omXCv-JuwHTHP-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="285" y="340" as="sourcePoint" />
-            <mxPoint x="330" y="320" as="targetPoint" />
+            <mxPoint x="245" y="520" as="sourcePoint" />
+            <mxPoint x="290" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-28" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-18" target="PbMkuu-omXCv-JuwHTHP-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="370" as="sourcePoint" />
-            <mxPoint x="440" y="320" as="targetPoint" />
+            <mxPoint x="350" y="550" as="sourcePoint" />
+            <mxPoint x="400" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-29" value="약 이름" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="530" y="420" width="70" height="70" as="geometry" />
+          <mxGeometry x="490" y="600" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-30" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-29" target="PbMkuu-omXCv-JuwHTHP-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="390" as="sourcePoint" />
-            <mxPoint x="320" y="340" as="targetPoint" />
+            <mxPoint x="230" y="570" as="sourcePoint" />
+            <mxPoint x="280" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-31" value="연락처" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="440" y="514.5" width="70" height="70" as="geometry" />
+          <mxGeometry x="400" y="694.5" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-32" value="&lt;font color=&quot;#000000&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#99004D;" vertex="1" parent="1">
-          <mxGeometry x="210" y="240" width="20" height="20" as="geometry" />
+          <mxGeometry x="170" y="420" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-33" value="&lt;font color=&quot;#000000&quot;&gt;N&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#99004D;" vertex="1" parent="1">
-          <mxGeometry x="405" y="240" width="30" height="20" as="geometry" />
+          <mxGeometry x="365" y="420" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-34" value="&lt;span style=&quot;font-size: 14px&quot;&gt;손님&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-35" value="판매" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="230" width="140" height="80" as="geometry" />
+          <mxGeometry x="-170" y="410" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-37" value="거래일자" style="ellipse;whiteSpace=wrap;html=1;fontColor=#99004D;fillColor=#FFF4C3;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="330" width="70" height="70" as="geometry" />
+          <mxGeometry x="-180" y="510" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-38" value="약&amp;nbsp;이름" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="330" width="70" height="70" as="geometry" />
+          <mxGeometry x="-80" y="510" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-40" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="240" width="30" height="20" as="geometry" />
+          <mxGeometry x="-210" y="420" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PbMkuu-omXCv-JuwHTHP-42" value="동작 : 버튼클릭 시 랜덤&lt;br&gt;전체수량 - 판매수량" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="25" y="80" width="190" height="60" as="geometry" />
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-42" value="동작 : 버튼클릭 시 랜덤&lt;br&gt;전체수량 - 판매수량" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="260" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-43" value="제약사&lt;br&gt;ID" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;labelBackgroundColor=none;fontColor=#99004D;fillColor=#FFF4C3;" vertex="1" parent="1">
-          <mxGeometry x="330" y="420" width="70" height="70" as="geometry" />
+          <mxGeometry x="290" y="600" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-44" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-21" target="PbMkuu-omXCv-JuwHTHP-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="365" y="599.9999999999998" as="sourcePoint" />
-            <mxPoint x="365" y="400.0000000000002" as="targetPoint" />
+            <mxPoint x="325" y="779.9999999999998" as="sourcePoint" />
+            <mxPoint x="325" y="580.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-21" value="주문자&lt;br&gt;(약국)" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82b366;fontColor=#000000;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="330" y="510" width="70" height="70" as="geometry" />
+          <mxGeometry x="290" y="690" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PbMkuu-omXCv-JuwHTHP-46" value="기능 : 남은수량 얼마 &lt;br&gt;없을 때 알림" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="250" y="80" width="190" height="60" as="geometry" />
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-46" value="기능&lt;br&gt;1. 남은수량 얼마&amp;nbsp;없을 때 알림&lt;br&gt;2. 재고, 판매수량 확인" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fillColor=#f5f5f5;fontSize=14;fontColor=#333333;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-47" value="" style="endArrow=none;html=1;fontSize=14;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-37" target="PbMkuu-omXCv-JuwHTHP-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="480" as="sourcePoint" />
+            <mxPoint x="-110" y="430" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-48" value="" style="endArrow=none;html=1;fontSize=14;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" target="PbMkuu-omXCv-JuwHTHP-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="490" as="sourcePoint" />
+            <mxPoint x="-60" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="500" />
+              <mxPoint x="-45" y="500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
