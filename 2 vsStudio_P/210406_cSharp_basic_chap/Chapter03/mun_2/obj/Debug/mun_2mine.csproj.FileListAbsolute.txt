@@ -1,0 +1,6 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\mun_2\bin\Debug\mun_2.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\mun_2\bin\Debug\mun_2.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\mun_2\bin\Debug\mun_2.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\mun_2\obj\Debug\mun_2mine.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\mun_2\obj\Debug\mun_2.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210406_cSharp_basic_chap\Chapter03\mun_2\obj\Debug\mun_2.pdb
