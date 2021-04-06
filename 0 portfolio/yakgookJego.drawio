@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T15:17:59.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="LdFTLLOzRPq2K0yIroLd" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T15:18:53.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="rsWHgbF7JiUV5tyOoXst" version="14.5.7" type="github">
   <diagram id="6oNQw6u3wephya74xHIN" name="Page-1">
-    <mxGraphModel dx="696" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1950" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-33" value="&lt;font color=&quot;#000000&quot;&gt;N&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#99004D;" vertex="1" parent="1">
           <mxGeometry x="405" y="240" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-34" value="&lt;span style=&quot;font-size: 14px&quot;&gt;손님&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
