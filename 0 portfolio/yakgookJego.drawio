@@ -1,9 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T15:18:53.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="rsWHgbF7JiUV5tyOoXst" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T15:24:03.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="HKkrG6b9Hd_OanIDe7Ml" version="14.5.7" type="github">
   <diagram id="6oNQw6u3wephya74xHIN" name="Page-1">
-    <mxGraphModel dx="1950" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1600" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-36" value="" style="endArrow=none;html=1;fontSize=14;fontColor=#99004D;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-34" target="PbMkuu-omXCv-JuwHTHP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="310" as="sourcePoint" />
+            <mxPoint x="-120" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-39" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="PbMkuu-omXCv-JuwHTHP-36">
+          <mxGeometry x="0.8131" y="20" relative="1" as="geometry">
+            <mxPoint x="-7.58" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PbMkuu-omXCv-JuwHTHP-27" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PbMkuu-omXCv-JuwHTHP-22" target="PbMkuu-omXCv-JuwHTHP-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="370" as="sourcePoint" />
@@ -100,8 +111,20 @@
         <mxCell id="PbMkuu-omXCv-JuwHTHP-33" value="&lt;font color=&quot;#000000&quot;&gt;N&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#99004D;" vertex="1" parent="1">
           <mxGeometry x="405" y="240" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PbMkuu-omXCv-JuwHTHP-34" value="&lt;span style=&quot;font-size: 14px&quot;&gt;손님&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-34" value="&lt;span style=&quot;font-size: 14px&quot;&gt;손님&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-300" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-35" value="판매" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="230" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-37" value="거래일자" style="ellipse;whiteSpace=wrap;html=1;fontColor=#99004D;fillColor=#FFF4C3;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="330" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-38" value="약&amp;nbsp;이름" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="330" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PbMkuu-omXCv-JuwHTHP-40" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="240" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
