@@ -1,0 +1,38 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\bin\Debug\CarManager0323.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\bin\Debug\CarManager0323.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\bin\Debug\CarManager0323.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\bin\Debug\CxFlatUI.dll
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\bin\Debug\MaterialSkin.dll
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\bin\Debug\SunnyUI.Common.dll
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\bin\Debug\SunnyUI.dll
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.MainForm.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.Properties.Resources.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0329_1_1_am.csproj.GenerateResource.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0329_1_1_am.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0329_1_1_am.csproj.CopyComplete
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.UI.CarInForm.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.UI.CustInsForm.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.UI.SellerInsForm.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\S\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0329_1_1_am.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\bin\Debug\CarManager0323.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\bin\Debug\CarManager0323.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\bin\Debug\CarManager0323.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\bin\Debug\CxFlatUI.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\bin\Debug\MaterialSkin.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\bin\Debug\SunnyUI.Common.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\bin\Debug\SunnyUI.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0329_1_1_am.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.UI.CarInForm.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.UI.CustInsForm.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.MainForm.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.UI.SellerInsForm.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0329_1_1_am.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0329_1_1_am.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0329_1_1_am.csproj.CopyComplete
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210329_cSharp_CarManager_P\CarManager0329\CarManager0329_1_1_am\obj\Debug\CarManager0323.pdb
