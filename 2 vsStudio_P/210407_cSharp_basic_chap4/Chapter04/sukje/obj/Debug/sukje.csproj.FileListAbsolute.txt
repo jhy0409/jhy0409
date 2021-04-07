@@ -5,3 +5,10 @@ D:\임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\obj
 D:\임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\obj\Debug\sukje.csproj.CoreCompileInputs.cache
 D:\임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\obj\Debug\sukje.exe
 D:\임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\obj\Debug\sukje.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\bin\Debug\sukje.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\bin\Debug\sukje.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\bin\Debug\sukje.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\obj\Debug\sukje.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\obj\Debug\sukje.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\obj\Debug\sukje.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210407_cSharp_basic_chap4\Chapter04\sukje\obj\Debug\sukje.pdb
