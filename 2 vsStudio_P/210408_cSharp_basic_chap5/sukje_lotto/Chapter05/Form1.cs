@@ -31,19 +31,40 @@ namespace Chapter05
         {
             InitializeComponent();
 
-            button_test.Text = "바밥밥";
             iplyok();
 
-            /* Label label = new Label(); 
-             label.Parent = pictureBox2; 
-             label.AutoSize = true; 
-             label.BackColor = Color.Transparent; 
-             label.Text = "옥수수"; label.Location = new Point(pictureBox2.Width - label.Width - 20, pictureBox2.Height - label.Height - 20);*/
-
         }
+        public void makeLotto(int randNum)
+        {
+            for (int i = 0; i < goodLuck.Length; i++)
+            {
+                goodLuck[i] = r.Next(1, 46);
+                Console.WriteLine($"현재번호 : {goodLuck[i]}");
+
+                if (i < (goodLuck.Length - randNum) && hwaklyul(goodLuck[i]) < 9) // (7 - randNum)번째 숫자까지는 번호당 확률 70%이상
+                {
+                    i--;
+                }
+
+                if (i >= (goodLuck.Length - randNum)) // 마지막 번호 randNum개는 랜덤
+                {
+                    goodLuck[i] = r.Next(1, 46);
+                }
+                for (int j = 0; j < i; j++)
+                {
+                    if (goodLuck[i] == goodLuck[j])
+                    {
+                        i--;
+                        Console.WriteLine($"{j + 1}번째 값 중복발생 : {goodLuck[j]}");
+                    }
+                }
+            }
+        }
+
+
         public void makeLotto()
         {
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < goodLuck.Length; i++)
             {
                 goodLuck[i] = r.Next(1, 46);
                 Console.WriteLine($"현재번호 : {goodLuck[i]}");
@@ -67,6 +88,7 @@ namespace Chapter05
                 }
             }
         }
+
         public void iplyok()
         {
             // 1~957회차 전체번호(1~45)별 확률 (로또 홈페이지 자료 참고)
@@ -95,7 +117,31 @@ namespace Chapter05
 
         private void button_test_Click(object sender, EventArgs e)
         {
-            makeLotto();
+            try
+            {
+                if (makeRandTxtBox.Text == "확률무시 랜덤생성 수")
+                {
+                    makeRandTxtBox.Text = "0";
+                }
+
+                int makeR = int.Parse(makeRandTxtBox.Text);
+                if (makeR > 7 && makeR < 0)
+                {
+                    MessageBox.Show("0~7사이의 값을 입력하세요");
+                    return;
+                }
+                else
+                {
+                    makeLotto(makeR);
+                }
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("유효하지 않은 값입니다.");
+                makeRandTxtBox.Text = "0"; 
+                return;
+            }
+
 
             label_num1.Text = goodLuck[0].ToString();
             thisPcent_1.Text = ((hwaklyul(goodLuck[0])) * 10).ToString() + "%";
@@ -138,6 +184,22 @@ namespace Chapter05
             thisPcent_6.Text = "-";
             label_num7.Text = "번호 7";
             thisPcent_7.Text = "-";
+
+
+            if (makeRandTxtBox.Text == "")
+            {
+                makeRandTxtBox.Text = "확률무시 랜덤생성 수";
+                makeRandTxtBox.ForeColor = Color.Gray;
+            }
+        }
+
+        private void makeRandTxtBox_Enter(object sender, EventArgs e)
+        {
+            if (makeRandTxtBox.Text.Length > 0)
+            {
+                makeRandTxtBox.Text = string.Empty;
+                makeRandTxtBox.ForeColor = Color.Black;
+            }
         }
     }
 }
