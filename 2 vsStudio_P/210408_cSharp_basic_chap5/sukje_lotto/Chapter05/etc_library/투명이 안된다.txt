@@ -1,0 +1,9 @@
+Label label_num1 = new Label(); 
+            label_num1.Parent = pictureBox2; 
+            label_num1.AutoSize = true; 
+            label_num1.BackColor = Color.Transparent; 
+            label_num1.Text = "옥수수"; label_num1.Location = new Point(pictureBox2.Width - label_num1.Width - 20, pictureBox2.Height - label_num1.Height - 20);
+
+
+https://appadal.tistory.com/1104
+https://program-day.tistory.com/23
