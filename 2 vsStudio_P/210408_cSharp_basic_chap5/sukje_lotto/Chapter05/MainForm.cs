@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Chapter05
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         Random r = new Random();
         List<LottoN> lottoNumNIndex = new List<LottoN>();
@@ -27,7 +27,7 @@ namespace Chapter05
                                         7.6, 8.3, 10, 8.3, 8.5};
         int[] goodLuck = new int[7];
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 
@@ -61,33 +61,6 @@ namespace Chapter05
             }
         }
 
-
-        public void makeLotto()
-        {
-            for (int i = 0; i < goodLuck.Length; i++)
-            {
-                goodLuck[i] = r.Next(1, 46);
-                Console.WriteLine($"현재번호 : {goodLuck[i]}");
-
-                if (i < 5 && hwaklyul(goodLuck[i]) < 9) // 5번째 숫자까지는 번호당 확률 70%이상
-                {
-                    i--;
-                }
-
-                if (i >= 5) // 마지막 번호 2개는 랜덤
-                {
-                    goodLuck[i] = r.Next(1, 46);
-                }
-                for (int j = 0; j < i; j++)
-                {
-                    if (goodLuck[i] == goodLuck[j])
-                    {
-                        i--;
-                        Console.WriteLine($"{j + 1}번째 값 중복발생 : {goodLuck[j]}");
-                    }
-                }
-            }
-        }
 
         public void iplyok()
         {

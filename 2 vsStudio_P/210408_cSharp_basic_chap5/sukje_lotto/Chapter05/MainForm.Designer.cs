@@ -1,7 +1,7 @@
 ﻿
 namespace Chapter05
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -29,7 +29,7 @@ namespace Chapter05
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.button_test = new System.Windows.Forms.Button();
             this.label_num1 = new System.Windows.Forms.Label();
             this.label_num2 = new System.Windows.Forms.Label();
