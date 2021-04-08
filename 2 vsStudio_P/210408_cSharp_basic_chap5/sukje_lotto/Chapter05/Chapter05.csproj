@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="control\Handler.cs" />
-    <Compile Include="googling_VerticalTextBox.cs">
+    <Compile Include="etc_library\googling_VerticalTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="MainForm.cs">

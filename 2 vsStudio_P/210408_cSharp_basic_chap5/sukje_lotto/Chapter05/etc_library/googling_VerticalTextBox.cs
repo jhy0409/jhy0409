@@ -5,27 +5,27 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
- 
+
 using System.Windows.Forms;
- 
+
 public class VerticalTextBox : Control
 {
     public VerticalTextBox()
     {
         //OnPaint의 e.Graphics.DrawRectangle 잔상 제거 -> ControlStyles.ResizeRedraw 필수
         base.SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.DoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.ResizeRedraw, true);
- 
+
         textBox = new CustomTextBox();
         textBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
         this.Controls.Add(textBox);
- 
+
         //Init
         Text = "";
         BackColor = SystemColors.Window;
         LeftRightPadding = 10;
         BorderColor = Color.Gray;
     }
- 
+
     private CustomTextBox textBox;
     public override string Text
     {
@@ -43,13 +43,13 @@ public class VerticalTextBox : Control
         }
     }
     public HorizontalAlignment TextAlign { get { return textBox.TextAlign; } set { textBox.TextAlign = value; } }
- 
+
     private int leftRightPadding;
     public uint LeftRightPadding
     {
         get { return Convert.ToUInt32(leftRightPadding); }
-        set 
-        { 
+        set
+        {
             leftRightPadding = Convert.ToInt32(value);
             textBox.Location = new Point(leftRightPadding, textBox.Location.Y);
         }
@@ -60,12 +60,12 @@ public class VerticalTextBox : Control
         get { return borderColor; }
         set { borderColor = value; }
     }
- 
+
     protected override void OnPaint(PaintEventArgs e)
     {
         e.Graphics.DrawRectangle(new Pen(borderColor), 0, 0, ClientRectangle.Width - 1, ClientRectangle.Height - 1);
     }
- 
+
     protected override void OnSizeChanged(EventArgs e)
     {
         base.OnSizeChanged(e);
@@ -73,7 +73,7 @@ public class VerticalTextBox : Control
         textBox.Location = new Point(leftRightPadding, textTop);
         textBox.Width = this.Width - (leftRightPadding * 2) - 2;
     }
- 
+
     protected override void OnMouseClick(MouseEventArgs e)
     {
         base.OnMouseClick(e);
@@ -82,22 +82,22 @@ public class VerticalTextBox : Control
             textBox.Focus();
         }
     }
- 
+
     public class CustomTextBox : TextBox
     {
         public CustomTextBox()
         {
             this.BorderStyle = BorderStyle.None;
         }
- 
+
         protected override void OnFontChanged(EventArgs e)
         {
             base.OnFontChanged(e);
- 
-            int textTop = (this.Parent.Height / 2) - ((this.ClientSize.Height+2) / 2);
+
+            int textTop = (this.Parent.Height / 2) - ((this.ClientSize.Height + 2) / 2);
             this.Location = new Point(this.Location.X, textTop);
         }
- 
+
         protected override void OnKeyPress(KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Return)
