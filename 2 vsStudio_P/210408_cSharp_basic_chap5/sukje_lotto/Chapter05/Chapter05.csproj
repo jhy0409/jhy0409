@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="control\Handler.cs" />
     <Compile Include="googling_VerticalTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -108,5 +109,6 @@
   <ItemGroup>
     <None Include="bin\Debug\resource\lt_img7.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
