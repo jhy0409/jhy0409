@@ -74,24 +74,6 @@ namespace Chapter05
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            label_num1.Text = "1";
-            thisPcent_1.Text = "-";
-            label_num2.Text = "2";
-            thisPcent_2.Text = "-";
-            label_num3.Text = "3";
-            thisPcent_3.Text = "-";
-
-            label_num4.Text = "4";
-            thisPcent_4.Text = "-";
-            label_num5.Text = "5";
-            thisPcent_5.Text = "-";
-            label_num6.Text = "6";
-            thisPcent_6.Text = "-";
-            label_num7.Text = "7";
-            thisPcent_7.Text = "-";
-
-
             if (makeRandTxtBox.Text == "")
             {
                 makeRandTxtBox.Text = "확률무시 랜덤생성 수";
@@ -110,6 +92,21 @@ namespace Chapter05
 
         private void initLabelText()
         {
+            label_num1.Text = "1";
+            thisPcent_1.Text = "-";
+            label_num2.Text = "2";
+            thisPcent_2.Text = "-";
+            label_num3.Text = "3";
+            thisPcent_3.Text = "-";
+
+            label_num4.Text = "4";
+            thisPcent_4.Text = "-";
+            label_num5.Text = "5";
+            thisPcent_5.Text = "-";
+            label_num6.Text = "6";
+            thisPcent_6.Text = "-";
+            label_num7.Text = "7";
+            thisPcent_7.Text = "-";
             var pos1 = this.PointToScreen(label_num1.Location); // 스택오버플로우 참고.. 라벨텍스트 배경색 투명으로
             pos1 = gongImg_1.PointToClient(pos1);
             label_num1.Parent = gongImg_1;
@@ -153,7 +150,7 @@ namespace Chapter05
             label_num7.BackColor = Color.Transparent;
         }
 
-        private void showHelp()
+        private void showHelp() //msDOC 툴팁 내용 참고 
         {
             // Create the ToolTip and associate with the Form container.
             ToolTip tTip = new ToolTip();
@@ -167,7 +164,11 @@ namespace Chapter05
 
 
             // Set up the ToolTip text for the Button and Checkbox.
-            tTip.SetToolTip(this.HelpLabelTxt, "[사용법]\n1. 랜덤생성할 수를 1~7사이의 값을 입력하세요.\n\n2. 유효하지 않은 값 입력시 자동으로 랜덤생성 수는 0으로 초기화(문자나 공백 등)\n\n* 랜덤수가 0일때 기본값으로 전체회차의 90%이상 당첨번호가 랜덤생성 됩니다.");
+            tTip.SetToolTip(this.HelpLabelTxt, "[사용법]\n1. 랜덤생성할 수를 1~7사이의 값을 입력하세요.\n\n" +
+                "2. 유효하지 않은 값 입력시 자동으로 랜덤생성 수는 \n  0으로 초기화(문자나 공백 등)\n\n" +
+                "* 랜덤수가 0일때 기본값으로 전체회차의 \n  90%이상인 당첨번호가 랜덤생성 됩니다.\n\n" +
+                "  최소 확률 : 70%, 최대 : 100%\n" +
+                "  확률이 90%미만인 번호의 갯수 : 33");
         }
 
 
