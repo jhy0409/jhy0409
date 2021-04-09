@@ -17,7 +17,7 @@ namespace Chapter05
         public MainForm()
         {
             InitializeComponent();
-
+            initLabelText();
         }
 
 
@@ -74,20 +74,20 @@ namespace Chapter05
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            label_num1.Text = "번호 1";
+            label_num1.Text = "1";
             thisPcent_1.Text = "-";
-            label_num2.Text = "번호 2";
+            label_num2.Text = "2";
             thisPcent_2.Text = "-";
-            label_num3.Text = "번호 3";
+            label_num3.Text = "3";
             thisPcent_3.Text = "-";
 
-            label_num4.Text = "번호 4";
+            label_num4.Text = "4";
             thisPcent_4.Text = "-";
-            label_num5.Text = "번호 5";
+            label_num5.Text = "5";
             thisPcent_5.Text = "-";
-            label_num6.Text = "번호 6";
+            label_num6.Text = "6";
             thisPcent_6.Text = "-";
-            label_num7.Text = "번호 7";
+            label_num7.Text = "7";
             thisPcent_7.Text = "-";
 
 
@@ -105,6 +105,51 @@ namespace Chapter05
                 makeRandTxtBox.Text = string.Empty;
                 makeRandTxtBox.ForeColor = Color.Black;
             }
+        }
+
+        private void initLabelText()
+        {
+            var pos1 = this.PointToScreen(label_num1.Location); // 스택오버플로우 참고.. 라벨텍스트 배경색 투명으로
+            pos1 = gongImg_1.PointToClient(pos1);
+            label_num1.Parent = gongImg_1;
+            label_num1.Location = pos1;
+            label_num1.BackColor = Color.Transparent;
+
+            var pos2 = this.PointToScreen(label_num2.Location);
+            pos2 = gongImg_2.PointToClient(pos2);
+            label_num2.Parent = gongImg_2;
+            label_num2.Location = pos2;
+            label_num2.BackColor = Color.Transparent;
+
+            var pos3 = this.PointToScreen(label_num3.Location);
+            pos3 = gongImg_3.PointToClient(pos3);
+            label_num3.Parent = gongImg_3;
+            label_num3.Location = pos3;
+            label_num3.BackColor = Color.Transparent;
+
+            var pos4 = this.PointToScreen(label_num4.Location);
+            pos4 = gongImg_4.PointToClient(pos4);
+            label_num4.Parent = gongImg_4;
+            label_num4.Location = pos4;
+            label_num4.BackColor = Color.Transparent;
+
+            var pos5 = this.PointToScreen(label_num5.Location);
+            pos5 = gongImg_5.PointToClient(pos5);
+            label_num5.Parent = gongImg_5;
+            label_num5.Location = pos5;
+            label_num5.BackColor = Color.Transparent;
+
+            var pos6 = this.PointToScreen(label_num6.Location);
+            pos6 = gongImg_6.PointToClient(pos6);
+            label_num6.Parent = gongImg_6;
+            label_num6.Location = pos6;
+            label_num6.BackColor = Color.Transparent;
+
+            var pos7 = this.PointToScreen(label_num7.Location);
+            pos7 = gongImg_7.PointToClient(pos7);
+            label_num7.Parent = gongImg_7;
+            label_num7.Location = pos7;
+            label_num7.BackColor = Color.Transparent;
         }
     }
 }

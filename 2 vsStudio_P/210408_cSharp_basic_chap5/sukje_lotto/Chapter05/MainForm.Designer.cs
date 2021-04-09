@@ -45,7 +45,7 @@ namespace Chapter05
             this.thisPcent_3 = new System.Windows.Forms.Label();
             this.thisPcent_2 = new System.Windows.Forms.Label();
             this.thisPcent_1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.gongImg_7 = new System.Windows.Forms.PictureBox();
             this.gongImg_6 = new System.Windows.Forms.PictureBox();
             this.gongImg_5 = new System.Windows.Forms.PictureBox();
             this.gongImg_4 = new System.Windows.Forms.PictureBox();
@@ -54,7 +54,7 @@ namespace Chapter05
             this.gongImg_2 = new System.Windows.Forms.PictureBox();
             this.gongImg_1 = new System.Windows.Forms.PictureBox();
             this.makeRandTxtBox = new VerticalTextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gongImg_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_4)).BeginInit();
@@ -80,7 +80,7 @@ namespace Chapter05
             // 
             this.label_num1.AutoSize = true;
             this.label_num1.BackColor = System.Drawing.Color.Transparent;
-            this.label_num1.Font = new System.Drawing.Font("맑은 고딕", 11F);
+            this.label_num1.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label_num1.Location = new System.Drawing.Point(150, 350);
             this.label_num1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_num1.MinimumSize = new System.Drawing.Size(45, 20);
@@ -94,7 +94,7 @@ namespace Chapter05
             // 
             this.label_num2.AutoSize = true;
             this.label_num2.BackColor = System.Drawing.Color.Transparent;
-            this.label_num2.Font = new System.Drawing.Font("맑은 고딕", 11F);
+            this.label_num2.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label_num2.Location = new System.Drawing.Point(226, 350);
             this.label_num2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_num2.MinimumSize = new System.Drawing.Size(45, 20);
@@ -108,7 +108,7 @@ namespace Chapter05
             // 
             this.label_num3.AutoSize = true;
             this.label_num3.BackColor = System.Drawing.Color.Transparent;
-            this.label_num3.Font = new System.Drawing.Font("맑은 고딕", 11F);
+            this.label_num3.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label_num3.Location = new System.Drawing.Point(302, 350);
             this.label_num3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_num3.MinimumSize = new System.Drawing.Size(45, 20);
@@ -122,7 +122,7 @@ namespace Chapter05
             // 
             this.label_num4.AutoSize = true;
             this.label_num4.BackColor = System.Drawing.Color.Transparent;
-            this.label_num4.Font = new System.Drawing.Font("맑은 고딕", 11F);
+            this.label_num4.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label_num4.Location = new System.Drawing.Point(378, 350);
             this.label_num4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_num4.MinimumSize = new System.Drawing.Size(45, 20);
@@ -136,7 +136,7 @@ namespace Chapter05
             // 
             this.label_num5.AutoSize = true;
             this.label_num5.BackColor = System.Drawing.Color.Transparent;
-            this.label_num5.Font = new System.Drawing.Font("맑은 고딕", 11F);
+            this.label_num5.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label_num5.Location = new System.Drawing.Point(454, 350);
             this.label_num5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_num5.MinimumSize = new System.Drawing.Size(45, 20);
@@ -150,7 +150,7 @@ namespace Chapter05
             // 
             this.label_num6.AutoSize = true;
             this.label_num6.BackColor = System.Drawing.Color.Transparent;
-            this.label_num6.Font = new System.Drawing.Font("맑은 고딕", 11F);
+            this.label_num6.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label_num6.Location = new System.Drawing.Point(530, 350);
             this.label_num6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_num6.MinimumSize = new System.Drawing.Size(45, 20);
@@ -164,7 +164,7 @@ namespace Chapter05
             // 
             this.label_num7.AutoSize = true;
             this.label_num7.BackColor = System.Drawing.Color.Transparent;
-            this.label_num7.Font = new System.Drawing.Font("맑은 고딕", 11F);
+            this.label_num7.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label_num7.Location = new System.Drawing.Point(606, 350);
             this.label_num7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_num7.MinimumSize = new System.Drawing.Size(45, 20);
@@ -272,15 +272,15 @@ namespace Chapter05
             this.thisPcent_1.Text = "00";
             this.thisPcent_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // gongImg_7
             // 
-            this.pictureBox1.Image = global::Chapter05.Properties.Resources.lt_img7;
-            this.pictureBox1.Location = new System.Drawing.Point(594, 327);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(70, 70);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 23;
-            this.pictureBox1.TabStop = false;
+            this.gongImg_7.Image = global::Chapter05.Properties.Resources.lt_img7;
+            this.gongImg_7.Location = new System.Drawing.Point(594, 327);
+            this.gongImg_7.Name = "gongImg_7";
+            this.gongImg_7.Size = new System.Drawing.Size(70, 70);
+            this.gongImg_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gongImg_7.TabIndex = 23;
+            this.gongImg_7.TabStop = false;
             // 
             // gongImg_6
             // 
@@ -366,7 +366,7 @@ namespace Chapter05
             this.makeRandTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.makeRandTxtBox.Enter += new System.EventHandler(this.makeRandTxtBox_Enter);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -381,7 +381,7 @@ namespace Chapter05
             this.Controls.Add(this.label_num3);
             this.Controls.Add(this.label_num2);
             this.Controls.Add(this.label_num1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.gongImg_7);
             this.Controls.Add(this.gongImg_6);
             this.Controls.Add(this.gongImg_5);
             this.Controls.Add(this.gongImg_4);
@@ -402,13 +402,13 @@ namespace Chapter05
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "로또번호 생성기 v1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gongImg_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_4)).EndInit();
@@ -445,7 +445,7 @@ namespace Chapter05
         private System.Windows.Forms.PictureBox gongImg_6;
         private System.Windows.Forms.PictureBox gongImg_5;
         private System.Windows.Forms.PictureBox gongImg_4;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox gongImg_7;
         private VerticalTextBox makeRandTxtBox;
     }
 }
