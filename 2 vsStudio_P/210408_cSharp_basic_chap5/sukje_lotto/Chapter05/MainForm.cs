@@ -18,6 +18,7 @@ namespace Chapter05
         {
             InitializeComponent();
             initLabelText();
+            showHelp();
         }
 
 
@@ -151,5 +152,24 @@ namespace Chapter05
             label_num7.Location = pos7;
             label_num7.BackColor = Color.Transparent;
         }
+
+        private void showHelp()
+        {
+            // Create the ToolTip and associate with the Form container.
+            ToolTip tTip = new ToolTip();
+
+            // Set up the delays for the ToolTip.
+            tTip.AutoPopDelay = 6000;
+            tTip.InitialDelay = 500;
+            tTip.ReshowDelay = 10000;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            tTip.ShowAlways = false;
+
+
+            // Set up the ToolTip text for the Button and Checkbox.
+            tTip.SetToolTip(this.HelpLabelTxt, "[사용법]\n1. 랜덤생성할 수를 1~7사이의 값을 입력하세요.\n\n2. 유효하지 않은 값 입력시 자동으로 랜덤생성 수는 0으로 초기화(문자나 공백 등)\n\n* 랜덤수가 0일때 기본값으로 전체회차의 90%이상 당첨번호가 랜덤생성 됩니다.");
+        }
+
+
     }
 }

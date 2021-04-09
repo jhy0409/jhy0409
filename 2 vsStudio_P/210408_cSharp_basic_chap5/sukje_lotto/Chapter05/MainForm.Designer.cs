@@ -53,6 +53,7 @@ namespace Chapter05
             this.gongImg_3 = new System.Windows.Forms.PictureBox();
             this.gongImg_2 = new System.Windows.Forms.PictureBox();
             this.gongImg_1 = new System.Windows.Forms.PictureBox();
+            this.HelpLabelTxt = new Sunny.UI.UILabel();
             this.makeRandTxtBox = new VerticalTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_6)).BeginInit();
@@ -361,6 +362,18 @@ namespace Chapter05
             this.gongImg_1.TabIndex = 17;
             this.gongImg_1.TabStop = false;
             // 
+            // HelpLabelTxt
+            // 
+            this.HelpLabelTxt.BackColor = System.Drawing.Color.Transparent;
+            this.HelpLabelTxt.Font = new System.Drawing.Font("Microsoft YaHei", 13F);
+            this.HelpLabelTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.HelpLabelTxt.Location = new System.Drawing.Point(742, 9);
+            this.HelpLabelTxt.Name = "HelpLabelTxt";
+            this.HelpLabelTxt.Size = new System.Drawing.Size(30, 30);
+            this.HelpLabelTxt.TabIndex = 25;
+            this.HelpLabelTxt.Text = "?";
+            this.HelpLabelTxt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // makeRandTxtBox
             // 
             this.makeRandTxtBox.BackColor = System.Drawing.SystemColors.Window;
@@ -380,6 +393,7 @@ namespace Chapter05
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Chapter05.Properties.Resources.mainBg_gray;
             this.ClientSize = new System.Drawing.Size(784, 501);
+            this.Controls.Add(this.HelpLabelTxt);
             this.Controls.Add(this.button_test);
             this.Controls.Add(this.lottoLogo);
             this.Controls.Add(this.label_num7);
@@ -456,6 +470,7 @@ namespace Chapter05
         private System.Windows.Forms.PictureBox gongImg_4;
         private System.Windows.Forms.PictureBox gongImg_7;
         private VerticalTextBox makeRandTxtBox;
+        private Sunny.UI.UILabel HelpLabelTxt;
     }
 }
 

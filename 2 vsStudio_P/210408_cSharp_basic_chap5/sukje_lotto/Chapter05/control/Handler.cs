@@ -78,10 +78,6 @@ namespace Chapter05.cont
                 {
                     index = i;
                 }
-                else
-                {
-                    continue;
-                }
             }
             return lottoNumNIndex[index].NumOfPercent;
         }
