@@ -25,21 +25,20 @@ namespace Chapter05
         {
             try
             {
+
                 if (makeRandTxtBox.Text == "확률무시 랜덤생성 수")
                 {
                     makeRandTxtBox.Text = "0";
                 }
 
                 int makeR = int.Parse(makeRandTxtBox.Text);
-                if (makeR > 7 && makeR < 0)
+                if (makeR > 7 || makeR < 0)
                 {
-                    MessageBox.Show("0~7사이의 값을 입력하세요");
+                    MessageBox.Show("0~7사이의 값을 입력하세요\n 0으로 다시 초기화합니다.");
+                    makeRandTxtBox.Text = "0";
                     return;
                 }
-                else
-                {
-                    hd.makeLotto(makeR);
-                }
+                hd.makeLotto(makeR);
             }
             catch (FormatException)
             {
