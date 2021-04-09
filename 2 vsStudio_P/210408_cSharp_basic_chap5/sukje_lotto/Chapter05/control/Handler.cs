@@ -15,8 +15,8 @@ namespace Chapter05.cont
 
         }
 
-        List<LottoN> lottoNumNIndex = new List<LottoN>();
-        double[] joncheHwaklyul = { 9.3, 8.7, 8.7, 9.3,  8.4,
+        readonly List<LottoN> lottoNumNIndex = new List<LottoN>();
+        readonly double[] joncheHwaklyul = { 9.3, 8.7, 8.7, 9.3,  8.4,
                                         8.4, 8.4, 8.4, 7, 9,
                                         8.6, 9.2, 9.3, 8.7, 8.4,
 
@@ -37,13 +37,13 @@ namespace Chapter05.cont
             for (int i = 0; i < goodLuck.Length; i++)
             {
                 goodLuck[i] = r.Next(1, 46);
-                Console.WriteLine($"현재번호 : {goodLuck[i]}");
+                //Console.Write($"{goodLuck[i]}, "); // 생성 값
 
                 if (i < (goodLuck.Length - randNum) && hwaklyul(goodLuck[i]) < 9) // (7 - randNum)번째 숫자까지는 번호당 확률 70%이상
                 {
                     i--;
                 }
-
+                
                 if (i >= (goodLuck.Length - randNum)) // 마지막 번호 randNum개는 랜덤
                 {
                     goodLuck[i] = r.Next(1, 46);
@@ -53,10 +53,15 @@ namespace Chapter05.cont
                     if (goodLuck[i] == goodLuck[j])
                     {
                         i--;
-                        Console.WriteLine($"{j + 1}번째 값 중복발생 : {goodLuck[j]}");
+                        Console.WriteLine($"[{j + 1}번째 값 중복발생 : {goodLuck[j]}]");
                     }
                 }
             }
+            for (int i = 0; i < goodLuck.Length; i++)
+            {
+                Console.Write($"{goodLuck[i]},\t");
+            }
+            Console.WriteLine();
         }
 
 
