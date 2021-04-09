@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            /*//1. 5개의 숫자를 입력받은 뒤 가장 작은 수와 가장 큰 수를 출력하는 프로그램을 작성
+            //1. 5개의 숫자를 입력받은 뒤 가장 작은 수와 가장 큰 수를 출력하는 프로그램을 작성
             Console.WriteLine("1. 5개의 숫자를 입력받은 뒤 가장 작은 수와 가장 큰 수를 출력하는 프로그램을 작성");
             int[] numbers = new int[5];
 
@@ -29,13 +29,13 @@ namespace ConsoleApp1
                 if (numbers[i] > max)
                     max = numbers[i];
             }
-            Console.WriteLine($"{min}, {max}");*/
+            Console.WriteLine($"{min}, {max}");
 
 
 
 
             //2. 아래의 규칙을 따르는 수열의 20번째 숫자를 프로그램을 만들어 찾으시오. (개미수열, 읽고말하기 수열)
-
+            Console.WriteLine("\n2. 아래의 규칙을 따르는 수열의 20번째 숫자를 프로그램을 만들어 찾으시오.");
             string start = "1";
             for (int i = 0; i < 20; i++)
             {
@@ -67,7 +67,7 @@ namespace ConsoleApp1
 
 
 
-            /*//3. 별찍기
+            //3. 별찍기
             Console.WriteLine("\n3. 별찍기");
             int inputFloor = int.Parse(Console.ReadLine());
             int Flag = 0;
@@ -94,12 +94,12 @@ namespace ConsoleApp1
                         index++;
                         Console.WriteLine($"{index}번째 ---");
                     }
-                       
+
                     else
-                    Console.WriteLine("");
+                        Console.WriteLine("");
 
                 }
-        }
+            }
 
             //4. 설탕배달 문제
             Console.WriteLine("\n4. 설탕배달 문제");
@@ -123,7 +123,7 @@ namespace ConsoleApp1
                     break;
                 }
             }
-            Console.WriteLine(podae);*/
+            Console.WriteLine(podae);
         }
     }
 }
