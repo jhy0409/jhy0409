@@ -274,6 +274,7 @@ namespace Chapter05
             // 
             // gongImg_7
             // 
+            this.gongImg_7.BackColor = System.Drawing.Color.Transparent;
             this.gongImg_7.Image = global::Chapter05.Properties.Resources.lt_img7;
             this.gongImg_7.Location = new System.Drawing.Point(594, 327);
             this.gongImg_7.Name = "gongImg_7";
@@ -284,6 +285,7 @@ namespace Chapter05
             // 
             // gongImg_6
             // 
+            this.gongImg_6.BackColor = System.Drawing.Color.Transparent;
             this.gongImg_6.Image = global::Chapter05.Properties.Resources.lt_img6;
             this.gongImg_6.Location = new System.Drawing.Point(518, 327);
             this.gongImg_6.Name = "gongImg_6";
@@ -294,6 +296,7 @@ namespace Chapter05
             // 
             // gongImg_5
             // 
+            this.gongImg_5.BackColor = System.Drawing.Color.Transparent;
             this.gongImg_5.Image = global::Chapter05.Properties.Resources.lt_img5;
             this.gongImg_5.Location = new System.Drawing.Point(442, 327);
             this.gongImg_5.Name = "gongImg_5";
@@ -304,6 +307,7 @@ namespace Chapter05
             // 
             // gongImg_4
             // 
+            this.gongImg_4.BackColor = System.Drawing.Color.Transparent;
             this.gongImg_4.Image = global::Chapter05.Properties.Resources.lt_img4;
             this.gongImg_4.Location = new System.Drawing.Point(366, 327);
             this.gongImg_4.Name = "gongImg_4";
@@ -326,6 +330,7 @@ namespace Chapter05
             // 
             // gongImg_3
             // 
+            this.gongImg_3.BackColor = System.Drawing.Color.Transparent;
             this.gongImg_3.Image = global::Chapter05.Properties.Resources.lt_img3;
             this.gongImg_3.Location = new System.Drawing.Point(289, 327);
             this.gongImg_3.Name = "gongImg_3";
@@ -336,6 +341,7 @@ namespace Chapter05
             // 
             // gongImg_2
             // 
+            this.gongImg_2.BackColor = System.Drawing.Color.Transparent;
             this.gongImg_2.Image = global::Chapter05.Properties.Resources.lt_img2;
             this.gongImg_2.Location = new System.Drawing.Point(213, 327);
             this.gongImg_2.Name = "gongImg_2";
@@ -346,6 +352,7 @@ namespace Chapter05
             // 
             // gongImg_1
             // 
+            this.gongImg_1.BackColor = System.Drawing.Color.Transparent;
             this.gongImg_1.Image = global::Chapter05.Properties.Resources.lt_img1;
             this.gongImg_1.Location = new System.Drawing.Point(137, 327);
             this.gongImg_1.Name = "gongImg_1";
@@ -371,6 +378,7 @@ namespace Chapter05
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::Chapter05.Properties.Resources.mainBg_gray;
             this.ClientSize = new System.Drawing.Size(784, 501);
             this.Controls.Add(this.button_test);
             this.Controls.Add(this.lottoLogo);
@@ -398,6 +406,7 @@ namespace Chapter05
             this.Controls.Add(this.makeRandTxtBox);
             this.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(130, 0);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
