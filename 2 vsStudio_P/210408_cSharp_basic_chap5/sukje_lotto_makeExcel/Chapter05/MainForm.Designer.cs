@@ -54,6 +54,7 @@ namespace Chapter05
             this.gongImg_2 = new System.Windows.Forms.PictureBox();
             this.gongImg_1 = new System.Windows.Forms.PictureBox();
             this.HelpLabelTxt = new Sunny.UI.UILabel();
+            this.makeExcelNum = new VerticalTextBox();
             this.makeRandTxtBox = new VerticalTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gongImg_6)).BeginInit();
@@ -68,7 +69,8 @@ namespace Chapter05
             // button_test
             // 
             this.button_test.Font = new System.Drawing.Font("맑은 고딕", 11F);
-            this.button_test.Location = new System.Drawing.Point(458, 205);
+            this.button_test.Location = new System.Drawing.Point(491, 205);
+            this.button_test.Margin = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.button_test.MinimumSize = new System.Drawing.Size(80, 30);
             this.button_test.Name = "button_test";
             this.button_test.Size = new System.Drawing.Size(80, 40);
@@ -88,7 +90,7 @@ namespace Chapter05
             this.label_num1.Name = "label_num1";
             this.label_num1.Size = new System.Drawing.Size(45, 20);
             this.label_num1.TabIndex = 1;
-            this.label_num1.Text = "00";
+            this.label_num1.Text = "1";
             this.label_num1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_num2
@@ -102,7 +104,7 @@ namespace Chapter05
             this.label_num2.Name = "label_num2";
             this.label_num2.Size = new System.Drawing.Size(45, 20);
             this.label_num2.TabIndex = 2;
-            this.label_num2.Text = "00";
+            this.label_num2.Text = "2";
             this.label_num2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_num3
@@ -116,7 +118,7 @@ namespace Chapter05
             this.label_num3.Name = "label_num3";
             this.label_num3.Size = new System.Drawing.Size(45, 20);
             this.label_num3.TabIndex = 3;
-            this.label_num3.Text = "00";
+            this.label_num3.Text = "3";
             this.label_num3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_num4
@@ -130,7 +132,7 @@ namespace Chapter05
             this.label_num4.Name = "label_num4";
             this.label_num4.Size = new System.Drawing.Size(45, 20);
             this.label_num4.TabIndex = 6;
-            this.label_num4.Text = "00";
+            this.label_num4.Text = "4";
             this.label_num4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_num5
@@ -144,7 +146,7 @@ namespace Chapter05
             this.label_num5.Name = "label_num5";
             this.label_num5.Size = new System.Drawing.Size(45, 20);
             this.label_num5.TabIndex = 5;
-            this.label_num5.Text = "00";
+            this.label_num5.Text = "5";
             this.label_num5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_num6
@@ -158,7 +160,7 @@ namespace Chapter05
             this.label_num6.Name = "label_num6";
             this.label_num6.Size = new System.Drawing.Size(45, 20);
             this.label_num6.TabIndex = 4;
-            this.label_num6.Text = "00";
+            this.label_num6.Text = "6";
             this.label_num6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_num7
@@ -172,7 +174,7 @@ namespace Chapter05
             this.label_num7.Name = "label_num7";
             this.label_num7.Size = new System.Drawing.Size(45, 20);
             this.label_num7.TabIndex = 7;
-            this.label_num7.Text = "00";
+            this.label_num7.Text = "7";
             this.label_num7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // thisPcent_7
@@ -186,7 +188,7 @@ namespace Chapter05
             this.thisPcent_7.Name = "thisPcent_7";
             this.thisPcent_7.Size = new System.Drawing.Size(45, 20);
             this.thisPcent_7.TabIndex = 15;
-            this.thisPcent_7.Text = "00";
+            this.thisPcent_7.Text = "-";
             this.thisPcent_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // thisPcent_4
@@ -200,7 +202,7 @@ namespace Chapter05
             this.thisPcent_4.Name = "thisPcent_4";
             this.thisPcent_4.Size = new System.Drawing.Size(45, 20);
             this.thisPcent_4.TabIndex = 14;
-            this.thisPcent_4.Text = "00";
+            this.thisPcent_4.Text = "-";
             this.thisPcent_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // thisPcent_5
@@ -214,7 +216,7 @@ namespace Chapter05
             this.thisPcent_5.Name = "thisPcent_5";
             this.thisPcent_5.Size = new System.Drawing.Size(45, 20);
             this.thisPcent_5.TabIndex = 13;
-            this.thisPcent_5.Text = "00";
+            this.thisPcent_5.Text = "-";
             this.thisPcent_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // thisPcent_6
@@ -228,7 +230,7 @@ namespace Chapter05
             this.thisPcent_6.Name = "thisPcent_6";
             this.thisPcent_6.Size = new System.Drawing.Size(45, 20);
             this.thisPcent_6.TabIndex = 12;
-            this.thisPcent_6.Text = "00";
+            this.thisPcent_6.Text = "-";
             this.thisPcent_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // thisPcent_3
@@ -242,7 +244,7 @@ namespace Chapter05
             this.thisPcent_3.Name = "thisPcent_3";
             this.thisPcent_3.Size = new System.Drawing.Size(45, 20);
             this.thisPcent_3.TabIndex = 11;
-            this.thisPcent_3.Text = "00";
+            this.thisPcent_3.Text = "-";
             this.thisPcent_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // thisPcent_2
@@ -256,7 +258,7 @@ namespace Chapter05
             this.thisPcent_2.Name = "thisPcent_2";
             this.thisPcent_2.Size = new System.Drawing.Size(45, 20);
             this.thisPcent_2.TabIndex = 10;
-            this.thisPcent_2.Text = "00";
+            this.thisPcent_2.Text = "-";
             this.thisPcent_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // thisPcent_1
@@ -270,7 +272,7 @@ namespace Chapter05
             this.thisPcent_1.Name = "thisPcent_1";
             this.thisPcent_1.Size = new System.Drawing.Size(45, 20);
             this.thisPcent_1.TabIndex = 9;
-            this.thisPcent_1.Text = "00";
+            this.thisPcent_1.Text = "-";
             this.thisPcent_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // gongImg_7
@@ -321,10 +323,10 @@ namespace Chapter05
             // 
             this.lottoLogo.BackColor = System.Drawing.Color.Transparent;
             this.lottoLogo.Image = ((System.Drawing.Image)(resources.GetObject("lottoLogo.Image")));
-            this.lottoLogo.Location = new System.Drawing.Point(260, 79);
-            this.lottoLogo.Margin = new System.Windows.Forms.Padding(200, 30, 4, 5);
+            this.lottoLogo.Location = new System.Drawing.Point(229, 74);
+            this.lottoLogo.Margin = new System.Windows.Forms.Padding(0);
             this.lottoLogo.Name = "lottoLogo";
-            this.lottoLogo.Size = new System.Drawing.Size(280, 100);
+            this.lottoLogo.Size = new System.Drawing.Size(342, 100);
             this.lottoLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.lottoLogo.TabIndex = 16;
             this.lottoLogo.TabStop = false;
@@ -374,14 +376,30 @@ namespace Chapter05
             this.HelpLabelTxt.Text = "?";
             this.HelpLabelTxt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // makeExcelNum
+            // 
+            this.makeExcelNum.BackColor = System.Drawing.SystemColors.Window;
+            this.makeExcelNum.BorderColor = System.Drawing.Color.Gray;
+            this.makeExcelNum.Font = new System.Drawing.Font("맑은 고딕", 10F);
+            this.makeExcelNum.LeftRightPadding = ((uint)(10u));
+            this.makeExcelNum.Location = new System.Drawing.Point(395, 205);
+            this.makeExcelNum.Margin = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.makeExcelNum.Name = "makeExcelNum";
+            this.makeExcelNum.Size = new System.Drawing.Size(76, 40);
+            this.makeExcelNum.TabIndex = 26;
+            this.makeExcelNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.makeExcelNum.Enter += new System.EventHandler(this.makeExcelNum_Enter);
+            // 
             // makeRandTxtBox
             // 
             this.makeRandTxtBox.BackColor = System.Drawing.SystemColors.Window;
             this.makeRandTxtBox.BorderColor = System.Drawing.Color.Gray;
+            this.makeRandTxtBox.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.makeRandTxtBox.LeftRightPadding = ((uint)(10u));
-            this.makeRandTxtBox.Location = new System.Drawing.Point(260, 205);
+            this.makeRandTxtBox.Location = new System.Drawing.Point(229, 205);
+            this.makeRandTxtBox.Margin = new System.Windows.Forms.Padding(0);
             this.makeRandTxtBox.Name = "makeRandTxtBox";
-            this.makeRandTxtBox.Size = new System.Drawing.Size(192, 40);
+            this.makeRandTxtBox.Size = new System.Drawing.Size(160, 40);
             this.makeRandTxtBox.TabIndex = 24;
             this.makeRandTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.makeRandTxtBox.Enter += new System.EventHandler(this.makeRandTxtBox_Enter);
@@ -393,6 +411,7 @@ namespace Chapter05
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Chapter05.Properties.Resources.mainBg_gray;
             this.ClientSize = new System.Drawing.Size(784, 501);
+            this.Controls.Add(this.makeExcelNum);
             this.Controls.Add(this.HelpLabelTxt);
             this.Controls.Add(this.button_test);
             this.Controls.Add(this.lottoLogo);
@@ -471,6 +490,7 @@ namespace Chapter05
         private System.Windows.Forms.PictureBox gongImg_7;
         private VerticalTextBox makeRandTxtBox;
         private Sunny.UI.UILabel HelpLabelTxt;
+        private VerticalTextBox makeExcelNum;
     }
 }
 

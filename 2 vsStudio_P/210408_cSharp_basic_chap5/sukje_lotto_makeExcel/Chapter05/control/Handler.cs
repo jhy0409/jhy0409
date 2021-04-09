@@ -12,27 +12,18 @@ namespace Chapter05.cont
         public Handler()
         {
             iplyok();
-
         }
-
         readonly List<LottoN> lottoNumNIndex = new List<LottoN>();
-        readonly double[] joncheHwaklyul = { 9.3, 8.7, 8.7, 9.3,  8.4,
-                                        8.4, 8.4, 8.4, 7, 9,
-                                        8.6, 9.2, 9.3, 8.7, 8.4,
-
-                                        8.4, 9.3, 8.9, 8.5, 9,
-                                        8.5, 7.1, 7.5, 8.6, 8,
-                                        8.8, 9.5, 7.7, 7.4, 8.3,
-
-                                        8.7, 7.7, 9.1, 9.4, 8.2,
-                                        8.4, 8.6, 8.9, 9.1, 8.9,
-                                        7.6, 8.3, 10, 8.3, 8.5};
+        readonly double[] joncheHwaklyul = { 9.3, 8.7, 8.7, 9.3, 8.4, 8.4, 8.4, 8.4, 7,   9,
+                                             8.6, 9.2, 9.3, 8.7, 8.4, 8.4, 9.3, 8.9, 8.5, 9,
+                                             8.5, 7.1, 7.5, 8.6, 8,   8.8, 9.5, 7.7, 7.4, 8.3,
+                                             8.7, 7.7, 9.1, 9.4, 8.2, 8.4, 8.6, 8.9, 9.1, 8.9,
+                                             7.6, 8.3, 10,  8.3, 8.5};
         int[] goodLuck = new int[7];
-
-
+        List<Array> arr = new List<Array>();
         public int[] GoodLuck { get => goodLuck; set => goodLuck = value; }
 
-        public void makeLotto(int randNum)
+        public int[] makeLotto(int randNum)
         {
             for (int i = 0; i < goodLuck.Length; i++)
             {
@@ -43,7 +34,7 @@ namespace Chapter05.cont
                 {
                     i--;
                 }
-                
+
                 if (i >= (goodLuck.Length - randNum)) // 마지막 번호 randNum개는 랜덤
                 {
                     goodLuck[i] = r.Next(1, 46);
@@ -62,7 +53,45 @@ namespace Chapter05.cont
                 Console.Write($"{goodLuck[i]},\t");
             }
             Console.WriteLine();
+            return goodLuck;
         }
+
+
+
+
+
+
+        public void makeLotto(int randNum, int makeSave)   
+        {
+            // 오름차순 정렬, 각 n번째 중복체크 위함
+
+            /*
+             * ㅁㅁㅁㅁㅁ 1
+             * ㅁㅁㅁㅁㅁ 2
+             */
+            for (int i = 0; i < makeSave; i++)
+            {
+                goodLuck = makeLotto(randNum);
+                Array.Sort(goodLuck);
+                arr.Add(goodLuck);
+                _ = arr.Distinct();
+            }
+            Console.WriteLine($"\n\n중복값을 제거하여 {arr.Count}개 생성"); // 갯수만큼 생성
+            /*foreach (var item in arr)
+            {
+                Console.WriteLine(item[]);
+            }*/
+
+            for (int i = 0; i < arr.Count; i++)
+            {
+                for (int j = 0; j < 7; j++)
+                {
+                    //Console.Write(arr[i, j]); // <--------------------------
+                }
+            }
+        }
+
+
 
 
         public void iplyok()

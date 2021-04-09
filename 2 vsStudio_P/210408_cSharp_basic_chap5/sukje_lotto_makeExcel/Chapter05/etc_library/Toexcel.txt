@@ -1,0 +1,4 @@
+make() -> 배열 1개 / 1행 7열 (리턴값 : 배열주소)
+
+C#으로 워크시트 셀에 값, 함수 넣기
+https://hostramus.tistory.com/96

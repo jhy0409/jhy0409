@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4AA11D42-DCC7-4306-BC37-35BC2ADA1F6E}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>Chapter05</RootNamespace>
     <AssemblyName>makeLotto_v1_0</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>

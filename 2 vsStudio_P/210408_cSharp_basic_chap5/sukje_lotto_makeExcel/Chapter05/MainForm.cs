@@ -14,6 +14,8 @@ namespace Chapter05
     public partial class MainForm : Form
     {
         Handler hd = new Handler();
+        const string MUSINUM = "확률무시 랜덤생성 수";
+        const string SAVE_EXCEL_NUM = "번호7개 최대생성 수";
         public MainForm()
         {
             InitializeComponent();
@@ -27,19 +29,33 @@ namespace Chapter05
             try
             {
 
-                if (makeRandTxtBox.Text == "확률무시 랜덤생성 수")
+                if (makeRandTxtBox.Text == MUSINUM || makeRandTxtBox.Text == "")
                 {
                     makeRandTxtBox.Text = "0";
                 }
 
+                if (makeExcelNum.Text == SAVE_EXCEL_NUM || makeExcelNum.Text == "")
+                {
+                    makeExcelNum.Text = "0";
+                }
+
                 int makeR = int.Parse(makeRandTxtBox.Text);
+                int makeSave = int.Parse(makeExcelNum.Text);
                 if (makeR > 7 || makeR < 0)
                 {
                     MessageBox.Show("0~7사이의 값을 입력하세요\n 0으로 다시 초기화합니다.");
                     makeRandTxtBox.Text = "0";
                     return;
                 }
-                hd.makeLotto(makeR);
+
+                if (makeSave == 0)
+                {
+                    hd.makeLotto(makeR);
+                }
+                else
+                {
+                    hd.makeLotto(makeR,makeSave);
+                }
             }
             catch (FormatException)
             {
@@ -76,8 +92,13 @@ namespace Chapter05
         {
             if (makeRandTxtBox.Text == "")
             {
-                makeRandTxtBox.Text = "확률무시 랜덤생성 수";
+                makeRandTxtBox.Text = MUSINUM;
                 makeRandTxtBox.ForeColor = Color.Gray;
+            }
+            if (makeExcelNum.Text == "")
+            {
+                makeExcelNum.Text = SAVE_EXCEL_NUM;
+                makeExcelNum.ForeColor = Color.Gray;
             }
         }
 
@@ -90,23 +111,17 @@ namespace Chapter05
             }
         }
 
+        private void makeExcelNum_Enter(object sender, EventArgs e)
+        {
+            if (makeExcelNum.Text.Length > 0)
+            {
+                makeExcelNum.Text = string.Empty;
+                makeExcelNum.ForeColor = Color.Black;
+            }
+        }
+
         private void initLabelText()
         {
-            label_num1.Text = "1";
-            thisPcent_1.Text = "-";
-            label_num2.Text = "2";
-            thisPcent_2.Text = "-";
-            label_num3.Text = "3";
-            thisPcent_3.Text = "-";
-
-            label_num4.Text = "4";
-            thisPcent_4.Text = "-";
-            label_num5.Text = "5";
-            thisPcent_5.Text = "-";
-            label_num6.Text = "6";
-            thisPcent_6.Text = "-";
-            label_num7.Text = "7";
-            thisPcent_7.Text = "-";
             var pos1 = this.PointToScreen(label_num1.Location); // 스택오버플로우 참고.. 라벨텍스트 배경색 투명으로
             pos1 = gongImg_1.PointToClient(pos1);
             label_num1.Parent = gongImg_1;
