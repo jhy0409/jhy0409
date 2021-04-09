@@ -1,0 +1,8 @@
+https://appadal.tistory.com/1104
+
+2. textbox vertical alignment [텍스트 박스, 텍스트(글자) 높이 중앙정렬]
+https://program-day.tistory.com/23
+
+3. Transparent control over PictureBox [최종]
+Transparent control over PictureBox - Stack Overflow - 
+https://stackoverflow.com/questions/9387267/transparent-control-over-picturebox
