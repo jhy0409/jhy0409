@@ -26,7 +26,6 @@ namespace Chapter05
         {
             try
             {
-
                 if (makeRandTxtBox.Text == "확률무시 랜덤생성 수")
                 {
                     makeRandTxtBox.Text = "0";
@@ -49,27 +48,10 @@ namespace Chapter05
             }
 
             int[] gluck = hd.GoodLuck;
-            label_num1.Text = gluck[0].ToString();
-            thisPcent_1.Text = ((hd.hwaklyul(gluck[0])) * 10).ToString() + "%";
-
-            label_num2.Text = gluck[1].ToString();
-            thisPcent_2.Text = ((hd.hwaklyul(gluck[1])) * 10).ToString() + "%";
-
-            label_num3.Text = gluck[2].ToString();
-            thisPcent_3.Text = ((hd.hwaklyul(gluck[2])) * 10).ToString() + "%";
-
-            label_num4.Text = gluck[3].ToString();
-            thisPcent_4.Text = ((hd.hwaklyul(gluck[3])) * 10).ToString() + "%";
-
-            label_num5.Text = gluck[4].ToString();
-            thisPcent_5.Text = ((hd.hwaklyul(gluck[4])) * 10).ToString() + "%";
-
-            label_num6.Text = gluck[5].ToString();
-            thisPcent_6.Text = ((hd.hwaklyul(gluck[5])) * 10).ToString() + "%";
-
-            label_num7.Text = gluck[6].ToString();
-            thisPcent_7.Text = ((hd.hwaklyul(gluck[6])) * 10).ToString() + "%";
-
+            Label[] labelNum = { label_num1, label_num2, label_num3, label_num4, label_num5, label_num6, label_num7 };
+            Label[] thisPerc = { thisPcent_1, thisPcent_2, thisPcent_3, thisPcent_4, thisPcent_5, thisPcent_6, thisPcent_7 };
+            PctTxtShowRed(thisPerc, gluck);
+            changeLabel(labelNum, thisPerc, gluck);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -92,62 +74,32 @@ namespace Chapter05
 
         private void initLabelText()
         {
-            label_num1.Text = "1";
-            thisPcent_1.Text = "-";
-            label_num2.Text = "2";
-            thisPcent_2.Text = "-";
-            label_num3.Text = "3";
-            thisPcent_3.Text = "-";
+            Label[] labelNum = { label_num1, label_num2, label_num3, label_num4, label_num5, label_num6, label_num7 };
+            Label[] thisPerc = { thisPcent_1, thisPcent_2, thisPcent_3, thisPcent_4, thisPcent_5, thisPcent_6, thisPcent_7 }; 
+            PictureBox[] picBox = { gongImg_1, gongImg_2, gongImg_3, gongImg_4, gongImg_5, gongImg_6, gongImg_7 };
+            for (int i = 0; i < thisPerc.Length; i++)
+            {
+                labelNum[i].Text = (i + 1).ToString();
+                thisPerc[i].Text = "-";
+            }
 
-            label_num4.Text = "4";
-            thisPcent_4.Text = "-";
-            label_num5.Text = "5";
-            thisPcent_5.Text = "-";
-            label_num6.Text = "6";
-            thisPcent_6.Text = "-";
-            label_num7.Text = "7";
-            thisPcent_7.Text = "-";
-            var pos1 = this.PointToScreen(label_num1.Location); // 스택오버플로우 참고.. 라벨텍스트 배경색 투명으로
+
+            for (int i = 0; i < labelNum.Length; i++) // 아래** 줄인 것
+            {
+                var pos = this.PointToScreen(labelNum[i].Location);
+                pos = picBox[i].PointToClient(pos);
+                labelNum[i].Parent = picBox[i];
+                labelNum[i].Location = pos;
+                labelNum[i].BackColor = Color.Transparent;
+            }
+
+            // 스택오버플로우 참고.. 라벨텍스트 배경색 투명으로  --> 1~7까지 숫자만 바꿔서 쳐야하는 코드**
+            /*
+            var pos1 = this.PointToScreen(label_num1.Location); 
             pos1 = gongImg_1.PointToClient(pos1);
             label_num1.Parent = gongImg_1;
             label_num1.Location = pos1;
-            label_num1.BackColor = Color.Transparent;
-
-            var pos2 = this.PointToScreen(label_num2.Location);
-            pos2 = gongImg_2.PointToClient(pos2);
-            label_num2.Parent = gongImg_2;
-            label_num2.Location = pos2;
-            label_num2.BackColor = Color.Transparent;
-
-            var pos3 = this.PointToScreen(label_num3.Location);
-            pos3 = gongImg_3.PointToClient(pos3);
-            label_num3.Parent = gongImg_3;
-            label_num3.Location = pos3;
-            label_num3.BackColor = Color.Transparent;
-
-            var pos4 = this.PointToScreen(label_num4.Location);
-            pos4 = gongImg_4.PointToClient(pos4);
-            label_num4.Parent = gongImg_4;
-            label_num4.Location = pos4;
-            label_num4.BackColor = Color.Transparent;
-
-            var pos5 = this.PointToScreen(label_num5.Location);
-            pos5 = gongImg_5.PointToClient(pos5);
-            label_num5.Parent = gongImg_5;
-            label_num5.Location = pos5;
-            label_num5.BackColor = Color.Transparent;
-
-            var pos6 = this.PointToScreen(label_num6.Location);
-            pos6 = gongImg_6.PointToClient(pos6);
-            label_num6.Parent = gongImg_6;
-            label_num6.Location = pos6;
-            label_num6.BackColor = Color.Transparent;
-
-            var pos7 = this.PointToScreen(label_num7.Location);
-            pos7 = gongImg_7.PointToClient(pos7);
-            label_num7.Parent = gongImg_7;
-            label_num7.Location = pos7;
-            label_num7.BackColor = Color.Transparent;
+            label_num1.BackColor = Color.Transparent;*/
         }
 
         private void showHelp() //msDOC 툴팁 내용 참고 
@@ -158,7 +110,7 @@ namespace Chapter05
             // Set up the delays for the ToolTip.
             tTip.AutoPopDelay = 6000;
             tTip.InitialDelay = 500;
-            tTip.ReshowDelay = 10000;
+            tTip.ReshowDelay = 15000;
             // Force the ToolTip text to be displayed whether or not the form is active.
             tTip.ShowAlways = false;
 
@@ -171,6 +123,29 @@ namespace Chapter05
                 "  확률이 90%미만인 번호의 갯수 : 33");
         }
 
+        private void PctTxtShowRed(Label[] thisPerc, int[] gluck)
+        {
+            for (int i = 0; i < gluck.Length; i++)
+            {
+                int hk = (int)(hd.hwaklyul(gluck[i]) * 100);
+                if (hk < 90)
+                {
+                    thisPerc[i].ForeColor = Color.Red;
+                }
+                else
+                {
+                    thisPerc[i].ForeColor = Color.Black;
+                }
+            }
+        }
 
+        private void changeLabel(Label[] labelNum, Label[] thisPerc, int[] gluck)
+        {
+            for (int i = 0; i < labelNum.Length; i++)
+            {
+                labelNum[i].Text = gluck[i].ToString();
+                thisPerc[i].Text = ((hd.hwaklyul(gluck[i])) * 100).ToString() + "%";
+            }
+        }
     }
 }

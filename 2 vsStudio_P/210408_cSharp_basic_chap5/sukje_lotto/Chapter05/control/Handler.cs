@@ -16,17 +16,11 @@ namespace Chapter05.cont
         }
 
         readonly List<LottoN> lottoNumNIndex = new List<LottoN>();
-        readonly double[] joncheHwaklyul = { 9.3, 8.7, 8.7, 9.3,  8.4,
-                                        8.4, 8.4, 8.4, 7, 9,
-                                        8.6, 9.2, 9.3, 8.7, 8.4,
-
-                                        8.4, 9.3, 8.9, 8.5, 9,
-                                        8.5, 7.1, 7.5, 8.6, 8,
-                                        8.8, 9.5, 7.7, 7.4, 8.3,
-
-                                        8.7, 7.7, 9.1, 9.4, 8.2,
-                                        8.4, 8.6, 8.9, 9.1, 8.9,
-                                        7.6, 8.3, 10, 8.3, 8.5};
+        readonly double[] joncheHwaklyul = {0.93, 0.87, 0.87, 0.93, 0.84, 0.84, 0.84, 0.84, 0.7,  0.9, 
+                                            0.86, 0.92, 0.93, 0.87, 0.84, 0.84, 0.93, 0.89, 0.85, 0.9, 
+                                            0.85, 0.71, 0.75, 0.86, 0.8,  0.88, 0.95, 0.77, 0.74, 0.83, 
+                                            0.87, 0.77, 0.91, 0.94, 0.82, 0.84, 0.86, 0.89, 0.91, 0.89, 
+                                            0.76, 0.83, 1,    0.83, 0.85};
         int[] goodLuck = new int[7];
 
 
@@ -39,7 +33,7 @@ namespace Chapter05.cont
                 goodLuck[i] = r.Next(1, 46);
                 //Console.Write($"{goodLuck[i]}, "); // 생성 값
 
-                if (i < (goodLuck.Length - randNum) && hwaklyul(goodLuck[i]) < 9) // (7 - randNum)번째 숫자까지는 번호당 확률 70%이상
+                if (i < (goodLuck.Length - randNum) && hwaklyul(goodLuck[i]) < 0.9) // (7 - randNum)번째 숫자까지는 번호당 확률 70%이상
                 {
                     i--;
                 }
@@ -57,6 +51,8 @@ namespace Chapter05.cont
                     }
                 }
             }
+            Array.Sort(goodLuck);
+
             for (int i = 0; i < goodLuck.Length; i++)
             {
                 Console.Write($"{goodLuck[i]},\t");
