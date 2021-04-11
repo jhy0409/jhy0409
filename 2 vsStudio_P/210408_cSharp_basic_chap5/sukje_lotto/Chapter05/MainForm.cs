@@ -14,6 +14,7 @@ namespace Chapter05
     public partial class MainForm : Form
     {
         Handler hd = new Handler();
+        const string HINTED_TEXT = "확률무시 랜덤생성 수";
         public MainForm()
         {
             InitializeComponent();
@@ -26,7 +27,7 @@ namespace Chapter05
         {
             try
             {
-                if (makeRandTxtBox.Text == "확률무시 랜덤생성 수")
+                if (makeRandTxtBox.Text == HINTED_TEXT)
                 {
                     makeRandTxtBox.Text = "0";
                 }
@@ -58,7 +59,7 @@ namespace Chapter05
         {
             if (makeRandTxtBox.Text == "")
             {
-                makeRandTxtBox.Text = "확률무시 랜덤생성 수";
+                makeRandTxtBox.Text = HINTED_TEXT;
                 makeRandTxtBox.ForeColor = Color.Gray;
             }
         }
