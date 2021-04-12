@@ -31,12 +31,64 @@ namespace StudentListManager
             students.Add(new Student() { name = "이름 5", grade = 1 });
             students.Add(new Student() { name = "이름 6", grade = 2 });
 
-            string names = "";
+            //string names = "";
             for (int i = 0; i < students.Count; i++)
             {
-                names += students[i].name + ", "+students[i].grade+" \n";
+                //names += students[i].name + ", "+students[i].grade+" \n";
+                Label label = new Label();
+                label.Text = $"{students[i].grade}학년 {students[i].name} 학생";
+                label.AutoSize = true;
+                label.Location = new Point(13, 13 + (26 * i));
+                Controls.Add(label);
             }
-            MessageBox.Show(names);
+            // MessageBox.Show(names);
+
+
+
+
+
+            //for (int i = 0; i < length; i++) { } // 일반적 for문
+            /*for (int i = students.Count - 1; i > 0; i--)
+            {
+                if (students[i].grade > 1)
+                    students.RemoveAt(i);
+            }
+
+            for (int i = 0; i < students.Count; i++)
+            {
+                //names += students[i].name + ", "+students[i].grade+" \n";
+                Label label = new Label();
+                label.Text = $"{students[i].grade}학년 {students[i].name} 학생";
+                label.AutoSize = true;
+                label.Location = new Point(130, 13 + (26 * i));
+                Controls.Add(label);
+            }*/
+
+
+
+
+            //for (int i = 0; i < length; i++) { } // 일반적 for문
+            for (int i =0; i <students.Count; i++)
+            {
+                if (students[i].grade > 1)
+                {
+                    students.RemoveAt(i);
+                    i--;
+                }
+            }
+
+            for (int i = 0; i < students.Count; i++)
+            {
+                //names += students[i].name + ", "+students[i].grade+" \n";
+                Label label = new Label();
+                label.Text = $"{students[i].grade}학년 {students[i].name} 학생";
+                label.AutoSize = true;
+                label.Location = new Point(260, 13 + (26 * i));
+                Controls.Add(label);
+            }
+
+
+
         }
     }
 }

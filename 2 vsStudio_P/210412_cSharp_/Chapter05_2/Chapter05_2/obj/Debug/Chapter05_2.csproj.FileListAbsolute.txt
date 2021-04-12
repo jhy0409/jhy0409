@@ -7,4 +7,3 @@ D:\임시\Git\jhy0409\2 vsStudio_P\210412_cSharp_\Chapter05_2\Chapter05_2\obj\De
 D:\임시\Git\jhy0409\2 vsStudio_P\210412_cSharp_\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.csproj.CoreCompileInputs.cache
 D:\임시\Git\jhy0409\2 vsStudio_P\210412_cSharp_\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.exe
 D:\임시\Git\jhy0409\2 vsStudio_P\210412_cSharp_\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.pdb
-D:\임시\Git\jhy0409\2 vsStudio_P\210412_cSharp_\Chapter05_2\Chapter05_2\obj\Debug\Chapter05_2.csprojAssemblyReference.cache
