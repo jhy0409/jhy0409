@@ -115,6 +115,7 @@ namespace Chapter05
             this.Controls.Add(this.label_num1);
             this.Controls.Add(this.button_test);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
