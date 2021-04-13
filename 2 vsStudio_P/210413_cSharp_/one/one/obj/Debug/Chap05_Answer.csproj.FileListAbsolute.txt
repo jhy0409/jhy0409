@@ -1,0 +1,10 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\bin\Debug\one.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\bin\Debug\one.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\bin\Debug\one.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\obj\Debug\Chap05_Answer.csprojAssemblyReference.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\obj\Debug\one.Form1.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\obj\Debug\one.Properties.Resources.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\obj\Debug\Chap05_Answer.csproj.GenerateResource.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\obj\Debug\Chap05_Answer.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\obj\Debug\one.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\one\obj\Debug\one.pdb

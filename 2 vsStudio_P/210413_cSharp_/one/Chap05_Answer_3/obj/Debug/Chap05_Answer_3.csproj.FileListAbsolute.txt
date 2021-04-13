@@ -1,0 +1,9 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\bin\Debug\Chap05_Answer_3.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\bin\Debug\Chap05_Answer_3.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\bin\Debug\Chap05_Answer_3.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\obj\Debug\Chap05_Answer_3.Form1.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\obj\Debug\Chap05_Answer_3.Properties.Resources.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\obj\Debug\Chap05_Answer_3.csproj.GenerateResource.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\obj\Debug\Chap05_Answer_3.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\obj\Debug\Chap05_Answer_3.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\one\Chap05_Answer_3\obj\Debug\Chap05_Answer_3.pdb
