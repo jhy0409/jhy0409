@@ -1,9 +1,0 @@
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\bin\Debug\Pulee_Sam.exe.config
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\bin\Debug\Pulee_Sam.exe
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\bin\Debug\Pulee_Sam.pdb
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\obj\Debug\Pulee_Sam.Form1.resources
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\obj\Debug\Pulee_Sam.Properties.Resources.resources
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\obj\Debug\Chap06MiddleQue1.csproj.GenerateResource.cache
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\obj\Debug\Chap06MiddleQue1.csproj.CoreCompileInputs.cache
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\obj\Debug\Pulee_Sam.exe
-D:\임시\Git\jhy0409\2 vsStudio_P\210413_cSharp_\Chap06_1\Pulee_Sam\obj\Debug\Pulee_Sam.pdb

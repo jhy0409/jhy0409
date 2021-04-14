@@ -1,0 +1,10 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\bin\Debug\getset.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\bin\Debug\getset.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\bin\Debug\getset.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\obj\Debug\getset.Form1.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\obj\Debug\getset.Properties.Resources.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\obj\Debug\getset.csproj.GenerateResource.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\obj\Debug\getset.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\obj\Debug\getset.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\obj\Debug\getset.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\getset\obj\Debug\getset.csprojAssemblyReference.cache
