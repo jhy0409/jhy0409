@@ -7,3 +7,13 @@ D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\ob
 D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_Function.csproj.CoreCompileInputs.cache
 D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_func.exe
 D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_func.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\bin\Debug\Descript_func.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\bin\Debug\Descript_func.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\bin\Debug\Descript_func.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_Function.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_func.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_func.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_Function.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_Function.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_func.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\Descript_func\obj\Debug\Descript_func.pdb

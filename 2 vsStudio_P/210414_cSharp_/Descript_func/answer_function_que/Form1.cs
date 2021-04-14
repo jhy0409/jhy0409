@@ -61,7 +61,7 @@ namespace answer_function_que
             MyMath a = new MyMath();
             a.end = 100;
 
-            //a.abc = 100;
+            //a.abc = 100;  //보호 수준때문에 접근 안 됨
         }
     }
 }

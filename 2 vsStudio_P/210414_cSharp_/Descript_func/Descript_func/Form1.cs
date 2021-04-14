@@ -68,7 +68,7 @@ namespace Descript_func
         private void button5_Click(object sender, EventArgs e)
         {
             // int.Parse 대신에 쓸 수 있는 것 1
-            // 버튼 ctrl - drag XXX
+            // 버튼 ctrl - drag XXX, 함수까지 같이 참조(복사)됨
             try
             {
                 int num = int.Parse(textBox1.Text);
@@ -106,7 +106,7 @@ namespace Descript_func
             //int number;
             //bool result = int.TryParse(textBox1.Text, out number);
 
-            bool result = int.TryParse(textBox1.Text, out int number); // ~2015 안됨
+            bool result = int.TryParse(textBox1.Text, out int number); // 바로선언 : ~2015 안됨
             // number(0,1)값 할당, true, false값 반환
             if (result == false)
             {
@@ -188,7 +188,7 @@ namespace Descript_func
             int input = int.Parse(textBox1.Text);
             int end = int.Parse(textBox2.Text);
             MessageBox.Show($"{textBox1.Text}의 제곱 : {myMath.power(input)}");
-            // 2번 모르겠 (재귀함수로?)
+            // 2번 ?
 
             // 3번
             string result = myMath.sumAll(input) + "";

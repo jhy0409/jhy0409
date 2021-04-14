@@ -8,3 +8,13 @@ D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_
 D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.csproj.CoreCompileInputs.cache
 D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.exe
 D:\임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\bin\Debug\answer_function_que.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\bin\Debug\answer_function_que.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\bin\Debug\answer_function_que.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210414_cSharp_\Descript_func\answer_function_que\obj\Debug\answer_function_que.pdb

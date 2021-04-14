@@ -23,10 +23,12 @@ namespace answer_function_que
             int result = input;
             for (int i = 0; i < count-1; i++)
             {
-                result *= input;
+                //result *= input;
+                result = result*input;
             }
             return result;
         }
+
 
 
 
