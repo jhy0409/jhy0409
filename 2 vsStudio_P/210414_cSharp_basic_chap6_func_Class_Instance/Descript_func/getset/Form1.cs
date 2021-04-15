@@ -20,10 +20,18 @@ namespace getset
         private void button1_Click(object sender, EventArgs e)
         {
             Rect rec = new Rect();
-            int.TryParse(textBox1.Text, out rec.w);
-            int.TryParse(textBox2.Text, out rec.h);
-
+            bool w = int.TryParse(textBox1.Text, out rec.w);
+            bool h = int.TryParse(textBox2.Text, out rec.h);
+            if (w==true&& h == true)
+            {
             MessageBox.Show("사각형의 넓이는 " + rec.getArea());
+            }
+            else 
+            {
+                MessageBox.Show("유효하지 않은 값");
+            }
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
