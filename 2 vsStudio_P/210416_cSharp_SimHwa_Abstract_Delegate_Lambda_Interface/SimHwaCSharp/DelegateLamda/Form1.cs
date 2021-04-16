@@ -27,8 +27,14 @@ namespace DelegateLamda
             button2.Text = "코드로 만든 버튼";
             button2.AutoSize = true;
             button2.Location = new Point(100, 100); // new Point = c#의 구조체
+
+            button2.Size = new System.Drawing.Size(324, 30);
+            button2.Location = new System.Drawing.Point(186, 150);
+
             button2.Click += Button2_Click; // +=에서 tabtab
             button2.Click += Button2_Click1;
+            button2.TabStop = false;
+
 
             // 함수 별도로 만들기 싫을 때 delegate
             button2.Click += delegate (object sender, EventArgs e)

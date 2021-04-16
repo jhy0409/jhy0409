@@ -8,3 +8,13 @@ D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\DelegateLamda\obj\Debug\
 D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda2.csproj.CoreCompileInputs.cache
 D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda.exe
 D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\bin\Debug\DelegateLamda.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\bin\Debug\DelegateLamda.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\bin\Debug\DelegateLamda.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda2.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda2.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda2.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\SimHwaCSharp\DelegateLamda\obj\Debug\DelegateLamda.pdb

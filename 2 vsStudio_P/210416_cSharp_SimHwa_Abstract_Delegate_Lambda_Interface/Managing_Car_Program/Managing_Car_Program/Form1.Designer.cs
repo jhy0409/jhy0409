@@ -75,7 +75,7 @@ namespace Managing_Car_Program
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.WhatTime});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 554);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 582);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(800, 22);
             this.statusStrip1.TabIndex = 0;
@@ -98,16 +98,16 @@ namespace Managing_Car_Program
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(32, 36);
+            this.groupBox1.Location = new System.Drawing.Point(32, 33);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(290, 149);
+            this.groupBox1.Size = new System.Drawing.Size(359, 155);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "주차출차";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(198, 55);
+            this.button2.Location = new System.Drawing.Point(264, 65);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 10;
@@ -117,7 +117,7 @@ namespace Managing_Car_Program
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(198, 26);
+            this.button1.Location = new System.Drawing.Point(264, 36);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -127,36 +127,36 @@ namespace Managing_Car_Program
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(87, 109);
+            this.textBox4.Location = new System.Drawing.Point(87, 119);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 21);
+            this.textBox4.Size = new System.Drawing.Size(170, 21);
             this.textBox4.TabIndex = 9;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(87, 82);
+            this.textBox3.Location = new System.Drawing.Point(87, 92);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 21);
+            this.textBox3.Size = new System.Drawing.Size(170, 21);
             this.textBox3.TabIndex = 8;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(87, 55);
+            this.textBox2.Location = new System.Drawing.Point(87, 65);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.Size = new System.Drawing.Size(170, 21);
             this.textBox2.TabIndex = 7;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(87, 28);
+            this.textBox1.Location = new System.Drawing.Point(87, 38);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 21);
+            this.textBox1.Size = new System.Drawing.Size(170, 21);
             this.textBox1.TabIndex = 3;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 114);
+            this.label4.Location = new System.Drawing.Point(20, 124);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 6;
@@ -165,7 +165,7 @@ namespace Managing_Car_Program
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 87);
+            this.label3.Location = new System.Drawing.Point(20, 97);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 5;
@@ -174,7 +174,7 @@ namespace Managing_Car_Program
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 60);
+            this.label2.Location = new System.Drawing.Point(20, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 4;
@@ -183,7 +183,7 @@ namespace Managing_Car_Program
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 33);
+            this.label1.Location = new System.Drawing.Point(20, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 3;
@@ -194,16 +194,17 @@ namespace Managing_Car_Program
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Location = new System.Drawing.Point(340, 36);
+            this.groupBox2.Location = new System.Drawing.Point(407, 33);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(16, 0, 0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(298, 149);
+            this.groupBox2.Size = new System.Drawing.Size(359, 155);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "주차공간 조회";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(198, 26);
+            this.button3.Location = new System.Drawing.Point(264, 36);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 11;
@@ -213,15 +214,15 @@ namespace Managing_Car_Program
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(85, 28);
+            this.textBox5.Location = new System.Drawing.Point(85, 38);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 21);
+            this.textBox5.Size = new System.Drawing.Size(170, 21);
             this.textBox5.TabIndex = 12;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 33);
+            this.label5.Location = new System.Drawing.Point(18, 43);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 12);
             this.label5.TabIndex = 13;
@@ -230,7 +231,7 @@ namespace Managing_Car_Program
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dataGridView2);
-            this.groupBox3.Location = new System.Drawing.Point(32, 200);
+            this.groupBox3.Location = new System.Drawing.Point(32, 212);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(734, 195);
             this.groupBox3.TabIndex = 2;
@@ -240,6 +241,7 @@ namespace Managing_Car_Program
             // dataGridView2
             // 
             this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.parkingSpotDataGridViewTextBoxColumn,
@@ -248,7 +250,7 @@ namespace Managing_Car_Program
             this.phoneNumberDataGridViewTextBoxColumn,
             this.parkingTimeDataGridViewTextBoxColumn});
             this.dataGridView2.DataSource = this.parkingCarBindingSource;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 20);
+            this.dataGridView2.Location = new System.Drawing.Point(0, 30);
             this.dataGridView2.MultiSelect = false;
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
@@ -259,7 +261,7 @@ namespace Managing_Car_Program
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(32, 413);
+            this.listBox1.Location = new System.Drawing.Point(32, 431);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(734, 112);
             this.listBox1.TabIndex = 0;
@@ -306,12 +308,13 @@ namespace Managing_Car_Program
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 576);
-            this.Controls.Add(this.listBox1);
+            this.ClientSize = new System.Drawing.Size(800, 604);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.statusStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

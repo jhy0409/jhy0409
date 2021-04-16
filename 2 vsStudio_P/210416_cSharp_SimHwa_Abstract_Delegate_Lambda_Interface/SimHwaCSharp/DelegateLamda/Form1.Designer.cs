@@ -34,11 +34,13 @@ namespace DelegateLamda
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(351, 210);
+            this.button1.Font = new System.Drawing.Font("굴림", 11F);
+            this.button1.Location = new System.Drawing.Point(186, 194);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 30);
+            this.button1.Size = new System.Drawing.Size(324, 96);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
+            this.button1.TabStop = false;
+            this.button1.Text = "delegate 대리자\r\n\r\n* 함수의 변수화 (반환, 매개변수 x), \r\n콜백함수(함수를 매개변수로 받음) 활용";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -46,7 +48,7 @@ namespace DelegateLamda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(680, 450);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
