@@ -1,0 +1,11 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\bin\Debug\SimHwaCSharp.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\bin\Debug\SimHwaCSharp.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\bin\Debug\SimHwaCSharp.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.Form1.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.Form2.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.Properties.Resources.resources
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.csproj.GenerateResource.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210416_\SimHwaCSharp\SimHwaCSharp\obj\Debug\SimHwaCSharp.csprojAssemblyReference.cache

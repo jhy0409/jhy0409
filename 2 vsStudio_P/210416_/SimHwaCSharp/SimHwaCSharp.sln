@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimHwaCSharp1", "SimHwaCSharp\SimHwaCSharp1.csproj", "{61C7B3BC-BF2C-47CA-B430-862A0C071274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateLamda2", "DelegateLamda\DelegateLamda2.csproj", "{F1C34542-9CE9-4A85-80D3-1239ACCEC47E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61C7B3BC-BF2C-47CA-B430-862A0C071274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C7B3BC-BF2C-47CA-B430-862A0C071274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C7B3BC-BF2C-47CA-B430-862A0C071274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C7B3BC-BF2C-47CA-B430-862A0C071274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C34542-9CE9-4A85-80D3-1239ACCEC47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C34542-9CE9-4A85-80D3-1239ACCEC47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C34542-9CE9-4A85-80D3-1239ACCEC47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C34542-9CE9-4A85-80D3-1239ACCEC47E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {901F8159-739F-4C84-B7B4-3F4BC601A354}
+	EndGlobalSection
+EndGlobal
