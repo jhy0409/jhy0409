@@ -125,9 +125,7 @@ namespace Managing_Car_Program
                 di.Create(); // 폴더 만들기
             }
 
-            // 앞에 @가 있으면
-            // \를 한개만 적는다.
-
+            // 앞에 @가 있으면 \를 한개만 적는다.
             // @가 없으면 \\ 두번 써야 \하나로 인식
             //using (StreamWriter writer = new StreamWriter(@"parkingHistory\parkingHistory.txt",true))
 

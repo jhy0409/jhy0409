@@ -52,6 +52,7 @@ namespace SimHwaCSharp
             // 다형성 복습
             Animal a = new Dog();
             Animal b = new Cat();
+
             a.Eat(); // a에는 Dog
             b.Eat(); // b에는 Cat
         }

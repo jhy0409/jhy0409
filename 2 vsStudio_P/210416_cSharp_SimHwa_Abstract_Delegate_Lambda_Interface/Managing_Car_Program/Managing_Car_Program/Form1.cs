@@ -29,14 +29,13 @@ namespace Managing_Car_Program
             //    parkingTime = DateTime.Now
             //});
 
+            //cars.Add(new ParkingCar());
+
             dataGridView2.DataSource = DataManager.Cars;
             textBox1.Text = DataManager.Cars[0].parkingSpot.ToString();
             textBox2.Text = DataManager.Cars[0].carNumber.ToString();
             textBox3.Text = DataManager.Cars[0].driverName.ToString();
             textBox4.Text = DataManager.Cars[0].phoneNumber.ToString();
-
-            //cars.Add(new ParkingCar());
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -51,7 +50,6 @@ namespace Managing_Car_Program
 
         private void button2_Click(object sender, EventArgs e) // 출차
         {
-
             writeLog("2번버튼 클릭");
         }
 
@@ -68,7 +66,7 @@ namespace Managing_Car_Program
             string logContents = $"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}] " +
                 $"{contents}";
 
-            // 옛날것이 가자 위에 올라가는 방식 새로운 내용이 뒤에 추가 되어, 새내용 보려면 밑으로 내려가야함
+            // 옛날것이 가장 위에 올라가는 방식 새로운 내용이 뒤에 추가 되어, 새내용 보려면 밑으로 내려가야함
             // listBox1.Items.Add(logContents);
             // 새로운 것이 가장 위에 올라가는 방식 새 내용이 가장 앞에 있음
             listBox1.Items.Insert(0, logContents); // 지정위치에 삽입
@@ -83,10 +81,6 @@ namespace Managing_Car_Program
             // int a = 1; // MessageBox.Show(a.ToString("00"));  // 01이라고 출력됨. 3자리이상 입력시 그대로 출력
             string logContents = $"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}] " +
                 $"{contents}";
-
-            // 옛날것이 가자 위에 올라가는 방식 새로운 내용이 뒤에 추가 되어, 새내용 보려면 밑으로 내려가야함
-            // listBox1.Items.Add(logContents);
-            // 새로운 것이 가장 위에 올라가는 방식 새 내용이 가장 앞에 있음 //List<int> list = new List<int>(); list.Insert(0, 1);
 
             listBox1.Items.Insert(0, logContents); // 지정위치에 삽입
             DataManager.printLog(logContents, date);

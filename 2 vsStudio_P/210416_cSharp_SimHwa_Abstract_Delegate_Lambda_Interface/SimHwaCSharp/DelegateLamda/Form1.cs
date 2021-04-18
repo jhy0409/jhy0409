@@ -43,7 +43,7 @@ namespace DelegateLamda
             };
 
             // 람다
-            button2.Click += (object sender, EventArgs e) => { MessageBox.Show("lamda");};
+            button2.Click += (object sender, EventArgs e) => { MessageBox.Show("labmda");};
 
             Controls.Add(button2);
         }
@@ -64,21 +64,20 @@ namespace DelegateLamda
 
             // 무명함수
             TestDelegate b = delegate () 
-                { MessageBox.Show("안녕 이름"); };
+                { MessageBox.Show("안녕 이름 1"); };
 
             // 람다 [delegate ()] == [() =>]
-            TestDelegate c = () => { MessageBox.Show("안녕 이름"); };
+            TestDelegate c = () => { MessageBox.Show("안녕 이름 2"); };
 
             a();
             b();
             c();
             exCallBack(a);
-
         }
 
         private void Hello()
         {
-            MessageBox.Show("안녕 이름");
+            MessageBox.Show("안녕 이름 (Hello Method)");
         }
 
         private void exCallBack(TestDelegate t)
