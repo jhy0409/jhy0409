@@ -72,8 +72,8 @@ namespace Managing_Car_Program
                     if (car.carNumber.Trim() != "") // 이미 차 정보가 저장돼있음
                     {
                         msg = "해당 공간에는 이미 주차되어있습니다.";
-                        MessageBox.Show(msg);
-                        writeLog(msg + ", " + textBox1.Text);
+                        MessageBox.Show(msg + " " + car.parkingSpot + "번 주차공간");
+                        writeLog(msg + " " + car.parkingSpot + "번 주차공간");
                     }
                     else // 아직 차 정보가 없음
                     {
@@ -83,8 +83,8 @@ namespace Managing_Car_Program
                         car.phoneNumber = textBox4.Text;
                         car.parkingTime = DateTime.Now;
 
-                        dataGridView2.DataSource = null; // <--------------------------------------------------- ★??
-                        dataGridView2.DataSource = DataManager.Cars;
+                        dataGridView2.DataSource = null; // <----------- 비운 다음
+                        dataGridView2.DataSource = DataManager.Cars; // 다시 초기화
                         DataManager.Save();
 
                         string contens = $"주차공간 {textBox1.Text}에 {textBox2.Text}차를 주차함";
@@ -94,7 +94,7 @@ namespace Managing_Car_Program
                 }
                 catch (Exception ex)
                 {
-                    string contents = $"주차할 수 없습니다. "+ textBox1.Text;
+                    string contents = $"주차할 수 없습니다. " + textBox1.Text;
                     MessageBox.Show(contents);
                     writeLog(contents);
                     writeLog(ex.Message);
@@ -106,7 +106,7 @@ namespace Managing_Car_Program
         private void button2_Click(object sender, EventArgs e) // 출차
         {
             writeLog("출차버튼 클릭");
-            if(textBox1.Text.Trim() == "")
+            if (textBox1.Text.Trim() == "")
             {
                 MessageBox.Show("주차공간 번호를 입력해주세요");
                 return;
@@ -117,7 +117,7 @@ namespace Managing_Car_Program
             {
                 for (int i = 0; i < DataManager.Cars.Count; i++)
                 {
-                    if(DataManager.Cars[i].parkingSpot.ToString() == textBox1.Text)
+                    if (DataManager.Cars[i].parkingSpot.ToString() == textBox1.Text)
                     {
                         if (DataManager.Cars[i].carNumber.Trim() == "")
                         {
