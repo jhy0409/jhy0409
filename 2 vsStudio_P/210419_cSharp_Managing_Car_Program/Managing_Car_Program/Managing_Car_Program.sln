@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managing_Car_Program", "Managing_Car_Program\Managing_Car_Program.csproj", "{573FD871-60C5-470A-B2DC-8BC495200A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managing_Car_Program_johoeMine", "Managing_Car_Program_johoeMine\Managing_Car_Program_johoeMine.csproj", "{95519558-D3EE-4CB1-B8DE-74EB25BDB13A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{573FD871-60C5-470A-B2DC-8BC495200A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{573FD871-60C5-470A-B2DC-8BC495200A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{573FD871-60C5-470A-B2DC-8BC495200A55}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95519558-D3EE-4CB1-B8DE-74EB25BDB13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95519558-D3EE-4CB1-B8DE-74EB25BDB13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95519558-D3EE-4CB1-B8DE-74EB25BDB13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95519558-D3EE-4CB1-B8DE-74EB25BDB13A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
