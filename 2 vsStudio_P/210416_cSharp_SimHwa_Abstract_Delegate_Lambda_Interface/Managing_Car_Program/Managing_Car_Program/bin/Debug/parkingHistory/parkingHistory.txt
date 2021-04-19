@@ -22,3 +22,7 @@
 [2021-04-16 23:28:21] 2번버튼 클릭
 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
    위치: Managing_Car_Program.DataManager.Load() 파일 D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+[2021-04-19 13:32:07] 1번버튼 클릭
+[2021-04-19 13:32:09] 1번버튼 클릭
+[2021-04-19 13:32:09] 1번버튼 클릭
+[2021-04-19 13:32:10] 2번버튼 클릭
