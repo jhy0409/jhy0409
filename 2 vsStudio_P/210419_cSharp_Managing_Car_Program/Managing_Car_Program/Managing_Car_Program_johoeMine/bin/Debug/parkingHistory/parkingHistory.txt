@@ -1,0 +1,90 @@
+'D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 28
+'D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 28
+[2021-04-16 23:28:19] 1번버튼 클릭
+[2021-04-16 23:28:19] 1번버튼 클릭
+[2021-04-16 23:28:20] 1번버튼 클릭
+[2021-04-16 23:28:20] 2번버튼 클릭
+[2021-04-16 23:28:21] 1번버튼 클릭
+[2021-04-16 23:28:21] 2번버튼 클릭
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Managing_Car_Program.DataManager.Load() 파일 D:\9 임시\Git\jhy0409\2 vsStudio_P\210416_cSharp_SimHwa_Abstract_Delegate_Lambda_Interface\Managing_Car_Program\Managing_Car_Program\DataManager.cs:줄 33
+[2021-04-19 10:24:22] 주차버튼 클릭
+[2021-04-19 10:24:26] 주차버튼 클릭
+[2021-04-19 10:24:27] 해당 공간에는 이미 주차되어있습니다., 1
+[2021-04-19 10:25:06] 주차버튼 클릭
+[2021-04-19 10:25:08] 해당 공간에는 이미 주차되어있습니다., 0
+[2021-04-19 10:25:10] 주차버튼 클릭
+[2021-04-19 10:34:44] 주차버튼 클릭
+[2021-04-19 10:34:49] 주차할 수 없습니다. asdas
+[2021-04-19 10:36:25] 주차버튼 클릭
+[2021-04-19 10:36:30] 주차버튼 클릭
+[2021-04-19 10:36:31] 해당 공간에는 이미 주차되어있습니다., 3
+[2021-04-19 10:36:33] 주차버튼 클릭
+[2021-04-19 10:36:35] 주차할 수 없습니다. dddd
+[2021-04-19 10:36:35] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 10:36:35]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button1_Click(Object sender, EventArgs e) 파일 D:\임시\Git\jhy0409\2 vsStudio_P\210419_cSharp_Managing_Car_Program\Managing_Car_Program\Managing_Car_Program\Form1.cs:줄 70
+[2021-04-19 10:37:58] 주차버튼 클릭
+[2021-04-19 10:37:59] 차번호 입력필요
+[2021-04-19 10:38:06] 주차버튼 클릭
+[2021-04-19 10:38:08] 차번호 입력필요
+[2021-04-19 10:38:14] 주차버튼 클릭
+[2021-04-19 10:39:04] 주차버튼 클릭
+[2021-04-19 10:39:06] 차번호 입력필요
+[2021-04-19 10:39:26] 주차버튼 클릭
+[2021-04-19 10:39:28] 차번호 입력필요
+[2021-04-19 10:39:36] 주차버튼 클릭
+[2021-04-19 10:39:37] 차번호 입력필요
+[2021-04-19 10:39:38] 주차버튼 클릭
+[2021-04-19 10:39:39] 주차공간 입력필요
+[2021-04-19 10:39:44] 주차버튼 클릭
+[2021-04-19 10:39:46] 차번호 입력필요
+[2021-04-19 10:56:26] 주차버튼 클릭
+[2021-04-19 10:56:30] 출차버튼 클릭
+[2021-04-19 10:56:31] 주차공간 1에 가1234차량이 출차
+[2021-04-19 10:56:42] 주차버튼 클릭
+[2021-04-19 10:56:51] 출차버튼 클릭
+[2021-04-19 10:56:52] 주차공간 3에 가1234차량이 출차
+[2021-04-19 10:57:42] 출차버튼 클릭
+[2021-04-19 10:57:43] 주차된 차가 없습니다.
+[2021-04-19 10:57:49] 주차버튼 클릭
+[2021-04-19 10:57:51] 주차버튼 클릭
+[2021-04-19 10:57:51] 해당 공간에는 이미 주차되어있습니다., 3
+[2021-04-19 11:17:47] 주차버튼 클릭
+[2021-04-19 11:18:02] 출차버튼 클릭
+[2021-04-19 11:18:03] 주차공간 3에 가1234차량이 출차
+[2021-04-19 11:18:04] 출차버튼 클릭
+[2021-04-19 11:18:05] 주차된 차가 없습니다.
+[2021-04-19 11:18:40] 출차버튼 클릭
+[2021-04-19 11:18:40] 주차된 차가 없습니다.
+[2021-04-19 11:18:50] 출차버튼 클릭
+[2021-04-19 11:18:51] 주차공간 1에 차량이 출차
+[2021-04-19 11:28:13] 주차버튼 클릭
+[2021-04-19 11:28:16] 출차버튼 클릭
+[2021-04-19 11:28:17] 주차공간 3에 가1234차량이 출차
+[2021-04-19 11:28:21] 주차버튼 클릭
+[2021-04-19 11:30:05] 유효한 값이 아닙니다.ss
+[2021-04-19 11:30:05] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 11:30:05]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\임시\Git\jhy0409\2 vsStudio_P\210419_cSharp_Managing_Car_Program\Managing_Car_Program\Managing_Car_Program_johoeMine\Form1.cs:줄 164
+[2021-04-19 11:30:38] sdfsdf는 유효한 값이 아닙니다.
+[2021-04-19 11:30:38] 시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 11:30:38]    위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Managing_Car_Program.Form1.button3_Click(Object sender, EventArgs e) 파일 D:\임시\Git\jhy0409\2 vsStudio_P\210419_cSharp_Managing_Car_Program\Managing_Car_Program\Managing_Car_Program_johoeMine\Form1.cs:줄 164
+[2021-04-19 11:33:53] 주차된 차가 없습니다., 0
+[2021-04-19 11:36:26] 주차된 차가 없습니다., 0
+[2021-04-19 11:39:30] 주차된 차가 없습니다., 0

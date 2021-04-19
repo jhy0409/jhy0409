@@ -1,0 +1,12 @@
+<cars>
+<car>
+   <parkingSpot>0</parkingSpot>   <carNumber>가1234</carNumber>   <driverName>이름1</driverName>   <phoneNumber>010-1234-5687</phoneNumber>   <parkingTime>2021-04-19 오전 10:24:16</parkingTime></car>
+<car>
+   <parkingSpot>1</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime>2021-04-19 오전 11:18:50</parkingTime></car>
+<car>
+   <parkingSpot>2</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime>2021-04-19 오전 10:24:16</parkingTime></car>
+<car>
+   <parkingSpot>3</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime>2021-04-19 오전 11:18:02</parkingTime></car>
+<car>
+   <parkingSpot>4</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime>2021-04-19 오전 10:24:16</parkingTime></car>
+</cars>
