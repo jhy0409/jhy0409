@@ -1,0 +1,3 @@
+210501 
+While studying for the Linux 2nd exam, I was outside and created a file on the github site. However, the site cannot be created in Korean...
+Now this article was written with Google Translate. When I go home, I have to change it to Korean.
