@@ -1,0 +1,14 @@
+1
+----------------------------------------
+VSstudio-C#, JAVA, Arduino, 
+MySQL, Oracle, 
+
+VScode-(html, css), JS, JSP, JQuery
+
+
+
+2
+----------------------------------------
+VSstudio-C#, Oracle
+JAVA, MySQL, Arduino
+VScode-(html, css), JS, JSP, JQuery
