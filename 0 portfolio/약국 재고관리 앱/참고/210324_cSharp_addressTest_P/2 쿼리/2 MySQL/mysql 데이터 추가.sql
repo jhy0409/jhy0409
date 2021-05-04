@@ -1,1 +1,0 @@
--- insert into exam VALUES (0,'홍길동','여기저기 주소');
