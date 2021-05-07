@@ -1,0 +1,801 @@
+[2021-04-28 04:38:04]readCsvFile개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-04-28 04:38:04]readCsvFile   위치: ComprehensiveCarManager.ManagerParkingCar.readCsvFile() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 41
+'D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_xml.Load() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_xml.cs:줄 18
+[2021-04-29 19:31:53]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-04-29 19:31:53]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 F:\Git\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 31
+[2021-05-03 11:50:46]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 11:50:54]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 11:51:04]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-03 11:51:15]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 11:52:08]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 11:52:41]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 11:52:52]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-03 11:53:40]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-03 11:54:04]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-03 14:16:06]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-03 14:16:29]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-03 14:16:35]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-03 14:16:36]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-03 14:16:36]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-03 14:34:35]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-03 14:34:35]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-03 14:34:35]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-03 14:34:42]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 14:36:22]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 14:36:49]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 14:37:09]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 14:45:57]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 15:48:25]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 15:48:36]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-03 15:48:37]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-03 15:48:37]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-03 15:48:47]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 15:49:49]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 15:50:44]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 15:53:03]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 15:55:28]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 15:58:00]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 16:40:54]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+이미 존재하는 주차공간입니다.
+이미 존재하는 주차공간입니다.
+[2021-05-03 16:43:30]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 16:44:00]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+이미 존재하는 주차공간입니다.
+[2021-05-03 17:02:01]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-03 17:12:29]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 00:30:18]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+이미 존재하는 주차공간입니다.
+[2021-05-04 00:31:29]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+이미 존재하는 주차공간입니다.
+[2021-05-04 00:33:06]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+이미 존재하는 주차공간입니다.
+이미 존재하는 주차공간입니다.
+[2021-05-04 00:35:44]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+이미 존재하는 주차공간입니다.
+[2021-05-04 00:49:55]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+이미 존재하는 주차공간입니다.
+[2021-05-04 00:52:44]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 00:52:44]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 00:52:44]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 00:53:52]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 00:56:54]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 00:57:24]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 00:59:08]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 00:59:08]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 00:59:08]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:04:48]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:04:48]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:04:48]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor()
+[2021-05-04 01:05:53]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:05:54]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:05:54]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:06:39]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:06:39]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:06:39]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:11:45]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+이미 존재하는 주차공간입니다.
+이미 존재하는 주차공간입니다.
+[2021-05-04 01:19:36]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:19:37]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:19:37]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:22:12]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:22:12]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:22:12]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:22:41]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:23:27]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:23:27]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:23:27]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:27:43]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:27:43]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:27:43]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:33:21]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:33:31]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:33:31]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:36:53]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:36:54]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:36:54]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:38:53]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:39:07]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:39:08]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:39:08]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:41:55]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:41:56]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:41:56]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:43:42]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:43:46]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:43:46]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:45:16]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:45:36]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:45:37]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:45:37]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:46:57]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:46:57]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:46:57]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:47:26]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:49:19]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:49:19]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:49:19]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:49:44]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:53:59]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:54:00]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:54:00]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:54:45]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:54:46]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:54:46]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:55:47]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 01:55:48]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 01:55:48]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 34
+[2021-05-04 01:59:34]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:00:37]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:01:26]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:01:27]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:01:27]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:02:05]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:02:05]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:02:05]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:04:36]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:04:36]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:04:36]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:05:39]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:05:40]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:05:40]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:06:01]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:06:01]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:06:01]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:06:37]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:06:37]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:06:37]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+이미 존재하는 주차공간입니다.
+[2021-05-04 02:21:04]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:22:05]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:23:16]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:23:17]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:23:17]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:23:57]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:23:58]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:23:58]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:38:54]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:38:56]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:38:56]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:43:45]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:43:46]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:43:46]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 02:46:07]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 02:46:08]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 02:46:08]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 08:00:30]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 08:00:57]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 08:00:57]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 08:00:57]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 09:51:21]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 09:51:21]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 09:51:22]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 09:52:02]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 09:53:54]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 09:53:57]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 09:53:58]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 35
+[2021-05-04 09:55:39]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 09:57:03]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 09:57:03]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 09:57:03]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 35
+[2021-05-04 09:59:26]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 09:59:26]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 09:59:28]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 35
+[2021-05-04 10:00:01]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:00:01]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:00:01]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 35
+[2021-05-04 10:00:09]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:05:58]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:06:25]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:06:25]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:06:26]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 35
+[2021-05-04 10:07:45]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:08:06]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:08:06]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:08:06]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 35
+[2021-05-04 10:09:27]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:09:27]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:09:28]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 35
+[2021-05-04 10:12:46]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:12:47]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:12:48]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 35
+[2021-05-04 10:13:41]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:13:48]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:13:50]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 37
+[2021-05-04 10:15:04]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:15:16]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:15:17]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:15:17]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 37
+[2021-05-04 10:16:17]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:16:22]dataGridView_ManageParkingCar_CellClick개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-05-04 10:16:23]dataGridView_ManageParkingCar_CellClick   위치: ComprehensiveCarManager.ManagerParkingCar.dataGridView_ManageParkingCar_CellClick(Object sender, DataGridViewCellEventArgs e) 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 278
+[2021-05-04 10:16:37]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:16:45]dataGridView_ManageParkingCar_CellClick개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-05-04 10:16:45]dataGridView_ManageParkingCar_CellClick   위치: ComprehensiveCarManager.ManagerParkingCar.dataGridView_ManageParkingCar_CellClick(Object sender, DataGridViewCellEventArgs e) 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 278
+[2021-05-04 10:33:22]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:33:22]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:33:23]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 39
+[2021-05-04 10:33:35]dataGridView_ManageParkingCar_CellClick개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2021-05-04 10:33:35]dataGridView_ManageParkingCar_CellClick   위치: ComprehensiveCarManager.ManagerParkingCar.dataGridView_ManageParkingCar_CellClick(Object sender, DataGridViewCellEventArgs e) 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 280
+[2021-05-04 10:34:00]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:34:01]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:34:01]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 39
+[2021-05-04 10:51:24]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:51:25]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:51:25]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 38
+[2021-05-04 10:51:53]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:51:53]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:51:54]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 38
+[2021-05-04 10:53:15]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:53:15]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:53:16]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 38
+[2021-05-04 10:56:48]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:57:23]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:57:23]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 10:57:23]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 10:57:33]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:58:05]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:59:07]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 10:59:26]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:10:05]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:10:11]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:10:23]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:10:54]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:11:24]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:12:01]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:12:01]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 11:12:01]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 11:12:20]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:12:20]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 11:12:20]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 11:13:39]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:13:39]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 11:13:39]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 11:17:05]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:17:05]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 11:17:05]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 11:18:18]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:18:18]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 11:18:18]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 11:48:23]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:48:28]주차 할 수 없습니다.10시퀀스에 일치하는 요소가 없습니다.
+[2021-05-04 11:48:28]주차 할 수 없습니다.10   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: ComprehensiveCarManager.ManagerParkingCar.button_park_Click(Object sender, EventArgs e) 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 118
+[2021-05-04 11:53:47]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 11:54:06]주차 할 수 없습니다.-1시퀀스에 일치하는 요소가 없습니다.
+[2021-05-04 11:54:06]주차 할 수 없습니다.-1   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: ComprehensiveCarManager.ManagerParkingCar.button_park_Click(Object sender, EventArgs e) 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 118
+[2021-05-04 11:54:10]주차 할 수 없습니다.100시퀀스에 일치하는 요소가 없습니다.
+[2021-05-04 11:54:10]주차 할 수 없습니다.100   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: ComprehensiveCarManager.ManagerParkingCar.button_park_Click(Object sender, EventArgs e) 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 118
+[2021-05-04 11:55:24]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 14:06:16]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 14:29:13]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-04 14:29:41]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+값은 null일 수 없습니다.
+매개 변수 이름: source
+   위치: System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_json.Load() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_json.cs:줄 20
+[2021-05-04 14:30:05]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:30:05]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 14:30:05]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 14:33:13]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:34:35]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:34:56]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:35:21]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:38:57]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:38:57]인덱스가 범위를 벗어났습니다. 인덱스는 음수가 아니어야 하며 컬렉션의 크기보다 작아야 합니다.
+매개 변수 이름: index
+[2021-05-04 14:38:57]   위치: System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   위치: System.Collections.Generic.List`1.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.ManagerParkingCar..ctor() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 36
+[2021-05-04 14:41:32]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:41:56]주차 할 수 없습니다.1231시퀀스에 일치하는 요소가 없습니다.
+[2021-05-04 14:41:56]주차 할 수 없습니다.1231   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: ComprehensiveCarManager.ManagerParkingCar.button_park_Click(Object sender, EventArgs e) 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 118
+[2021-05-04 14:46:28]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:46:41]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:46:58]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:48:42]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 14:49:25]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-04 16:17:33]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:19:48]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+이미 존재하는 주차공간입니다.
+[2021-05-04 16:28:29]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:31:58]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:32:27]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:50:34]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:50:49]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:56:09]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:56:17]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:56:49]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:57:29]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:57:58]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:58:13]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:58:19]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:59:16]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 16:59:42]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:00:02]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:00:16]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:00:52]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:01:07]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:02:57]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:03:20]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:03:34]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:03:53]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:05:40]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:06:14]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:06:39]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:06:47]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+이미 존재하는 주차공간입니다.
+[2021-05-04 17:07:34]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:09:00]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:09:37]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:09:43]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 17:37:45]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+값은 null일 수 없습니다.
+매개 변수 이름: dataSet
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.selectQuery() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 23
+[2021-05-04 17:39:37]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+Host 'DESKTOP-SC9AFK9' is not allowed to connect to this MySQL server
+   위치: MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   위치: MySql.Data.MySqlClient.NativeDriver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   위치: MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   위치: MySql.Data.MySqlClient.MySqlConnection.Open()
+   위치: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.selectQuery() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 24
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_DB.cs:줄 32
+[2021-05-04 17:39:56]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+Host 'DESKTOP-SC9AFK9' is not allowed to connect to this MySQL server
+   위치: MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   위치: MySql.Data.MySqlClient.NativeDriver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   위치: MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   위치: MySql.Data.MySqlClient.MySqlConnection.Open()
+   위치: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.selectQuery() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 24
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\Dj Teacher\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_DB.cs:줄 32
+[2021-05-04 18:10:28]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   위치: MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   위치: MySql.Data.MySqlClient.MySqlConnection.Open()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.ConnectDB() 파일 F:\Git\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 112
+[2021-05-04 18:18:51]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 18:19:25]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 18:20:56]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 18:21:43]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 18:22:51]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 20:42:40]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+Table 'mydb1.carmanager' doesn't exist
+   위치: MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   위치: MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   위치: MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   위치: MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   위치: MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   위치: MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   위치: MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   위치: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.selectQuery() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 31
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_DB.cs:줄 32
+[2021-05-04 20:47:05]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 20:48:21]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 20:52:10]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 20:59:30]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 21:00:18]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 21:00:47]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+Incorrect datetime value: '' for column 'ParkingTime' at row 1
+   위치: MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   위치: MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   위치: MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   위치: MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   위치: MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   위치: MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   위치: MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.updateQuery(ParkingCar car) 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 73
+[2021-05-04 21:02:34]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 21:04:22]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 21:04:50]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 21:05:23]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 21:06:30]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-04 21:06:33]주차 할 수 없습니다.ewr시퀀스에 일치하는 요소가 없습니다.
+[2021-05-04 21:06:33]주차 할 수 없습니다.ewr   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: ComprehensiveCarManager.ManagerParkingCar.button_park_Click(Object sender, EventArgs e) 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\ManagerParkingCar.cs:줄 121
+[2021-05-05 00:27:45]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 00:28:08]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 00:29:03]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 00:29:45]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 00:47:18]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+   위치: OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, Boolean isFromEF)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.insertQuery(Int32 parkingSpot) 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_Oracle.cs:줄 51
+[2021-05-05 00:49:05]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 00:51:14]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+   위치: OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, Boolean isFromEF)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.insertQuery(Int32 parkingSpot) 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_Oracle.cs:줄 51
+[2021-05-05 00:51:44]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 00:53:36]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 00:54:40]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 01:00:08]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 01:01:17]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 01:02:57]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:12:18]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:13:33]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:13:58]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:17:07]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:41:41]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:43:22]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:45:05]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:45:23]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:46:34]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:47:45]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:47:56]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:49:23]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 09:49:54]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+OracleCommand.CommandText이(가) 부적합합니다.
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.DoPreExecuteProcessing(OracleDependencyImpl orclDependencyImpl, Boolean bXmlQuerySave)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.updateQuery(ParkingCar car) 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_Oracle.cs:줄 72
+[2021-05-05 11:05:13]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+OracleCommand.CommandText이(가) 부적합합니다.
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.DoPreExecuteProcessing(OracleDependencyImpl orclDependencyImpl, Boolean bXmlQuerySave)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.updateQuery(ParkingCar car) 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_Oracle.cs:줄 72
+[2021-05-05 11:07:17]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+ORA-01861: 리터럴이 형식 문자열과 일치하지 않음
+   위치: OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, Boolean isFromEF)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.updateQuery(ParkingCar car) 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_Oracle.cs:줄 73
+ORA-01861: 리터럴이 형식 문자열과 일치하지 않음
+   위치: OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, Boolean isFromEF)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.updateQuery(ParkingCar car) 파일 D:\GitHub\Xenoint\Develop\CSharp\CarManager_Total\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_Oracle.cs:줄 73
+[2021-05-05 11:15:01]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 11:18:42]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 11:25:58]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 11:26:14]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-05 11:30:18]Test : ComprehensiveCarManager.DataManaging.DataManager
+[2021-05-05 11:31:44]Test : ComprehensiveCarManager.DataManaging.DataManager
+[2021-05-05 11:31:52]Test : ComprehensiveCarManager.DataManaging.DataManager
+[2021-05-06 10:17:10]Test : ComprehensiveCarManager.DataManaging.DataManager
+[2021-05-06 10:17:37]Test : ComprehensiveCarManager.DataManaging.DataManager
+[2021-05-06 10:17:47]Test : ComprehensiveCarManager.DataManaging.DataManager
+[2021-05-06 10:17:51]Test : ComprehensiveCarManager.DataManaging.DataManager
+[2021-05-06 10:18:52]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-06 10:19:43]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-06 10:19:56]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-06 10:20:52]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-06 10:20:58]Test : ComprehensiveCarManager.DataManaging.DataManager_xml
+[2021-05-06 10:21:03]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-06 10:21:49]Test : ComprehensiveCarManager.DataManaging.DataManager_json
+[2021-05-06 10:22:13]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-06 10:23:31]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-06 10:23:43]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-06 10:23:50]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-06 10:24:45]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   위치: MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   위치: MySql.Data.MySqlClient.MySqlConnection.Open()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.ConnectDB() 파일 D:\Study_DJ\20201126_all\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 91
+Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   위치: MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   위치: MySql.Data.MySqlClient.MySqlConnection.Open()
+   위치: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.selectQuery() 파일 D:\Study_DJ\20201126_all\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 32
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\Study_DJ\20201126_all\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_DB.cs:줄 32
+[2021-05-06 10:25:03]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   위치: MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   위치: MySql.Data.MySqlClient.MySqlConnection.Open()
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.ConnectDB() 파일 D:\Study_DJ\20201126_all\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 91
+Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   위치: MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   위치: MySql.Data.MySqlClient.NativeDriver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Open()
+   위치: MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   위치: MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   위치: MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   위치: MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   위치: MySql.Data.MySqlClient.MySqlConnection.Open()
+   위치: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_MySql.selectQuery() 파일 D:\Study_DJ\20201126_all\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_MySql.cs:줄 32
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\Study_DJ\20201126_all\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_DB.cs:줄 32
+[2021-05-06 10:25:17]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-06 10:25:54]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-06 10:32:58]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-06 10:40:09]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+[2021-05-07 15:29:16]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+   위치: OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   위치: Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.selectQuery() 파일 D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀프로젝트]_약국재고관리 프로그램_210421\1teamProject\ver2_dtmanager통합_210507\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManage:줄 33
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀프로젝트]_약국재고관리 프로그램_210421\1teamProject\ver2_dtmanager통합_210507\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManage:줄 32
+[2021-05-07 16:16:37]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+   위치: OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   위치: Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.selectQuery() 파일 D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀프로젝트]_약국재고관리 프로그램_210421\1teamProject\ver2_dtmanager통합_210507\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManage:줄 33
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀프로젝트]_약국재고관리 프로그램_210421\1teamProject\ver2_dtmanager통합_210507\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManage:줄 32

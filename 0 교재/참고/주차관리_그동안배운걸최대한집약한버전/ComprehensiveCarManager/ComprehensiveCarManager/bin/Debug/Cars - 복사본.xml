@@ -1,0 +1,72 @@
+<cars>
+<car>
+   <parkingSpot>1</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-05-03 오전 11:52:35</parkingTime>
+</car>
+<car>
+   <parkingSpot>2</parkingSpot>
+   <carNumber>20두1234</carNumber>
+   <driverName>이제영</driverName>
+   <phoneNumber>010-1234-1111</phoneNumber>
+   <parkingTime>2021-05-03 오전 11:52:29</parkingTime>
+</car>
+<car>
+   <parkingSpot>3</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-04-28 오후 4:36:16</parkingTime>
+</car>
+<car>
+   <parkingSpot>4</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-04-28 오후 4:36:16</parkingTime>
+</car>
+<car>
+   <parkingSpot>5</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-04-28 오후 4:36:16</parkingTime>
+</car>
+<car>
+   <parkingSpot>6</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-05-03 오후 4:43:35</parkingTime>
+</car>
+<car>
+   <parkingSpot>7</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-05-03 오후 4:44:06</parkingTime>
+</car>
+<car>
+   <parkingSpot>8</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-05-03 오후 4:44:20</parkingTime>
+</car>
+<car>
+   <parkingSpot>9</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-05-04 오전 12:33:16</parkingTime>
+</car>
+<car>
+   <parkingSpot>10</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-05-04 오전 12:34:01</parkingTime>
+</car>
+</cars>

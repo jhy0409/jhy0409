@@ -1,0 +1,23 @@
+<cars>
+<car>
+   <parkingSpot>1</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-05-06 오전 10:20:20</parkingTime>
+</car>
+<car>
+   <parkingSpot>2</parkingSpot>
+   <carNumber>30고1234</carNumber>
+   <driverName>이동준</driverName>
+   <phoneNumber>010-2221-2223</phoneNumber>
+   <parkingTime>2021-05-06 오전 10:20:30</parkingTime>
+</car>
+<car>
+   <parkingSpot>3</parkingSpot>
+   <carNumber></carNumber>
+   <driverName></driverName>
+   <phoneNumber></phoneNumber>
+   <parkingTime>2021-05-06 오전 10:20:43</parkingTime>
+</car>
+</cars>
