@@ -799,3 +799,27 @@ ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
 0 테이블을 찾을 수 없습니다.
    위치: System.Data.DataTableCollection.get_Item(Int32 index)
    위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀프로젝트]_약국재고관리 프로그램_210421\1teamProject\ver2_dtmanager통합_210507\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManage:줄 32
+[2021-05-07 16:30:39]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+   위치: OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   위치: Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.selectQuery() 파일 D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_Oracle.cs:줄 33
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_DB.cs:줄 32
+[2021-05-07 16:32:15]Test : ComprehensiveCarManager.DataManaging.DataManager_DB
+ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+   위치: OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   위치: OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   위치: Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   위치: Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   위치: ComprehensiveCarManager.DBHelping.DBHelper_Oracle.selectQuery() 파일 D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DBHelping\DBHelper_Oracle.cs:줄 33
+0 테이블을 찾을 수 없습니다.
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: ComprehensiveCarManager.DataManaging.DataManager_DB.Load() 파일 D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\DataManaging\DataManager_DB.cs:줄 32

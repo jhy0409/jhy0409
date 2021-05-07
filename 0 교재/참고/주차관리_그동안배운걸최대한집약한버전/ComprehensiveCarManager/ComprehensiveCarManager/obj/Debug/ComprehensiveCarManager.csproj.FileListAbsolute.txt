@@ -105,3 +105,39 @@ D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀
 D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀프로젝트]_약국재고관리 프로그램_210421\1teamProject\ver2_dtmanager통합_210507\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.csproj.GenerateResource.cache
 D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀프로젝트]_약국재고관리 프로그램_210421\1teamProject\ver2_dtmanager통합_210507\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.csproj.CoreCompileInputs.cache
 D:\임시\Git\jhy0409\0 portfolio\210504_이력서+ppt\프로젝트+ppt\3_1_[팀프로젝트]_약국재고관리 프로그램_210421\1teamProject\ver2_dtmanager통합_210507\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.csproj.CopyComplete
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\ComprehensiveCarManager.exe.config
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\ComprehensiveCarManager.exe
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\ComprehensiveCarManager.pdb
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\BouncyCastle.Crypto.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Google.Protobuf.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\K4os.Compression.LZ4.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\K4os.Hash.xxHash.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\MySql.Data.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Newtonsoft.Json.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\System.Buffers.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\System.Memory.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\System.Numerics.Vectors.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Ubiety.Dns.Core.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Zstandard.Net.dll
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Google.Protobuf.pdb
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Google.Protobuf.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\K4os.Compression.LZ4.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\K4os.Hash.xxHash.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\MySql.Data.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\Newtonsoft.Json.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\System.Buffers.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\System.Memory.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\System.Numerics.Vectors.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.csprojAssemblyReference.cache
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.ManagerParkingCar.resources
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.Properties.Resources.resources
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.csproj.GenerateResource.cache
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.csproj.CopyComplete
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.exe
+D:\임시\Git\jhy0409\0 교재\참고\주차관리_그동안배운걸최대한집약한버전\ComprehensiveCarManager\ComprehensiveCarManager\obj\Debug\ComprehensiveCarManager.pdb
