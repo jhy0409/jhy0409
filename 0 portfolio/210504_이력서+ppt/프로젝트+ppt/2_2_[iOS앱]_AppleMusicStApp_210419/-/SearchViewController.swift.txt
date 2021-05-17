@@ -1,0 +1,36 @@
+extension SearchViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, 
+    layout collectionViewLayout: UICollectionViewLayout, 
+    sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        let margin: CGFloat = 8
+        let itemSpacing: CGFloat = 10
+        let width = (collectionView.bounds.width - margin * 2 - itemSpacing * 2) / 3
+        let height = width * 10/7
+        return CGSize(width: width, height: height)
+    }
+}
+
+func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+    dismissKeyboard() // 키보드 올라와 있을 때 내려가게 처리
+    guard let searchTerm = searchBar.text, searchTerm.isEmpty == false else { return } // 검색어 있는지
+    
+    // 네트워킹을 통한 검색
+    // - 목표: 서치텀을 가지고 네트워킹을 통해서 영화 검색
+    // - [x] 검색API가 필요
+    // - [x] 결과를 받아올 모델 Movie, Response
+    // - [x] 결과를 받아와서, CollectionView로 표현
+    
+    SearchAPI.search(searchTerm) { movies in
+        // [x] conllectionView로 표현
+        print("---> 몇개? \(movies.count), 첫번째 제목: \(movies.first?.title)")
+        DispatchQueue.main.async {
+        self.movies = movies
+        self.resultCollectionView.reloadData()
+        
+        let timestamp: Double = Date().timeIntervalSince1970.rounded()
+        self.db.childByAutoId().setValue(["term": searchTerm, "timestamp": timestamp])
+        }
+    }
+    print("---> 검색어: \(searchTerm)")
+}
