@@ -4,11 +4,13 @@ import time
 def refresh():
     pyautogui.hotkey('ctrl','r')
 
-j = 3301
+j = 7080
 
 time.sleep(2)
-for i in range(j, 11331):
+for i in range(j, 7153):
     refresh()
     j += 1
     print(j)
-    time.sleep(2.5)
+    time.sleep(3)
+
+# 11331
