@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T07:16:51.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" version="14.9.2" etag="w7IzYS42QyzkNfKiFKGs" type="github"><diagram id="5orA6i8ob6smaKdYfVqV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-23T07:24:25.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="lJW8e4fN5YBzp_Ghufkv" version="14.9.2" type="github">
+  <diagram id="5orA6i8ob6smaKdYfVqV" name="Page-1">
+    <mxGraphModel dx="981" dy="486" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tpyNFLbABuH5jrmWTG80-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="26" y="91" width="538" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="130" width="460" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-1" value="자소서 사용 단어" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fontStyle=1" vertex="1" parent="tpyNFLbABuH5jrmWTG80-19">
+          <mxGeometry x="60" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="tpyNFLbABuH5jrmWTG80-19" source="tpyNFLbABuH5jrmWTG80-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=1.003;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tpyNFLbABuH5jrmWTG80-19" target="tpyNFLbABuH5jrmWTG80-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="140" />
+              <mxPoint x="300" y="118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-3" value="자기분석 - 내 특성" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;" vertex="1" parent="tpyNFLbABuH5jrmWTG80-19">
+          <mxGeometry x="80" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-4" value="기업분석 - 직무" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;" vertex="1" parent="tpyNFLbABuH5jrmWTG80-19">
+          <mxGeometry x="80" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0.007;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tpyNFLbABuH5jrmWTG80-19" source="tpyNFLbABuH5jrmWTG80-1" target="tpyNFLbABuH5jrmWTG80-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint y="166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="tpyNFLbABuH5jrmWTG80-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="140" as="sourcePoint" />
+            <mxPoint x="240" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="140" />
+              <mxPoint x="300" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-14" value="자소서" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;" vertex="1" parent="tpyNFLbABuH5jrmWTG80-19">
+          <mxGeometry x="390" y="123" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpyNFLbABuH5jrmWTG80-15" value="&lt;font style=&quot;font-size: 16px&quot;&gt;매칭&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;" vertex="1" parent="tpyNFLbABuH5jrmWTG80-19">
+          <mxGeometry x="312" y="104" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
