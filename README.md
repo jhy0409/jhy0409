@@ -61,8 +61,8 @@ iOS 프로그래밍을 위한 스위프트 기초 | 네이버 커넥트재단 | 
 2 vsCode_B | jsp, 웹 코딩
 2 vsStudio_P | 씨샵, 윈폼관련
 3 JavaClass | 자바
-4 Arduino | 아두이노
-5 Tip | 기타 개인사용 유틸
+4~5 그 외 언어 | 아두이노, SQL(MySQL, Oracle), JSP, Python
+9 Tip | 기타 개인사용 유틸
 
 
 
