@@ -1,6 +1,9 @@
+<!-- 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=What's%20Up?&animation=twinkling&fontSize=40)
-
 <h1 align="center">👋 Hello Prgrammers!</h1>
+-->
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20My%20GitHub&animation=twinkling&fontSize=40)
 
 ## 🏆 Github Stats
 
