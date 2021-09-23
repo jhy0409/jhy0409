@@ -5,13 +5,22 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20My%20GitHub&animation=twinkling&fontSize=40)
 
-## 🏆 Github Stats
+<h3 align="center"> 🏆 Github Stats </h3>
 
 <img  src="https://github-readme-stats.vercel.app/api?username=jhy0409&show_icons=true&theme=default" width="48%" align="right" >
 <img  src="https://github-readme-streak-stats.herokuapp.com/?user=jhy0409&theme=tokyonight_duo" width="48%" >
 
+<h3 align="center">🛠 Tech Stack</h3>
+</br>
+<p align="center">
+<img src="https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=Swift&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat-square&logo=Kotlin&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/C%20Sharp-239120?style=flat-square&logo=C%20Sharp&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a> &nbsp 
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a> &nbsp </p>
 
-
+***
 ## ✅ 교육이수
 
 과정명 | 기관명 | 바로가기 (GitHub)
