@@ -14,7 +14,7 @@ iOS 프로그래밍을 위한 스위프트 기초 | 네이버 커넥트재단 | 
 내용| 바로가기 (GitHub)
 ---|---
 팀프로젝트 약국재고관리 프로그램 | [↘ teamPrj](https://github.com/jhy0409/teamPrj)
-포트폴리오 일괄 다운 | [↘ portfolio](https://github.com/jhy0409/portfolio)
+**포트폴리오 일괄 다운** | [↘ portfolio](https://github.com/jhy0409/portfolio)
 
 ---
 ## ✅ jhy0409 - 내부 구조 설명
