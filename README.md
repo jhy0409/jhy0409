@@ -6,10 +6,10 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20My%20GitHub&animation=twinkling&fontSize=40)
 
 <h3 align="center"> 🏆 Github Stats </h3>
-
-<img  src="https://github-readme-stats.vercel.app/api?username=jhy0409&show_icons=true&theme=default" width="48%" align="right">
-<img  src="https://github-readme-streak-stats.herokuapp.com/?user=jhy0409&theme=tokyonight_duo" width="48%">
-
+<p align="center">
+<img  src="https://github-readme-stats.vercel.app/api?username=jhy0409&show_icons=true&theme=default" width="55%">
+<img  src="https://github-readme-streak-stats.herokuapp.com/?user=jhy0409&theme=tokyonight_duo" width="55%">
+</p>
 <h3 align="center">🛠 Tech Stack</h3>
 </br>
 <p align="center">
