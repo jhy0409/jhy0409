@@ -1,3 +1,14 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=What's%20Up?&animation=twinkling&fontSize=40)
+
+<h1 align="center">👋 Hello Prgrammers!</h1>
+
+## 🏆 Github Stats
+
+<img  src="https://github-readme-stats.vercel.app/api?username=jhy0409&show_icons=true&theme=default" width="48%" align="right" >
+<img  src="https://github-readme-streak-stats.herokuapp.com/?user=jhy0409&theme=tokyonight_duo" width="48%" >
+
+
+
 ## ✅ 교육이수
 
 과정명 | 기관명 | 바로가기 (GitHub)
@@ -16,7 +27,7 @@ iOS 프로그래밍을 위한 스위프트 기초 | 네이버 커넥트재단 | 
 팀프로젝트 약국재고관리 프로그램 | [↘ teamPrj](https://github.com/jhy0409/teamPrj)
 **포트폴리오 일괄 다운** | [↘ portfolio](https://github.com/jhy0409/portfolio)
 
----
+
 ## ✅ jhy0409 - 내부 구조 설명
 - 과정명 : (디지털컨버전스) 통합 응용 SW 개발자 (C#,JAVA)
 - 기관명 : 경북산업직업전문학교
@@ -37,6 +48,8 @@ iOS 프로그래밍을 위한 스위프트 기초 | 네이버 커넥트재단 | 
 3 JavaClass | 자바
 4 Arduino | 아두이노
 5 Tip | 기타 개인사용 유틸
+
+
 
 <!--
 ###  ☢ 수업예제, 실습, 과제물 (포폴용 별도생성)
