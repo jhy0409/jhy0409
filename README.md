@@ -1,10 +1,21 @@
-과정명 | 기관명 | 바로가기
+## 교육이수
+
+과정명 | 기관명 | 바로가기 (GitHub)
 ------|------|------
 올인원 패키지 : iOS 앱 개발 | 패스트캠퍼스 | [↘ 210209_FC_SwiftMine](https://github.com/jhy0409/210103-Swift-Study/tree/main/210209_FC_SwiftMine)
 iOS 개발을 위한 swifts 완벽 가이드 | 인프런 | [↘ Mastering-Swift-master](https://github.com/jhy0409/210103-Swift-Study/tree/main/Mastering-Swift-master)
 iOS 프로그래밍을 위한 스위프트 기초 | 네이버 커넥트재단 | -
 iOS 앱 프로그래밍 | 네이버 커넥트재단 | [↘ 210810-bstProjects](https://github.com/jhy0409/210810-bstProjects)
 (디지털컨버전스) 통합 응용 SW 개발자 (C#,JAVA) | 경북산업직업전문학교 | [↘ jhy0409](https://github.com/jhy0409/jhy0409)
+
+## 포트폴리오 다운 - [↘ portfolio](https://github.com/jhy0409/portfolio)
+1. 수료증명서
+2. 자격증
+3. 프로젝트 및 PPT 파일
+---
+## jhy0409 - 내부 구조 설명
+- 과정명 : (디지털컨버전스) 통합 응용 SW 개발자 (C#,JAVA)
+- 기관명 : 경북산업직업전문학교
 
 ### ✅ 기타 폴더
 폴더명 | 내용
