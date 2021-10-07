@@ -35,9 +35,10 @@
 올인원 패키지 : iOS 앱 개발 | 패스트캠퍼스 | [↘ 210209_FC_SwiftMine](https://github.com/jhy0409/210103-Swift-Study/tree/main/210209_FC_SwiftMine)
 iOS 개발을 위한 swifts 완벽 가이드 | 인프런 | [↘ Mastering-Swift-master](https://github.com/jhy0409/210103-Swift-Study/tree/main/Mastering-Swift-master)
 iOS 프로그래밍을 위한 스위프트 기초 | 네이버 커넥트재단 | -
-**iOS 앱 프로그래밍** | 네이버 커넥트재단 | [↘ 210810-bstProjects](https://github.com/jhy0409/210810-bstProjects)
+**✔️ iOS 앱 프로그래밍** | 네이버 커넥트재단 | [↘ 210810-bstProjects](https://github.com/jhy0409/210810-bstProjects)
 (디지털컨버전스) 통합 응용 SW 개발자 (C#,JAVA) | 경북산업직업전문학교 | [↘ jhy0409](https://github.com/jhy0409/jhy0409)
-코틀린을 활용한 안드로이드 앱 개발 | 한국기술교육대학교 온라인평생교육원 | [↘ 210915-kotlin](https://github.com/jhy0409/210915-kotlin)
+**✔️ 코틀린을 활용한 안드로이드 앱 개발** | 한국기술교육대학교 온라인평생교육원 | [↘ 210915-kotlin](https://github.com/jhy0409/210915-kotlin)
+**✔️ 모두를 위한 컴퓨터 과학 (CS50 2019)** | 네이버 커넥트재단 | -
 
 
 ## ✅ 그 외 바로가기 
