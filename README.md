@@ -11,6 +11,8 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=jhy0409&theme=tokyonight_duo&count_private=true" width="55%">
 </p>
 
+
+<br>
 <h3 align="center">🛠 Tech Stack</h3>
 </br>
 <p align="center">
@@ -24,7 +26,15 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a> &nbsp 
 <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white"/> &nbsp </p>
 
-<a href="https://www.notion.so/jhcode/a83df850cd074343911035920f44ea58" target="_blank"><h3 align="center"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e746d53d-2b1f-4817-b5d6-ac1d4a82acb0/notion.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210923T233201Z&X-Amz-Expires=86400&X-Amz-Signature=7c8b3ffb9961c65c53bb53408fc71fb073f9c2d82c534c88165cd46f3bc384d1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22notion.svg%22" width=18px/>  Notion - 개발 블로그 </h3></a>
+<br>
+
+
+<a href="https://www.notion.so/jhcode/a83df850cd074343911035920f44ea58" target="_blank"><h3 align="center" display="inline"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e746d53d-2b1f-4817-b5d6-ac1d4a82acb0/notion.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210923T233201Z&X-Amz-Expires=86400&X-Amz-Signature=7c8b3ffb9961c65c53bb53408fc71fb073f9c2d82c534c88165cd46f3bc384d1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22notion.svg%22" width=18px/>  Notion - 개발 블로그 </h3></a>
+
+<a href="https://github.com/jhy0409/jhy0409/blob/main/%EA%B3%B5%EB%B6%80%EC%9D%BC%EC%A7%80.md#2-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4" target="_blank"><h3 align="center" display="inline">🖥 코딩테스트 준비</h3></a>
+
+
+
 
 
 ***
