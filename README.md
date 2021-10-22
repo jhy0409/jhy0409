@@ -29,7 +29,7 @@
 </br>
 
 
-<a href="https://www.notion.so/jhcode/a83df850cd074343911035920f44ea58" target="_blank"><h3 align="center"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e746d53d-2b1f-4817-b5d6-ac1d4a82acb0/notion.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211007T155816Z&X-Amz-Expires=86400&X-Amz-Signature=c33f81e9d7a943867e4ea9781abfb0cd2be9225ce1a91d4ada39626b343a03d7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22notion.svg%22" width=18px/>  Notion - 개발 블로그 </h3></a>
+<a href="https://www.notion.so/jhcode/a83df850cd074343911035920f44ea58" target="_blank"><h3 align="center"><img src="https://raw.githubusercontent.com/jhy0409/jhy0409/9b83f40d3443d6f3fda66cba6eb05347de137bc2/9%20Tip/notion.svg" width=18px/>  Notion - 개발 블로그 </h3></a>
 
 
 <a href="https://github.com/jhy0409/jhy0409/blob/main/%EA%B3%B5%EB%B6%80%EC%9D%BC%EC%A7%80.md#2-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4" target="_blank"><h3 align="center">🖥 코딩테스트 준비</h3></a>
