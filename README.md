@@ -32,7 +32,7 @@
 <a href="https://www.notion.so/jhcode/a83df850cd074343911035920f44ea58" target="_blank"><h3 align="center"><img src="https://raw.githubusercontent.com/jhy0409/jhy0409/9b83f40d3443d6f3fda66cba6eb05347de137bc2/9%20Tip/notion.svg" width=18px/>  Notion - 개발 블로그 </h3></a>
 
 
-<a href="https://github.com/jhy0409/jhy0409/blob/main/daily.md" target="_blank"><h3 align="center">ㅤ</h3></a>
+<a href="https://github.com/jhy0409/jhy0409/blob/main/daily.md" target="_blank"><h3 align="center">✏️ 공부일지</h3></a>
 
 
 
