@@ -1,8 +1,9 @@
 ## 목차
+- [프로젝트 제작](https://github.com/jhy0409/jhy0409/blob/main/daily.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%BD%94%EB%93%9C-%EB%B3%B4%EA%B8%B0-211027)
 - [링크 - 프로그래머스](https://github.com/jhy0409/jhy0409/blob/main/daily.md#2-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4)
-- [iOS & Swift](https://github.com/jhy0409/jhy0409/blob/main/daily.md#ios--swift)
-- [CS](https://github.com/jhy0409/jhy0409/blob/main/daily.md#cs---211007)
-- [코드 다시보기](https://github.com/jhy0409/jhy0409/blob/main/daily.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%BD%94%EB%93%9C-%EB%B3%B4%EA%B8%B0-211027)
+- [면접질문 - iOS & Swift](https://github.com/jhy0409/jhy0409/blob/main/daily.md#ios--swift)
+- [면접질문 - CS](https://github.com/jhy0409/jhy0409/blob/main/daily.md#cs---211007)
+
 ***
 <a href = "https://github.com/jhy0409/jhy0409/blob/main/%EA%B3%B5%EB%B6%80%EC%9D%BC%EC%A7%80.md#%EB%AA%A9%EC%B0%A8"><p align="right">⬆️ 목차</p></a>
 ## iOS & Swift
@@ -31,8 +32,34 @@
 > - [ ] [`블로그` - REST API - `1`](https://www.notion.so/jhcode/REST-API-adfa741da4f14bd7b5c05e4e87b3c1ee#faf346f711c44eff9689aac4342e34bf)
 
 <br></br>
-## 프로젝트 코드 보기 211027~
-> #### 1회차
+## 프로젝트 코드 보기 
+
+> #### 3회차 - 안보고 통째로 외워서 만들기 2
+> - [ ] 2_1_[iOS앱]_timerTtiling_210715
+> - [ ] 2_2_[iOS앱]_dasiBom_210729
+> - [ ] 2_2_[iOS앱]_netflixSt_210510
+> - [ ] 2_3_[iOS앱]_AppleMusicStApp_210419
+> - [ ] 2_4_[iOS앱]_TodoList_210426
+> - [ ] 2_5_[iOS앱]_FullScreenCamera_210512
+> - [ ] 2_6_[AOS앱]_Chatting_210921
+> - [ ] 2_7_[iOS, AOS앱]_Weather_ReactNative_210928
+> - [ ] 3_1_[팀프로젝트]_약국재고관리 프로그램_210421
+> - [ ] 3_2_[개인프로젝트]_당첨확률을 높인 로또생성기_210408
+> - [ ] 3_3_[개인프로젝트]_이마트키오스크_201215 
+> ***
+> #### 2회차 - 안보고 통째로 외워서 만들기 1
+> - [ ] 2_1_[iOS앱]_timerTtiling_210715
+> - [ ] 2_2_[iOS앱]_dasiBom_210729
+> - [ ] 2_2_[iOS앱]_netflixSt_210510
+> - [ ] 2_3_[iOS앱]_AppleMusicStApp_210419
+> - [ ] 2_4_[iOS앱]_TodoList_210426
+> - [ ] 2_5_[iOS앱]_FullScreenCamera_210512
+> - [ ] 2_6_[AOS앱]_Chatting_210921
+> - [ ] 2_7_[iOS, AOS앱]_Weather_ReactNative_210928
+> - [ ] 3_1_[팀프로젝트]_약국재고관리 프로그램_210421
+> - [ ] 3_2_[개인프로젝트]_당첨확률을 높인 로또생성기_210408
+> - [ ] 3_3_[개인프로젝트]_이마트키오스크_201215
+> #### 1회차 - 완료 (211027 ~ 211102)
 > - [X] 2_1_[iOS앱]_timerTtiling_210715
 > - [X] 2_2_[iOS앱]_dasiBom_210729
 > - [X] 2_2_[iOS앱]_netflixSt_210510
@@ -44,33 +71,6 @@
 > - [X] 3_1_[팀프로젝트]_약국재고관리 프로그램_210421
 > - [X] 3_2_[개인프로젝트]_당첨확률을 높인 로또생성기_210408
 > - [X] 3_3_[개인프로젝트]_이마트키오스크_201215
-> ***
-> #### 2회차
-> - [ ] 2_1_[iOS앱]_timerTtiling_210715
-> - [ ] 2_2_[iOS앱]_dasiBom_210729
-> - [ ] 2_2_[iOS앱]_netflixSt_210510
-> - [ ] 2_3_[iOS앱]_AppleMusicStApp_210419
-> - [ ] 2_4_[iOS앱]_TodoList_210426
-> - [ ] 2_5_[iOS앱]_FullScreenCamera_210512
-> - [ ] 2_6_[AOS앱]_Chatting_210921
-> - [ ] 2_7_[iOS, AOS앱]_Weather_ReactNative_210928
-> - [ ] 3_1_[팀프로젝트]_약국재고관리 프로그램_210421
-> - [ ] 3_2_[개인프로젝트]_당첨확률을 높인 로또생성기_210408
-> - [ ] 3_3_[개인프로젝트]_이마트키오스크_201215
-> ***
-> #### 3회차
-> - [ ] 2_1_[iOS앱]_timerTtiling_210715
-> - [ ] 2_2_[iOS앱]_dasiBom_210729
-> - [ ] 2_2_[iOS앱]_netflixSt_210510
-> - [ ] 2_3_[iOS앱]_AppleMusicStApp_210419
-> - [ ] 2_4_[iOS앱]_TodoList_210426
-> - [ ] 2_5_[iOS앱]_FullScreenCamera_210512
-> - [ ] 2_6_[AOS앱]_Chatting_210921
-> - [ ] 2_7_[iOS, AOS앱]_Weather_ReactNative_210928
-> - [ ] 3_1_[팀프로젝트]_약국재고관리 프로그램_210421
-> - [ ] 3_2_[개인프로젝트]_당첨확률을 높인 로또생성기_210408
-> - [ ] 3_3_[개인프로젝트]_이마트키오스크_201215
-
 
 ***
 <a href = "https://github.com/jhy0409/jhy0409/blob/main/%EA%B3%B5%EB%B6%80%EC%9D%BC%EC%A7%80.md#%EB%AA%A9%EC%B0%A8"><p align="right">⬆️ 목차</p></a>
