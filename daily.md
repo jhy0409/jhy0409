@@ -1,5 +1,5 @@
 ## 목차
-- [ ] [🔥 프로젝트 제작](https://github.com/jhy0409/jhy0409/blob/main/daily.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%BD%94%EB%93%9C-%EB%B3%B4%EA%B8%B0-211027)
+- [ ] [🔥 프로젝트 제작](https://github.com/jhy0409/jhy0409/blob/main/daily.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%BD%94%EB%93%9C-%EB%B3%B4%EA%B8%B0)
 - [X] [🟢 링크 - 프로그래머스](https://github.com/jhy0409/jhy0409/blob/main/daily.md#2-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4)
 - [X] [🔵 면접질문 - iOS & Swift](https://github.com/jhy0409/jhy0409/blob/main/daily.md#ios--swift)
 - [X] [🔵 면접질문 - CS](https://github.com/jhy0409/jhy0409/blob/main/daily.md#cs---211007)
