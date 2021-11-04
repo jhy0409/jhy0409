@@ -56,10 +56,10 @@
 > - [ ] CH19_CoreML 개와 강아지 분류기
 > ***
 > #### 1회차 - 안보고 통째로 외워서 만들기
-> - [X] CH2_MyAlbum_211104
-> - [X] CH3_스위프트_기초
-> - [X] CH4_스위프트_Flow_Control
-> - [X] CH5_스위프트_Function_and_Optional
+> - [X] CH2_MyAlbum - `211104 목`
+> - [X] CH3_스위프트_기초 - `211104 목`
+> - [X] CH4_스위프트_Flow_Control - `211104 목`
+> - [X] CH5_스위프트_Function_and_Optional - `211104 목`
 > - [ ] CH6_스위프트_Collection
 > - [ ] CH7_스위프트_Structure
 > - [ ] CH8_스위프트_Class
