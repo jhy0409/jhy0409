@@ -57,8 +57,8 @@
 > ***
 > #### 1회차 - 안보고 통째로 외워서 만들기
 > - [X] CH2_MyAlbum_211104
-> - [ ] CH3_스위프트_기초
-> - [ ] CH4_스위프트_Flow_Control
+> - [X] CH3_스위프트_기초
+> - [X] CH4_스위프트_Flow_Control
 > - [ ] CH5_스위프트_Function_and_Optional
 > - [ ] CH6_스위프트_Collection
 > - [ ] CH7_스위프트_Structure
