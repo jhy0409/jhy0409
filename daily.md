@@ -59,7 +59,7 @@
 > - [X] CH2_MyAlbum_211104
 > - [X] CH3_스위프트_기초
 > - [X] CH4_스위프트_Flow_Control
-> - [ ] CH5_스위프트_Function_and_Optional
+> - [X] CH5_스위프트_Function_and_Optional
 > - [ ] CH6_스위프트_Collection
 > - [ ] CH7_스위프트_Structure
 > - [ ] CH8_스위프트_Class
