@@ -164,4 +164,9 @@
 - [X] [210930 야곰 - [TechCast 1] iOS 개발자 코딩테스트 이야기](https://www.notion.so/jhcode/210930-TechCast-1-iOS-1997cb05c8354437902230a78266b1e6)  
 - [X] [210930 야곰 - [TechCast 2] 개발자 면접노하우](https://www.notion.so/jhcode/210930-TechCast-2-77a41af3167142d8b9fbc47f166ecaa9)
 
+***
+### Apple Developer - 211109
+- [X] [노션 링크 211109~](https://www.notion.so/jhcode/211109-1658e0a44d56451cb0d0010da8da1678#8195d589e99d478ca32b857124e7225f)
+- [X] [iOS 앱 배포 1-1. CSR (Certificate Signing Request : 인증서 서명 요청) 발급받기](https://hiseung7.tistory.com/entry/iOS-%EC%95%B1-%EB%B0%B0%ED%8F%AC-1-1-CSR-Certificate-Signing-Request-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EC%84%9C%EB%AA%85-%EC%9A%94%EC%B2%AD-%EB%B0%9C%EA%B8%89%EB%B0%9B%EA%B8%B0?category=835229)
+- [X] [iOS 번들 ID 개념 잡기(프로비저닝 > xcode > 앱스토어)](https://m.blog.naver.com/lion_kwon/40204723081)
 <a href = "https://github.com/jhy0409/jhy0409/blob/main/%EA%B3%B5%EB%B6%80%EC%9D%BC%EC%A7%80.md#%EB%AA%A9%EC%B0%A8"><p align="right">⬆️ 목차</p></a>
