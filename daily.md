@@ -60,8 +60,8 @@
 > - [X] CH3_스위프트_기초 - `211104 목`
 > - [X] CH4_스위프트_Flow_Control - `211104 목`
 > - [X] CH5_스위프트_Function_and_Optional - `211104 목`
-> - [ ] CH6_스위프트_Collection
-> - [ ] CH7_스위프트_Structure
+> - [X] CH6_스위프트_Collection
+> - [X] CH7_스위프트_Structure
 > - [ ] CH8_스위프트_Class
 > - [ ] CH9_원피스 현상금 랭킹앱
 > - [ ] CH10_MVVM 디자인 패턴
