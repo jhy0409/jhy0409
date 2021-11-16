@@ -166,6 +166,7 @@
 
 ***
 ### Apple Developer - 211109
+- [X] [메모 & 링크 (비공개블록 포함) - `211116 화`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#1edfb59e419b498ca16af0da16f457eb)
 - [X] [메모 - `211111 목`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#ec71b2543e1a4a82b5ee125d73b97309)
 - [X] [`모음` 노션 링크(엔터프라이즈 관련) 211109](https://www.notion.so/jhcode/211109-1658e0a44d56451cb0d0010da8da1678#8195d589e99d478ca32b857124e7225f)
 - [X] [iOS 앱 배포 1-1. CSR (Certificate Signing Request : 인증서 서명 요청) 발급받기](https://hiseung7.tistory.com/entry/iOS-%EC%95%B1-%EB%B0%B0%ED%8F%AC-1-1-CSR-Certificate-Signing-Request-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EC%84%9C%EB%AA%85-%EC%9A%94%EC%B2%AD-%EB%B0%9C%EA%B8%89%EB%B0%9B%EA%B8%B0?category=835229)
