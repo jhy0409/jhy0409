@@ -62,7 +62,7 @@
 > - [X] CH5_스위프트_Function_and_Optional - `211104 목`
 > - [X] CH6_스위프트_Collection
 > - [X] CH7_스위프트_Structure
-> - [ ] CH8_스위프트_Class
+> - [X] CH8_스위프트_Class
 > - [ ] CH9_원피스 현상금 랭킹앱
 > - [ ] CH10_MVVM 디자인 패턴
 > - [ ] CH11_원피스 현상금 랭킹앱을 더 풍부하게
@@ -166,6 +166,7 @@
 
 ***
 ### Apple Developer - 211109
+- [X] [메모 & 링크 (비공개블록 포함) - 🔒 telegramiOS Github Enterprise ipa파일 설치 (Xcode13.1ver) `211118 목`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#6aebc3b1d11c4c5ea134434588b1cc52)
 - [X] [메모 & 링크 (비공개블록 포함) - `211116 화`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#1edfb59e419b498ca16af0da16f457eb)
 - [X] [메모 - `211111 목`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#ec71b2543e1a4a82b5ee125d73b97309)
 - [X] [`모음` 노션 링크(엔터프라이즈 관련) 211109](https://www.notion.so/jhcode/211109-1658e0a44d56451cb0d0010da8da1678#8195d589e99d478ca32b857124e7225f)
