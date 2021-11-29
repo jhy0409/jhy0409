@@ -166,6 +166,7 @@
 
 ***
 ### Apple Developer - 211109
+- [X] 🤔 telegramiOS 13.0ver 프로비저닝 파일 삽질하기 - 도대체 왜 안된단 말인가 `211129 금`
 - [X] [메모 & 링크 (비공개블록 포함) - 🔒 telegramiOS Github Enterprise ipa파일 설치 (Xcode13.1ver) `211118 목`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#6aebc3b1d11c4c5ea134434588b1cc52)
 - [X] [메모 & 링크 (비공개블록 포함) - `211116 화`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#1edfb59e419b498ca16af0da16f457eb)
 - [X] [메모 - `211111 목`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#ec71b2543e1a4a82b5ee125d73b97309)
