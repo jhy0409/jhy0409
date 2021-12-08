@@ -166,7 +166,7 @@
 
 ***
 ### Apple Developer - 211109
-- [X] [링크 (navigation bar item custom - 1. UIStoryBoard / 2. programmatically `211208 수`)](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#def4555a597149f3903bcb1e9bcc038b)
+- [X] [링크 (navigation bar item custom - 1. UIStoryBoard / 2. programmatically) `211208 수`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#def4555a597149f3903bcb1e9bcc038b)
 - [X] [링크 (iOS 앱 개발을 위한 인증서 생성 및 관리) `211207 화`](https://khstar.tistory.com/entry/iOS-%EC%95%B1-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EA%B4%80%EB%A6%AC)
 - [X] 🤔 telegramiOS 13.0ver 프로비저닝 파일 삽질하기 - 도대체 왜 안된단 말인가 `211129 금`
 - [X] [메모 & 링크 (비공개블록 포함) - 🔒 telegramiOS Github Enterprise ipa파일 설치 (Xcode13.1ver) `211118 목`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#6aebc3b1d11c4c5ea134434588b1cc52)
