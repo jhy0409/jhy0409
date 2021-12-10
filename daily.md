@@ -166,7 +166,7 @@
 
 ***
 ### Apple Developer - 211109
-- [X] `성공` Github - 프로젝트 생성, 100mb이상 파일 업로드(git install lfs) / `실패` google plist파일 교체, pod install, key upload -> 푸시 왜 안옴..?
+- [X] `성공` Github - 프로젝트 생성, 100mb이상 파일 업로드(git install lfs) / `실패` google plist파일 교체, pod install, key upload -> 푸시 왜 안옴..? `211210 금`
 - [X] 프로젝트 미리보기 `211209 목`
 - [X] [링크 (navigation bar item custom - 1. UIStoryBoard / 2. programmatically) `211208 수`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#def4555a597149f3903bcb1e9bcc038b)
 - [X] [링크 (iOS 앱 개발을 위한 인증서 생성 및 관리) `211207 화`](https://khstar.tistory.com/entry/iOS-%EC%95%B1-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EA%B4%80%EB%A6%AC)
