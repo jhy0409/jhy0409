@@ -166,6 +166,7 @@
 
 ***
 ### Apple Developer - 211109
+- [X] [`이거`](https://github.com/ClintJang/sample-swift-fcm-settting) 보고 따라해봤지만 왜 안되는지 모를..
 - [X] `성공` Github - 프로젝트 생성, 100mb이상 파일 업로드(git install lfs) / `실패` google plist파일 교체, pod install, key upload -> 푸시 왜 안옴..? `211210 금`
 - [X] 프로젝트 미리보기 `211209 목`
 - [X] [링크 (navigation bar item custom - 1. UIStoryBoard / 2. programmatically) `211208 수`](https://www.notion.so/jhcode/201109-1658e0a44d56451cb0d0010da8da1678#def4555a597149f3903bcb1e9bcc038b)
