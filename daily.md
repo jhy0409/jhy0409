@@ -166,6 +166,7 @@
 
 ***
 ### Apple Developer - 211109
+- [X] 브라우저VC 즐겨찾기 추가하기 실패 - `211222 수`
 - [X] [메모 & 링크 (비공개블록 포함) - 🔒 엑스코드 타겟, google plist file 분리 `211213 월`](https://www.notion.so/jhcode/211209-2f82702063e5439ab83a21b875ea88ff#2de3594c4fab40629453e76b80d6a90f)
 - [X] [`이거`](https://github.com/ClintJang/sample-swift-fcm-settting) 보고 따라해봤지만 왜 안되는지 모를.. 
 - [X] `성공` Github - 프로젝트 생성, 100mb이상 파일 업로드(git install lfs) / `실패` google plist파일 교체, pod install, key upload -> 푸시 왜 안옴..? `211210 금`
