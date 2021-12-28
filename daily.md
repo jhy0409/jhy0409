@@ -166,6 +166,7 @@
 
 ***
 ### Apple Developer - 211109
+- [ ] [링크 Access camera and microphone in WKWebView - `211228 화`](https://developer.apple.com/forums/thread/134216)
 - [ ] [링크 WKWebView & swift, 웹뷰 자바스크립트 스위프트 - `211227 월`](https://www.notion.so/jhcode/211209-2f82702063e5439ab83a21b875ea88ff#9ed0b984dbbb4fa3b5abe0ce2934f90d)
 - [X] 브라우저VC 즐겨찾기 추가하기 실패 - `211222 수`
 - [X] [메모 & 링크 (비공개블록 포함) - 🔒 엑스코드 타겟, google plist file 분리 `211213 월`](https://www.notion.so/jhcode/211209-2f82702063e5439ab83a21b875ea88ff#2de3594c4fab40629453e76b80d6a90f)
