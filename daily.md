@@ -167,7 +167,7 @@
 
 ***
 ### Apple Developer - 211109
-- [X] [메모 & 링크 (크론탭 예약작업, git merge) - `211229 수`](https://www.notion.so/jhcode/211209-2f82702063e5439ab83a21b875ea88ff#78abde4d4f674eecbcf398501c538f6c)
+- [X] [메모 & 링크 (크론탭 예약작업, git merge) - `211229 수` ](https://www.notion.so/jhcode/211209-2f82702063e5439ab83a21b875ea88ff#78abde4d4f674eecbcf398501c538f6c)
 - [ ] [링크 Access camera and microphone in WKWebView - `211228 화`](https://developer.apple.com/forums/thread/134216)
 - [ ] [링크 WKWebView & swift, 웹뷰 자바스크립트 스위프트 - `211227 월`](https://www.notion.so/jhcode/211209-2f82702063e5439ab83a21b875ea88ff#9ed0b984dbbb4fa3b5abe0ce2934f90d)
 - [X] 브라우저VC 즐겨찾기 추가하기 실패 - `211222 수`
