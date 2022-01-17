@@ -33,6 +33,7 @@
 
 
 <a href="https://github.com/jhy0409/jhy0409/blob/main/daily.md" target="_blank"><h3 align="center">✏️ 공부일지</h3></a>
+<h3 align="center" style="display:inline"><a href="https://github.com/jhy0409/jhy0409/blob/main/daily.md" target="_blank">✏️ 산기</a><a href="https://github.com/jhy0409/jhy0409/blob/main/daily.md" target="_blank">ㅤ</a></h3>
 
 
 
