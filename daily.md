@@ -8,6 +8,9 @@
 
 ***
 <a href = "https://github.com/jhy0409/jhy0409/blob/main/daily.md#%EB%AA%A9%EC%B0%A8"><p align="right">⬆️ 목차</p></a>
+
+## <a href = "https://github.com/jhy0409/study_wantedKoff_230626">🔒 원티드 - 프리온보딩 커리어 킥오프 Summer / 230626 ~ </a>
+
 ## iOS & Swift
 **1. 포트폴리오를 기준으로 준비**
 > 1. RxSwift
