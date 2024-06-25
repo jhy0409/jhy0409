@@ -7,8 +7,8 @@
 
 <h3 align="center"> 🏆 Github Stats </h3>
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=jhy0409&show_icons=true&theme=default&count_private=true" width="65%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jhy0409&theme=tokyonight_duo&count_private=true" width="65%">
+<img src="https://github-readme-stats.vercel.app/api?username=jhy0409&show_icons=true&theme=default&count_private=true" width="65%" style="max-width: 80%;">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jhy0409&theme=tokyonight_duo&count_private=true" width="65%" style="max-width: 80%;">
 </p>
 
 
