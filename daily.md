@@ -10,8 +10,9 @@
 <a href = "https://github.com/jhy0409/jhy0409/blob/main/daily.md#%EB%AA%A9%EC%B0%A8"><p align="right">⬆️ 목차</p></a>
 
 ## [10개 프로젝트로 끝내는 Node.js의 모든 것(Express & Nest.js) 초격차 패키지 Online.](https://www.notion.so/jhcode/240630-10-Node-js-Express-Nest-js-Online-b3993a1916d34d42bcfc4568b98a6060?pvs=4)
->  05. 자바스크립트 타입13:03 / 240702
->  04. 호이스팅10:59 / 240702
+> 04. 호이스팅10:59 / 240702
+> 05. 자바스크립트 타입13:03 / 240702
+
 
 ## <a href = "https://github.com/jhy0409/study_wantedKoff_230626">🔒 원티드 - 프리온보딩 커리어 킥오프 Summer / 230626 </a>
 > - [X] 1~4강 미션완료 및 노션정리 `230712 수`
