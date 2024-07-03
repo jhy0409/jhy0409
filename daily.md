@@ -12,6 +12,7 @@
 ## [10개 프로젝트로 끝내는 Node.js의 모든 것(Express & Nest.js) 초격차 패키지 Online.](https://www.notion.so/jhcode/240630-10-Node-js-Express-Nest-js-Online-b3993a1916d34d42bcfc4568b98a6060?pvs=4)
 > 04. 호이스팅10:59 / 240702
 > 05. 자바스크립트 타입13:03 / 240702
+> 06. Loops18:40 / 240704
 
 
 ## <a href = "https://github.com/jhy0409/study_wantedKoff_230626">🔒 원티드 - 프리온보딩 커리어 킥오프 Summer / 230626 </a>
