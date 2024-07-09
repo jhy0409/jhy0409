@@ -14,6 +14,8 @@
 > 05. 자바스크립트 타입13:03 / 240702
 > 06. Loops18:40 / 240704
 > 7. Window Object13:10 / 240704
+> 8. DOM 이란?10:31 / 240705
+> 9. Document Object 이용해보기24:47 / 240709
 
 
 ## <a href = "https://github.com/jhy0409/study_wantedKoff_230626">🔒 원티드 - 프리온보딩 커리어 킥오프 Summer / 230626 </a>
