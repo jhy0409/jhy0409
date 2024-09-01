@@ -19,6 +19,7 @@
 > 10. DOM Event / 240827
 > 11. Event 종류 / ~ 02:55 240827
 > 12. OOP / 240901
+> 13. 다형성이란? / 240901 
 
 
 ## <a href = "https://github.com/jhy0409/study_wantedKoff_230626">🔒 원티드 - 프리온보딩 커리어 킥오프 Summer / 230626 </a>
