@@ -7,7 +7,7 @@
 
 <h3 align="center"> 🏆 Github Stats </h3>
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=jhy0409&show_icons=true&theme=default&count_private=true" width="65%">
+<!-- <img src="https://github-readme-stats.vercel.app/api?username=jhy0409&show_icons=true&theme=default&count_private=true" width="65%"> -->
 <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=jhy0409&theme=tokyonight_duo&count_private=true" width="65%"> -->
 <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=jhy0409&theme=tokyonight-duo&date_format=%5BY.%5Dn.j&border=E4E2E2&stroke=E4E2E2&ring=2F80ED42&sideNums=2F80ED&currStreakNum=2F80ED&dates=434D58&currStreakLabel=4C71F2&sideLabels=4C71F2" alt="GitHub Streak" width="65%" /></a>
 </p>
